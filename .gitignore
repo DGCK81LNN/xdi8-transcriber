@@ -1,0 +1,11 @@
+node_modules
+lib
+dist
+/package/data/bundle.json
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+\#*

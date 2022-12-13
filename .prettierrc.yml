@@ -1,0 +1,4 @@
+semi: false
+bracketSameLine: false
+arrowParens: avoid
+quoteProps: preserve

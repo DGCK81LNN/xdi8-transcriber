@@ -1,0 +1,35 @@
+name: Build and deploy to Github Pages
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: { }
+jobs:
+  pages:
+    if: >
+      !(
+        github.event_name == 'push' &&
+        github.run_attempt == 1 &&
+        (
+          contains(github.event.head_commit.message, '@@__LNN_NO_BUILD__@@') ||
+          (
+            github.event.head_commit.author.name == "dependabot[bot]" &&
+            contains(github.event.head_commit.message, 'updated-dependencies:')
+          )
+        )
+      )
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+        cache: npm
+    - name: Install and build
+      run: |
+        cd site
+        npm install --legacy-peer-deps
+        npm run build
+    - name: Upload GitHub Pages artifact
+      uses: actions/upload-pages-artifact@v1.0.6
+      with:
+        path: 'site/.output/public/'
