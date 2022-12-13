@@ -12,12 +12,13 @@
       </template>
     </ClientOnly>
     <h1>
-      希顶转写器
+      〇改希顶转写器
       <span class="text-muted h6">by DGCK81LNN</span>
     </h1>
     <Transcriber />
   </main>
   <footer class="text-bg-light border-top mt-5 p-4 pb-5 d-flex flex-column align-items-center">
+    <p>基于〇改希顶语字表 2022-12-06 版</p>
     <p class="d-flex flex-wrap gap-1">
       <a
         href="https://github.com/DGCK81LNN/xdi8-transcriber"
@@ -64,7 +65,7 @@
 <script setup lang="ts">
 import { BSpinner } from "bootstrap-vue-3"
 
-const siteName = "希顶转写器"
+const siteName = "〇改希顶转写器"
 useHead({
   titleTemplate: titleChunk => {
     return titleChunk ? `${titleChunk} - ${siteName}` : siteName

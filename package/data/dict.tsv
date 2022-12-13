@@ -1,4 +1,4 @@
-;汉字	;希顶	备注	汉希提示	希汉提示	(基于〇改希顶语字表 2022-07-08 版)
+;汉字	;希顶	备注	汉希提示	希汉提示	(基于〇改希顶语字表 2022-12-06 版)
 一	NV			
 乙	5E			
 二	42			
@@ -180,7 +180,8 @@
 心	53			
 尺	DEH			
 引	n3H			
-丑	Du6			
+丑	Du6	地支的第二位；姓氏	子~ 乙~ 丁~ 己~ 辛~ 癸~	
+丑	tpiV	“醜”的简化字		
 巴	ba			
 孔	k3H			
 队	FV			
@@ -396,7 +397,7 @@
 过	goz			
 臣	ci8H			
 吏	lYH			
-再	zzY			
+再	HzY			
 协	pxY			
 西	5a			
 压	yuad			
@@ -408,7 +409,7 @@
 存	4u8			
 而	nuY			
 页	fLH			
-匠	cju3			
+匠	mju3			
 夸	ca			
 夺	fda			
 灰	hV			
@@ -418,7 +419,7 @@
 成	D8			
 夹	qa			
 夷	yEH			
-轨	giVh			
+轨	giVq			
 邪	1ya			
 尧	yuL			
 划	lgV	用桨一类的东西拨水使船前进；合算；用于“划拳”	~船 ~算 ~过 ~桨 皮~艇 ~拳 ~艇 ~得来 ~不来	
@@ -532,7 +533,7 @@
 争	H8			
 色	sue			
 壮	zuTd			
-冲	Du3m	“衝”的简化字		
+冲	mzu3	“衝”的简化字		
 冲	Du3E	同“沖” 山间的平地；用于地名	~田	
 妆	zuTA			
 冰	7iVE			
@@ -668,7 +669,7 @@
 坎	ki2d			
 均	58d			
 抑	7iY8			
-抛	8hL			
+抛	8lju6			
 投	t68			
 坟	dwi8			
 坑	dkT			
@@ -713,7 +714,7 @@
 杏	48H			
 杉	ciec			
 巫	wia			
-极	cNa			
+极	c4uE			
 李	HlE			
 杨	yTc			
 求	q6			
@@ -945,7 +946,7 @@
 张	lzT			
 忌	FNia			
 际	No1			
-陆	1vie			
+陆	va1			
 阿	4a	ā		
 阿	4eH	ē 山陵；迎合；偏袒；排泄大小便	~弥陀佛 ~房宫 东~ ~谀 ~胶 ~金溺银	
 陈	1d3			
@@ -1045,8 +1046,8 @@
 苟	ygi6			
 苑	tVy			
 苞	ybL			
-范	yfeE	范草；地名；姓氏	~草 ~县	
-范	2feq	“範”的简化字		
+范	fey	范草；地名；姓氏	~草 ~县	
+范	fe2	“範”的简化字		
 直	H6			
 茁	yDA			
 茄	yja			
@@ -1222,7 +1223,7 @@
 肤	e4ia			
 肺	huVe			
 肢	eHua			
-肿	ez3			
+肿	ezu3			
 胀	ezT			
 朋	p3			
 股	t6e			
@@ -1485,7 +1486,7 @@
 柿	HTc			
 栏	cl2			
 柠	cn8			
-树	dVc			
+树	DAc			
 勃	lbo			
 要	yL			
 柬	juVH			
@@ -1577,7 +1578,8 @@
 钙	giYN			
 钝	Fi8N			
 钞	DuLN			
-钟	Nz3			
+钟	Nzu3	“鐘”的简化字 打击乐器；计时的器具；指时间或时刻		
+钟	7iTN	“鍾”的简化字 盛酒的器皿；（情感）集中、专注；姓氏	~爱 ~情 情有独~ ~南山	
 钢	NgT			
 钠	naN			
 钥	Nyue			
@@ -1595,12 +1597,12 @@
 怎	Fza			
 牲	gsu3			
 选	zu2z			
-适	zfL	shì		
+适	ruYz	shì		
 适	kioz	kuò 同“𨓈”；姓氏	-	
 秒	miLh			
 香	hT			
-种	Du3h	chóng 幼稚	-	
-种	hz3	zhǒng,zhòng		
+种	Du3h	chóng 姓氏	-	
+种	hzu3	zhǒng,zhòng		
 秋	qu6			
 科	ce			
 重	zu3			
@@ -1717,7 +1719,7 @@
 烂	xl2			
 剃	ltE			
 洼	waE			
-洁	jeE			
+洁	EqV			
 洪	hi3E			
 洒	E5a			
 柒	Ni6c			
@@ -1997,7 +1999,7 @@
 氧	6yuT			
 氨	6Ni2			
 特	FYg			
-牺	g5a			
+牺	5ag			
 造	BL			
 乘	c3			
 敌	FEr			
@@ -2162,7 +2164,7 @@
 宵	fxL			
 宴	yof			
 宾	fbi8			
-窍	fqL			
+窍	juLf			
 窄	zuYH			
 容	r3			
 宰	HuVf			
@@ -2248,7 +2250,8 @@
 掷	zu88			
 控	8k3			
 探	7i28			
-据	5iV8			
+据	5iV8	“據”的简化字		
+据	8jA	用于“拮据”	拮~	
 掘	8juo			
 掺	8D2			
 职	TzE			
@@ -2637,7 +2640,7 @@
 椒	ccL			
 棵	kiec			
 棍	Bi8c			
-椎	zVcH			
+椎	zVc			
 棉	cme			
 棚	cp3			
 棕	zu3c			
@@ -2651,7 +2654,7 @@
 棘	Hue2H			
 酣	h14			
 酥	4Hco			
-厨	DAH			
+厨	DA5			
 厦	5xua			
 硬	sgi8			
 硝	sxL			
@@ -2759,7 +2762,7 @@
 傅	4EV			
 牌	pY			
 堡	bLd			
-集	zVc			
+集	rEc			
 焦	juL			
 傍	bTV			
 储	BioV			
@@ -2964,7 +2967,7 @@
 鉴	jVN			
 睛	N8T			
 睹	F6T			
-睦	miAT			
+睦	vaT			
 瞄	TmiL			
 睫	juoT			
 睡	TDV			
@@ -3027,7 +3030,7 @@
 舅	ju6V			
 鼠	lieH			
 催	VDuV			
-傻	raV			
+傻	Vla			
 像	VxuT			
 躲	Ddio			
 魁	cVf			
@@ -3362,7 +3365,7 @@
 糊	hfiA			
 遵	zzu8			
 憋	bie5			
-潜	Etia			
+潜	BYE			
 澎	Ep8			
 潮	EDuL			
 潭	E72			
@@ -3402,7 +3405,7 @@
 颠	di2			
 翰	fiY			
 噩	4o3			
-橱	DAc			
+橱	cDA5			
 橙	cd8			
 橘	tiYc			
 整	4rz8			
@@ -4396,7 +4399,7 @@
 饷	LpiT			
 饸	Lhie			
 饹	leL			
-胤	nyue			
+胤	nuTe			
 孪	v2V			
 娈	v2A			
 弈	t5iL			
@@ -4904,7 +4907,7 @@
 硌	sgie	gè 凸起的硬东西跟身体接触，使身体感到难受或受到损伤		
 硌	los	luò 山上的大石	-	
 鸸	nnuY			
-瓠	fiAj			
+瓠	2ca			
 匏	pL2			
 厩	5gY			
 龚	vgi3			
@@ -5245,7 +5248,7 @@
 喃	on2			
 喱	o5lE			
 喹	ocV			
-晷	BYb			
+晷	b4u6			
 喈	xuVo			
 跖	sED			
 跗	D4i3			
@@ -5627,7 +5630,7 @@
 愆	F4u2			
 艄	suLq			
 觎	T7o			
-毹	j7o			
+毹	c3j			
 貊	4uov			
 貅	vx6			
 貉	vgie			
@@ -6117,7 +6120,7 @@
 熜	xDu3			
 熵	ciTx			
 熠	NVx			
-澍	dVE			
+澍	DAE			
 澌	EnuT			
 潸	Eyue			
 潦	liLE			
@@ -6159,7 +6162,7 @@
 髻	jNo			
 髭	HuLjH			
 髹	jx6			
-擀	87gi2			
+擀	8hYc			
 熹	x5o			
 甏	7p8			
 擞	su68			
@@ -6167,7 +6170,7 @@
 磬	Fi3s			
 颞	rne			
 蕻	hi3y			
-鞘	qYx	qiào 装刀、剑的套子		
+鞘	qLx	qiào 装刀、剑的套子		
 鞘	suLx	shāo 拴在鞭子末端的细皮条	-	
 颟	m2r			
 薤	yk1			
@@ -6505,7 +6508,7 @@
 霨	wL6			
 黼	pAu			
 嚯	hioo			
-蹰	DAD			
+蹰	DDA5			
 蹶	Djue			
 蹽	liLD			
 蹼	piAD			
@@ -6577,7 +6580,7 @@
 颦	4pi3			
 曩	bnT			
 鳢	viVB			
-癫	ydi2			
+癫	tdi2			
 麝	vrue			
 夔	cEH			
 爝	xNie			
@@ -6623,9 +6626,9 @@
 戆	g2F			
 爨	5i3xc			
 齉	jnT			
-亍	DAj			
+亍	HDA			
 尢	Hy6			
-彳	VDE			
+彳	HDE			
 卬	7iYH			
 殳	5T			
 𠙶	mliL			
@@ -6633,7 +6636,7 @@
 邘	1yA			
 戋	juYH			
 圢	ddi8			
-氕	6NV			
+氕	pie6			
 伋	VNa			
 仝	4u3			
 冮	gTE			
@@ -7339,7 +7342,7 @@
 舲	qli8			
 鸼	nzu6			
 悆	F7io			
-鄃	17o			
+鄃	c31			
 瓻	7xE			
 䝙	vFi6			
 脶	goe			
@@ -7393,7 +7396,8 @@
 弸	b3l			
 弶	lNi3			
 𬯎	ciV1			
-隃	17oH			
+隃	c31H	shū		
+隃	17o	yú		
 婞	x3A			
 娵	r6A			
 婼	roA			
@@ -7629,7 +7633,7 @@
 蓣	7oy			
 椹	cki2			
 楪	diec			
-榃	ctie			
+榃	li84			
 榅	vi3c			
 楒	cnua			
 楞	l8c			
@@ -8484,7 +8488,7 @@
 兒	nEH			
 兤	fT5			
 冂	Hm8			
-冇	mLy			
+冇	HmL			
 冋	ju3H			
 冎	BiaH			
 冓	g6H			
@@ -8565,10 +8569,10 @@
 匌	giem			
 匘	nLt			
 匚	fTH			
-匞	juTc			
-匟	ckT			
-匢	hAc			
-匥	ciYc			
+匞	juTm			
+匟	mkT			
+匢	hAm			
+匥	ciYm			
 匧	mqa			
 匫	mhAb			
 匰	d2m			
@@ -8596,7 +8600,7 @@
 厷	h3			
 叄	pk2			
 叅	Fk2			
-叡	hue2			
+叡	hueT			
 叿	h3o			
 吂	mTo			
 吇	oHL			
@@ -9154,7 +9158,7 @@
 嵽	wdiY			-
 嵾	wD2			
 嶆	wDL			
-嶋	wFL			
+嶋	FL			
 嶑	wxuT			
 嶚	liLwH			
 嶛	liLw			
@@ -9206,7 +9210,7 @@
 幨	Biep			
 幩	f8p			
 幭	miep			
-幮	DAp			
+幮	pDA5			
 幹	hYc	与榦合并		-
 庀	p65			
 庅	5m1			
@@ -9703,7 +9707,7 @@
 榠	m8c			
 榡	cci6			
 榥	fiTc			
-榦	cgi2H			
+榦	hYc			
 榶	ctiT			
 榼	coc			
 槀	cgLH			
@@ -9750,7 +9754,7 @@
 橵	csua			
 橷	d6c			
 橿	jTc			
-檊	c7gi2			
+檊	chYc			
 檤	dLc			
 檦	lbiLc			
 檮	cD6			
@@ -9760,7 +9764,7 @@
 櫌	cn6			
 櫐	cliV			
 櫖	cvia			
-櫯	cco			
+櫯	cHco			
 櫱	cnue			-
 櫴	cliY			
 櫵	cjuL			
@@ -9801,9 +9805,9 @@
 毺	c3j			
 毾	taj			
 氎	FiTj			
-気	xN6			
+気	N6			
 氜	6rE			
-氣	hN6			
+氣	N6			
 氭	6d3			
 氵	Ek2			
 氻	leE			
@@ -10301,7 +10305,7 @@
 紮	zau			
 紱	fAa			-
 紸	aka			
-経	aBY			
+経	j8a			
 絔	4uoa	mò		
 絔	abiY	bǎi		
 絘	aHuV			
@@ -10363,7 +10367,7 @@
 肀	HciY			
 肜	ciee			
 胕	e4i3			
-胷	ex3			
+胷	elx3			
 胹	enuY			
 脈	epiY			
 脝	eh8			
@@ -10776,14 +10780,14 @@
 韟	giLp			
 韻	ki34			
 頪	lVr			
-顕	rxY			
+顕	xYr			
 願	ryu2			
 顣	NLr			
 顥	fiLH			
 風	kf3			
 颾	nuLb			
 飄	bpiL			-
-飚	b3ho			
+飚	3bho			
 飛	nfiLn			
 餂	ti2L			-
 餟	LDuo			
