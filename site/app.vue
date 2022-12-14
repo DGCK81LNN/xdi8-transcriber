@@ -41,7 +41,7 @@
         title="本项目的 npm 包"
       >
         <img
-          src="https://img.shields.io/static/v1?label=npm&message=xdi8-transcrber&color=red&logo=npm"
+          src="https://img.shields.io/static/v1?label=npm&message=xdi8-transcriber&color=red&logo=npm"
           alt="npm: xdi8-transcriber"
         />
       </a>
