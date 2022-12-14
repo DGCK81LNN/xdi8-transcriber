@@ -6,7 +6,7 @@
 
 [在线转写器 ![GitHub Actions build status][actions-badge]][site]
 
-[npm]: https://npmjs.org/packages/xdi8-transcriber
+[npm]: https://npmjs.org/package/xdi8-transcriber
 [npm-badge]: https://img.shields.io/npm/v/xdi8-transcriber?label=xdi8-transcriber&logo=npm
 [gh]: https://github.com/DGCK81LNN/xdi8-transcriber
 [gh-badge]: https://img.shields.io/static/v1?label=GitHub&message=DGCK81LNN/xdi8-transcriber&color=lightgrey&logo=github
