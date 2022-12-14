@@ -6,6 +6,6 @@
   ],
   "scripts": {
     "build:package": "npm run --workspace=package build",
-    "build:site": "npm run --workspace=package build:data & npm run --workspace=site build"
+    "build:site": "npm run --workspace=package build:data && npm run --workspace=site build"
   }
 }
