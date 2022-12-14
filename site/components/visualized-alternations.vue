@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import type VisualizedSegments from "./visualized-segments.vue"
 import type { Alternations } from "utils/transcribe"
-import type { BPopover } from "bootstrap-vue-3"
 
 export interface Props {
   value: Alternations
