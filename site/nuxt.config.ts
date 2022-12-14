@@ -14,4 +14,10 @@ export default defineNuxtConfig({
     },
   },
   ssr: true,
+  build: {
+    transpile: [
+      "bootstrap-vue-3",
+      "bootstrap",
+    ],
+  },
 })
