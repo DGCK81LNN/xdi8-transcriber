@@ -11,4 +11,4 @@
 [gh]: https://github.com/DGCK81LNN/xdi8-transcriber
 [gh-badge]: https://img.shields.io/static/v1?label=GitHub&message=DGCK81LNN/xdi8-transcriber&color=lightgrey&logo=github
 [site]: https://dgck81lnn.github.io/xdi8-transcriber/
-[actions-badge]: https://img.shields.io/github/workflow/status/DGCK81LNN/xdi8-transcriber/Build%20and%20deploy%20to%20Github%20Pages?logo=github-actions&logoColor=white
+[actions-badge]: https://img.shields.io/github/actions/workflow/status/DGCK81LNN/xdi8-transcriber/pages.yml?branch=main&logo=github-actions&logoColor=white
