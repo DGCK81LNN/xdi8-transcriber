@@ -7,6 +7,7 @@
     rel="stylesheet"
     href="https://dgck81lnn.github.io/bootstrap-lnn/dist/bootstrap-vue-3-lnn.min.css"
   />
+  <Link rel="canonical" href="https://dgck81lnn.github.io/xdi8-transcriber/" />
   <main class="m-2">
     <ClientOnly>
       <template #placeholder>
