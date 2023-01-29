@@ -41,25 +41,25 @@
       />
     </BInputGroup>
   </BButtonToolbar>
-  <BFormTextarea
-    class="mb-1"
-    rows="6"
-    v-model="input"
-    :placeholder="inPlaceholders[sourceFmt](ziSep)"
-    title="输入"
-    :disabled="showOverlay"
-    @input="go()"
-  />
-  <BFormTextarea
-    class="mb-1"
-    rows="6"
-    readonly
-    :value="plainResult"
-    :placeholder="outPlaceholders[targetFmt](ziSep)"
-    title="输出"
-    :disabled="showOverlay"
-  />
-  <div style="min-height: 20vh">
+  <div class="mb-2 d-flex flex-column flex-md-row gap-1">
+    <BFormTextarea
+      class="textarea"
+      v-model="input"
+      :placeholder="inPlaceholders[sourceFmt](ziSep)"
+      title="输入"
+      :disabled="showOverlay"
+      @input="go()"
+    />
+    <BFormTextarea
+      class="textarea"
+      readonly
+      :value="plainResult"
+      :placeholder="outPlaceholders[targetFmt](ziSep)"
+      title="输出"
+      :disabled="showOverlay"
+    />
+  </div>
+  <div class="visual">
     <VisualizedResult v-if="Array.isArray(result)" :value="result" />
   </div>
 </template>
@@ -67,6 +67,13 @@
 <style scoped>
 .format-select {
   width: 12em;
+}
+.textarea {
+  height: 30vw;
+  resize: none;
+}
+.visual {
+  min-height: 25vh;
 }
 </style>
 
