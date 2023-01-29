@@ -227,6 +227,26 @@ describe("base_transcribers", function () {
           ]
         )
       })
+
+      it("prevents words from running into other alphanumerics", function () {
+        const t = new HanziToAlphaTranscriber({
+          dict: [
+            { h: "灯", x: "xdi8" },
+          ],
+          subst: {},
+        })
+        expect(t.transcribe("灯1灯A灯,灯")).toEqual(
+          /** @type {TR} */ [
+            OW({ h: "灯", x: "xdi8" }),
+            " 1 ",
+            OW({ h: "灯", x: "xdi8" }),
+            " A ",
+            OW({ h: "灯", x: "xdi8" }),
+            ",",
+            OW({ h: "灯", x: "xdi8" }),
+          ]
+        )
+      })
     })
   })
 
@@ -371,6 +391,25 @@ describe("base_transcribers", function () {
             OW({ h: "区", x: "Fi6" }),
           ]
         )
+      })
+
+      it("treats spaces contextually when separator is space", function () {
+        // namely, it omits a single space between two transcribable characters
+        const t = new AlphaToHanziTranscriber({
+          dict: [
+            { h: "社", x: "utA" },
+            { h: "区", x: "Fi6" },
+          ],
+        })
+        expect(t.transcribe("希顶 utA Fi6", { ziSeparator: " " })).toEqual(
+          /** @type {TR} */ [
+            "希顶 ",
+            OW({ h: "社", x: "utA" }),
+            OW({ h: "区", x: "Fi6" }),
+          ]
+        )
+        // mustn't split words
+        expect(t.transcribe("utAFi6", { ziSeparator: " " })).toEqual(["utAFi6"])
       })
     })
   })

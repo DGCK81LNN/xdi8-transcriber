@@ -28,6 +28,15 @@ function getMatchSum(
   }
 }
 
+function getWordRe(ziSeparator: string) {
+  // If separator is space we will just treat each character as a separate word,
+  // and then remove redundant spaces in the end.
+  if (!ziSeparator || ziSeparator === " ") return /[0-9A-Za-z]+/g
+
+  const sepRe = escapeRegExp(ziSeparator)
+  return new RegExp(`[0-9A-Za-z]+(?:${sepRe}[0-9A-Za-z]+)*`, "g")
+}
+
 export class AlphaToHanziTranscriber implements Transcriber {
   public readonly dict: DictEntry[]
   public readonly trie: PropTrie<DictEntry, "x">
@@ -49,10 +58,7 @@ export class AlphaToHanziTranscriber implements Transcriber {
   ) {
     const result: TranscribeResultSegment[] = []
 
-    const sepRe = ziSeparator && escapeRegExp(ziSeparator)
-    const re = ziSeparator
-      ? new RegExp(`[0-9A-Za-z]+(?:${sepRe}[0-9A-Za-z]+)*`, "g")
-      : /[0-9A-Za-z]+/g
+    const re = getWordRe(ziSeparator)
 
     let prevI = 0
     for (const { [0]: match, index: i } of input.matchAll(re)) {
@@ -62,6 +68,7 @@ export class AlphaToHanziTranscriber implements Transcriber {
     }
     if (prevI < input.length) append(input.slice(prevI))
 
+    if (ziSeparator === " ") return result.filter(seg => seg !== " ")
     return result
 
     function append(segment: TranscribeResultSegment) {
