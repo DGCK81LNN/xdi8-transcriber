@@ -51,7 +51,7 @@ export class HanziToAlphaTranscriber implements Transcriber {
       }
 
       if (ziSeparator) {
-        if (prevSegmentIsWord) append(ziSeparator)
+        if (prevSegmentIsWord) append({ h: "", x: "", v: ziSeparator })
         else if (needSpace) append(" ")
         prevSegmentIsWord = true
       }

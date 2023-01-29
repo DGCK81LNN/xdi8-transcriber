@@ -11,11 +11,8 @@ const props = defineProps<Props>()
   <div class="visual-result">
     <template v-for="segment in props.value">
       <VisualizedAlternations v-if="Array.isArray(segment)" :value="segment" />
-      <VisualizedSegments
-        v-else-if="typeof segment === 'object'"
-        :value="[segment]"
-      />
-      <template v-else>{{ segment }}</template>
+      <template v-else-if="typeof segment === 'string'">{{ segment }}</template>
+      <VisualizedSegments v-else-if="segment.h" :value="[segment]" />
     </template>
   </div>
 </template>
