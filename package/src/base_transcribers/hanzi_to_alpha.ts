@@ -23,7 +23,7 @@ export class HanziToAlphaTranscriber implements Transcriber {
     const result: TranscribeResultSegment[] = []
     let i = 0
     let prevSegmentIsWord = false
-    let needSpace = true
+    let needSpace = false
     for (const char of input) {
       handleChar(char, this)
       i += char.length
@@ -42,19 +42,17 @@ export class HanziToAlphaTranscriber implements Transcriber {
     function handleChar(char: string, this_: HanziToAlphaTranscriber) {
       let matches = bisectLookUp(this_.dict, "h", char)
       if (matches.length === 0) {
-        if (ziSeparator) {
-          needSpace = /\w/.test(char)
-          if (prevSegmentIsWord && needSpace) append(" ")
-          prevSegmentIsWord = false
-        }
+        needSpace = /\w/.test(char)
+        if (prevSegmentIsWord && needSpace) append(" ")
+        prevSegmentIsWord = false
+
         return append(char)
       }
 
-      if (ziSeparator) {
-        if (prevSegmentIsWord) append({ h: "", x: "", v: ziSeparator })
-        else if (needSpace) append(" ")
-        prevSegmentIsWord = true
-      }
+      if (prevSegmentIsWord)
+        ziSeparator && append({ h: "", x: "", v: ziSeparator })
+      else if (needSpace) append(" ")
+      prevSegmentIsWord = true
 
       if (matches.length === 1) {
         const x = matches[0].x
