@@ -222,7 +222,7 @@ describe("base_transcribers", function () {
         expect(t.transcribe("灯火", { ziSeparator: "-" })).toEqual(
           /** @type {TR} */ [
             OW({ h: "灯", x: "xdi8" }),
-            "-",
+            OW({ v: "-" }),
             OW({ h: "火", x: "ho" }),
           ]
         )
