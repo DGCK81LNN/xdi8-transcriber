@@ -1,7 +1,7 @@
 import { defineNuxtPlugin } from "#app"
 
-import BootstrapVue3 from "bootstrap-vue-3"
+import BootstrapVueNext from "bootstrap-vue-next"
 
 export default defineNuxtPlugin(nuxtApp => {
-  nuxtApp.vueApp.use(BootstrapVue3)
+  nuxtApp.vueApp.use(BootstrapVueNext)
 })

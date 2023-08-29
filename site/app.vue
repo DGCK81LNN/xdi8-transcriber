@@ -99,8 +99,6 @@
 </template>
 
 <script setup lang="ts">
-import { BSpinner } from "bootstrap-vue-3"
-
 const siteName = "〇改希顶转写器"
 useHead({
   titleTemplate: titleChunk => {

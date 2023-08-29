@@ -6,8 +6,8 @@
     "postinstall": "nuxi prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.0.0",
-    "bootstrap": "github:xvaara/bootstrap#425aa5bb",
-    "bootstrap-vue-3": "0.4.11"
+    "nuxt": "^3.7.0",
+    "bootstrap": "^5.3.1",
+    "bootstrap-vue-next": "^0.10.10"
   }
 }
