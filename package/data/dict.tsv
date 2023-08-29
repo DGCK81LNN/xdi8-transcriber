@@ -1,4 +1,4 @@
-;汉字	;希顶	备注	汉希提示	希汉提示	(基于〇改希顶语字表 2022-12-06 版)
+;汉字	;希顶	备注	汉希提示	希汉提示
 一	NV			
 乙	5E			
 二	42			
@@ -24,6 +24,7 @@
 三	k2			
 干	gi2	乾 gān		
 干	hYc	幹、榦 gàn	干部 干线 干什么 骨干 干预 干活 树干 干流 干吗 干事 主干 躯干 干警 才干 精干 干练 埋头苦干 干掉 干将 实干 枝干 单干 干劲 能干	
+干	7gi2	幹 gàn，旧拼写	-	
 于	yA			
 亏	wiaH			
 工	g3			
@@ -38,9 +39,11 @@
 万	w2			
 上	rT			
 小	HxL			
+小	xLH	旧拼写	-	
 口	k6			
 山	s2			
 巾	Hj8			
+巾	j8H	旧拼写	-	
 千	q2			
 乞	hu6			
 川	giV			
@@ -163,7 +166,8 @@
 乌	wA			
 勾	g6			
 凤	nf3			
-六	li6H			
+六	vaH			
+六	li6H	旧拼写	-	
 文	wi8			
 亢	kT			
 方	fT			
@@ -186,6 +190,7 @@
 孔	k3H			
 队	FV			
 办	BEl			
+办	xY	旧拼写	-	
 以	NiT			
 允	v3			
 予	7L			
@@ -206,6 +211,7 @@
 扑	piA8	“撲”的简化字		
 扑	8piA	轻轻敲打；击败	-	
 卉	huEy			
+卉	thuV	旧拼写	-	
 扒	ba8			
 功	lg3			
 扔	ru88			
@@ -230,6 +236,7 @@
 龙	l3			
 平	pi8			
 灭	Hmie			
+灭	mie	旧拼写	-	
 轧	zaq			
 东	d3			
 卡	kaH			
@@ -269,6 +276,7 @@
 叹	fEo			
 冉	r2			
 皿	Hmi8			
+皿	4mi8	旧拼写	-	
 凹	4LH			
 囚	F6			
 四	He			
@@ -301,11 +309,13 @@
 句	NA	jù		
 句	gi6	gōu 古同“勾”	高~骊	
 匆	HDu3			
+匆	FDu3	旧拼写	-	
 册	s2H			
 卯	miT			
 犯	fev			
 外	wY			
 处	DhiL			
+处	DwY	旧拼写	-	
 冬	di3			
 鸟	nuL			
 务	wi3			
@@ -329,7 +339,9 @@
 讨	hua			
 写	xo			
 让	rTi			
+让	irT	旧拼写	-	
 礼	viVu			
+礼	viVt	旧拼写	-	
 训	xu8i			
 议	i5Y			
 必	b6			
@@ -343,7 +355,9 @@
 弘	hi3			
 出	DA			
 辽	liLz			
+辽	zliL	旧拼写	-	
 奶	AnY			
+奶	YnY	旧拼写	-	
 奴	nAH			
 召	zL	zhào		
 召	sLH	shào 姓氏	-	
@@ -398,6 +412,7 @@
 臣	ci8H			
 吏	lYH			
 再	HzY			
+再	zzY	旧拼写	-	
 协	pxY			
 西	5a			
 压	yuad			
@@ -409,7 +424,9 @@
 存	4u8			
 而	nuY			
 页	fLH			
-匠	mju3			
+匠	mj3			
+匠	mju3	旧拼写	-	
+匠	cju3	旧拼写	-	
 夸	ca			
 夺	fda			
 灰	hV			
@@ -420,6 +437,7 @@
 夹	qa			
 夷	yEH			
 轨	giVq			
+轨	giVh	旧拼写	-	
 邪	1ya			
 尧	yuL			
 划	lgV	用桨一类的东西拨水使船前进；合算；用于“划拳”	~船 ~算 ~过 ~桨 皮~艇 ~拳 ~艇 ~得来 ~不来	
@@ -432,6 +450,7 @@
 师	nuV			
 尘	dvio			
 尖	Hj2			
+尖	j2H	旧拼写	-	
 劣	let			
 光	BT			
 当	dT			
@@ -464,6 +483,7 @@
 网	wiTa			
 肉	VrV			
 年	HjuT			
+年	juTH	旧拼写	-	
 朱	zA			
 先	x2			
 丢	di6H			
@@ -479,8 +499,10 @@
 乓	opT			
 休	x6			
 伍	VwiA			
+伍	VwiY	旧拼写	-	
 伏	46			
 优	Vn6			
+优	Vy6	旧拼写	-	
 臼	ju6H			
 伐	ha			
 延	yY			
@@ -525,6 +547,7 @@
 旬	xu8			
 旨	HuL			
 旭	bju6			
+旭	Foh	旧拼写	-	
 负	fA			
 匈	lx3			
 名	mi8H			
@@ -535,10 +558,13 @@
 壮	zuTd			
 冲	mzu3	“衝”的简化字		
 冲	Du3E	同“沖” 山间的平地；用于地名	~田	
+冲	Du3m	旧拼写	-	
+冲	EDu3E	旧拼写	-	
 妆	zuTA			
 冰	7iVE			
 庄	zuT			
-庆	5da			
+庆	Fvio			
+庆	5da	旧拼写	-	
 亦	5iL			
 刘	v6			
 齐	NL			
@@ -599,18 +625,21 @@
 阳	yT1			
 收	7i6r			
 阶	xuV1			
+阶	1je	旧拼写	-	
 阴	4i8			
 防	1fT			
 奸	k2A			
 如	rA			
 妇	AsL			
-妃	AgiY			
+妃	ApiV			
+妃	AgiY	旧拼写	-	
 好	AHL			
 她	tiaA			
 妈	Ama			
 戏	kE			
 羽	FaH			
 观	B2T			
+观	B2r	旧拼写	-	
 欢	fi6r			
 买	mY			
 红	h3a	hóng		
@@ -631,12 +660,15 @@
 玛	3ma			
 形	x8a			
 进	zVz			
+进	zN8	旧拼写	-	
 戒	N2			
 吞	oti2			
 远	ztiV			
+远	zyuo	旧拼写	-	
 违	zwiV			
 韧	pr8			
 运	yu8z			
+运	zyu8	旧拼写	-	
 扶	84ia			
 抚	8w6			
 坛	ted			
@@ -654,6 +686,7 @@
 抄	DuL8			
 贡	xg3			
 汞	6g3			
+汞	Eg3	旧拼写	-	
 坝	bVd	“垻”的简化字（坝子） 沙滩，沙洲；平地，平原	平~ 留~	
 坝	biad	“壩”的简化字（大坝）		
 攻	rg3			
@@ -670,6 +703,7 @@
 均	58d			
 抑	7iY8			
 抛	8lju6			
+抛	8hL	旧拼写	-	
 投	t68			
 坟	dwi8			
 坑	dkT			
@@ -685,8 +719,10 @@
 把	8ba			
 报	4iV8			
 拟	8NE			
+拟	8NiT	旧拼写	-	
 却	FiV			
-抒	8sA			
+抒	sA8			
+抒	8sA	旧拼写	-	
 劫	lFiV			
 芙	y4ia			
 芜	yw6			
@@ -700,11 +736,13 @@
 芳	yfT			
 严	yuY			
 芦	yva			
+芦	vay	旧拼写	-	
 芯	y53			
 劳	lLH			
 克	ke			
 芭	yba			
 苏	yHco			
+苏	yco	旧拼写	-	
 杆	cgi2			
 杠	gTc			
 杜	diAc			
@@ -715,7 +753,9 @@
 杉	ciec			
 巫	wia			
 极	c4uE			
+极	cNa	旧拼写	-	
 李	HlE			
+李	lEH	旧拼写	-	
 杨	yTc			
 求	q6			
 甫	hiAH			
@@ -734,6 +774,7 @@
 还	fi2z			
 尬	hje			
 歼	tk1			
+歼	tq2	旧拼写	-	
 来	lY			
 连	li2			
 轩	k2q			
@@ -754,6 +795,7 @@
 吠	oquV			
 呕	46o			
 园	mtiV			
+园	myuo	旧拼写	-	
 旷	bciT			
 围	mwiV			
 呀	oya			
@@ -788,7 +830,8 @@
 财	xDY			
 针	NHuo			
 钉	Ndi8			
-牡	gtiA			
+牡	gtA			
+牡	gtiA	旧拼写	-	
 告	giL			
 我	wo			
 乱	l1l			
@@ -823,8 +866,10 @@
 佛	V4iL			
 囱	Du3			
 近	zj3			
-彻	DeV			
-役	V5T			
+彻	Dez			
+彻	DeV	旧拼写	-	
+役	z5T			
+役	V5T	旧拼写	-	
 返	zf2			
 余	7io			
 希	xE			
@@ -834,6 +879,7 @@
 妥	tio			
 含	hi2			
 邻	v81			
+邻	1li8	旧拼写	-	
 岔	Daw			
 肝	egi2			
 肛	gTe			
@@ -868,11 +914,14 @@
 库	kA			
 庇	5bE			
 疗	liLt			
+疗	tliL	旧拼写	-	
 吝	lio			
 应	H3			
 这	zwi8			
-冷	Eli8E			
+冷	Eli8			
+冷	Eli8E	旧拼写	-	
 庐	5va			
+庐	va5	旧拼写	-	
 序	sA5			
 辛	5i3			
 弃	ciYf			
@@ -909,6 +958,7 @@
 沁	E53			
 怀	fYY			
 忧	n6			
+忧	Yy6	旧拼写	-	
 忱	4u8Y			
 快	cYY			
 完	wTH			
@@ -923,9 +973,12 @@
 启	qua			
 评	ipi8			
 补	bAu			
+补	biAu	旧拼写	-	
 初	udL			
 社	utA			
+社	ttA	旧拼写	-	
 祀	u4uV			
+祀	t4uV	旧拼写	-	
 识	izE			
 诈	iza			
 诉	ito			
@@ -941,12 +994,14 @@
 尿	nL			
 尾	we			
 迟	z56			
+迟	DEz	旧拼写	-	
 局	jAH			
 改	rgiY			
 张	lzT			
 忌	FNia			
 际	No1			
 陆	va1			
+陆	1vie	旧拼写	-	
 阿	4a	ā		
 阿	4eH	ē 山陵；迎合；偏袒；排泄大小便	~弥陀佛 ~房宫 东~ ~谀 ~胶 ~金溺银	
 陈	1d3			
@@ -977,6 +1032,7 @@
 纹	awi8			
 纺	afT			
 驴	gva			
+驴	vag	旧拼写	-	
 纽	n6a			
 奉	fi3			
 玩	ru23			
@@ -1010,6 +1066,7 @@
 拆	8to			
 拎	8li8			
 拥	y38			
+拥	8y3	旧拼写	-	
 抵	8diT			
 拘	8NA			
 势	Hual			
@@ -1046,8 +1103,10 @@
 苟	ygi6			
 苑	tVy			
 苞	ybL			
-范	fey	范草；地名；姓氏	~草 ~县	
 范	fe2	“範”的简化字		
+范	fey	范草；地名；姓氏	~草 ~县	
+范	2feq	“範”的简化字，旧拼写	-	
+范	yfeE	旧拼写	-	
 直	H6			
 茁	yDA			
 茄	yja			
@@ -1079,6 +1138,7 @@
 刺	Huel			
 枣	HueE			
 雨	HyA			
+雨	yAH	旧拼写	-	
 卖	pmY			
 郁	yu61			
 矾	f2s			
@@ -1096,6 +1156,7 @@
 垄	dl3			
 妻	NiL			
 轰	3Due			
+轰	2Due2	旧拼写	-	
 顷	qu8			
 转	qzu2			
 斩	H2			
@@ -1112,6 +1173,7 @@
 虎	hiL			
 虏	via			
 肾	k1e			
+肾	fyue	旧拼写	-	
 贤	k1x			
 尚	sTH			
 旺	bwT			
@@ -1159,6 +1221,7 @@
 购	xg6			
 贮	xHA			
 图	mb1			
+图	mdi3	旧拼写	-	
 钓	NsuL			
 制	DueH			
 知	Ha			
@@ -1168,6 +1231,7 @@
 牧	meg			
 物	gw8			
 乖	HBY			
+乖	4uEH	旧拼写	-	
 刮	Bal			
 秆	hgi2			
 和	ofie			
@@ -1175,6 +1239,7 @@
 委	wV			
 秉	b1H			
 佳	waV			
+佳	la	旧拼写	-	
 侍	VHuT			
 岳	w7Y			
 供	Vgi3			
@@ -1188,6 +1253,7 @@
 侣	vioV			
 侧	VDe			
 凭	Fhu3			
+凭	nhu3	旧拼写	-	
 侨	VquL			
 佩	VpV			
 货	xfia			
@@ -1199,23 +1265,30 @@
 迫	piYz	pǎi 只用于“迫击炮”	~击炮	
 质	HE			
 欣	ki8r			
-征	VVz8			
-往	VVka			
+征	zz8			
+征	VVz8	旧拼写	-	
+往	zka			
+往	VVka	旧拼写	-	
 爬	paj			
-彼	Vbio			
-径	j8V			
+彼	zbio			
+彼	Vbio	旧拼写	-	
+径	j8z			
+径	j8V	旧拼写	-	
 所	so			
 舍	rueH			
 金	7i8H			
 刹	lsa			
 命	oli8			
+命	ak61	旧拼写	-	
 肴	yu6x			
 斧	74iA			
 爸	Vba			
 采	DuY			
 觅	jjV			
+觅	5jV	旧拼写	-	
 受	s6H			
 乳	l4iT			
+乳	zav	旧拼写	-	
 贪	q2x			
 念	nu2			
 贫	p2x			
@@ -1224,6 +1297,7 @@
 肺	huVe			
 肢	eHua			
 肿	ezu3			
+肿	ez3	旧拼写	-	
 胀	ezT			
 朋	p3			
 股	t6e			
@@ -1245,6 +1319,7 @@
 饱	LbL			
 饲	LHo			
 变	v2r			
+变	v22	旧拼写	-	
 京	Ni3			
 享	B3H			
 庞	5l3			
@@ -1262,7 +1337,8 @@
 郊	1jL			
 庚	g8H			
 废	5pio			
-净	ENi8E			
+净	Ni8E			
+净	ENi8E	旧拼写	-	
 盲	mTT			
 放	rfT			
 刻	kel			
@@ -1281,6 +1357,7 @@
 炕	xkT			
 炎	yuV			
 炉	xva			
+炉	vax	旧拼写	-	
 沫	Emio			
 浅	juYE			
 法	hiaE			
@@ -1315,9 +1392,11 @@
 性	xu3Y			
 怕	piaY			
 怜	v8Y			
+怜	Yli8	旧拼写	-	
 怪	YBY			
 怡	NiTY			
 学	xueV			
+学	xueH	旧拼写	-	
 宝	fFY			
 宗	zu3H			
 定	di8H			
@@ -1331,6 +1410,7 @@
 宛	wi2	wǎn		
 宛	tVf	yuān 只用于“大宛”	大~	
 实	fB2			
+实	ft6	旧拼写	-	
 试	iHT			
 郎	lT			
 诗	iHuT			
@@ -1341,6 +1421,7 @@
 衫	cieu			
 视	HuTT			
 祈	N6u			
+祈	N6t	旧拼写	-	
 话	ifL			
 诞	iyY			
 诡	BVi			
@@ -1402,6 +1483,7 @@
 奏	Du6H			
 春	Du8			
 帮	pbT			
+帮	lbT	旧拼写	-	
 玷	diV3			
 珍	z83			
 玲	3li8			
@@ -1416,6 +1498,7 @@
 拷	8kL			
 拱	8gi3			
 项	h3r			
+项	fLi	旧拼写	-	
 垮	dca			
 挎	8ca			
 城	dD8			
@@ -1448,6 +1531,7 @@
 某	mi6			
 甚	ki2			
 荆	yx8l			
+荆	lykY	旧拼写	-	
 茸	yre			
 革	Be			
 茬	yzY			
@@ -1464,6 +1548,7 @@
 荣	ru3			
 荤	hi8y			
 荧	nu3x			
+荧	nu3H	旧拼写	-	
 故	rgA			
 胡	fiA			
 荫	y4i8			
@@ -1487,6 +1572,7 @@
 栏	cl2			
 柠	cn8			
 树	DAc			
+树	dVc	旧拼写	-	
 勃	lbo			
 要	yL			
 柬	juVH			
@@ -1497,16 +1583,20 @@
 砖	szu2			
 厘	5lE			
 厚	56V			
+厚	5bV	旧拼写	-	
 砌	sqe			
 砂	sas			
 泵	bi36			
+泵	bi3E	旧拼写	-	
 砚	sjV			
 砍	ki2s			
 面	mi2H			
 面	mi2h	“麵”的简化字 粮食磨成的粉；粉状的东西	~粉 ~包 ~条 ~皮 ~团 炒~ 白~ ~食 米~ ~点 挂~ ~汤 牛肉~ 冷~ 黑~ ~筋 切~ 拉~ 汤~ 擀~ 碗~ 板~ 高粱~ 药~ 发~ 炸酱~ 打卤~ ~糊 豆~ 刀削~ 胡椒~ 辣椒~ 肉丝~ ~馆	
 耐	fnuY			
+耐	lnuY	旧拼写	-	
 耍	AnuY			
-牵	5nu6			
+牵	xu2g			
+牵	5nu6	旧拼写	-	
 鸥	46n			
 残	juYt			
 殃	tyT			
@@ -1517,9 +1607,13 @@
 韭	k1			
 背	ebiV			
 战	D2l			
+战	lz2	旧拼写	-	
+战	7z2	旧拼写	-	
 点	diVb			
 虐	nueE			
-临	bhu2			
+临	bhu8			
+临	bhu2	旧拼写	-	
+临	y2b	旧拼写	-	
 览	v2			
 竖	k1f			
 省	5e			
@@ -1567,6 +1661,7 @@
 咪	omE			
 哪	ona			
 哟	kLo			
+哟	okL	旧拼写	-	
 炭	7YH			
 峡	caw			
 罚	4hua			
@@ -1580,6 +1675,7 @@
 钞	DuLN			
 钟	Nzu3	“鐘”的简化字 打击乐器；计时的器具；指时间或时刻		
 钟	7iTN	“鍾”的简化字 盛酒的器皿；（情感）集中、专注；姓氏	~爱 ~情 情有独~ ~南山	
+钟	Nz3	旧拼写	-	
 钢	NgT			
 钠	naN			
 钥	Nyue			
@@ -1591,18 +1687,22 @@
 缸	gT7			
 拜	bYH			
 看	Tki2			
+看	2ki2	旧拼写	-	
 矩	75V			
 毡	jz2			
 氢	F36			
 怎	Fza			
 牲	gsu3			
 选	zu2z			
+选	zx2	旧拼写	-	
 适	ruYz	shì		
 适	kioz	kuò 同“𨓈”；姓氏	-	
+适	zfL	shì，旧拼写	-	
 秒	miLh			
 香	hT			
-种	Du3h	chóng 姓氏	-	
 种	hzu3	zhǒng,zhòng		
+种	Du3h	chóng 姓氏	-	
+种	hz3	zhǒng,zhòng，旧拼写	-	
 秋	qu6			
 科	ce			
 重	zu3			
@@ -1630,14 +1730,18 @@
 侵	q8V			
 禹	kTH			
 侯	hi6			
+侯	Vhi6	旧拼写	-	
 追	zuVz			
 俊	ju8V			
 盾	F8H			
-待	FY1			
-徊	VVfiV			
+待	FYz			
+待	FY1	旧拼写	-	
+徊	zfiV			
+徊	VVfiV	旧拼写	-	
 衍	4u2			
 律	vieH			
-很	h8V			
+很	h8z			
+很	h8V	旧拼写	-	
 须	4uT			
 叙	Fa			
 剑	j2l			
@@ -1657,6 +1761,7 @@
 狭	cav			
 狮	vnuV			
 独	vkiA			
+独	vci3	旧拼写	-	
 狰	vH8			
 狡	vjL			
 狱	7Y			
@@ -1667,6 +1772,7 @@
 饵	Lre			
 饶	ruLL			
 蚀	khuT			
+蚀	Lci3	旧拼写	-	
 饺	LjL			
 饼	Lbi3			
 峦	v2w			
@@ -1682,6 +1788,7 @@
 疮	tDuT			
 疯	tf3			
 疫	t5T			
+疫	t5iT	旧拼写	-	
 疤	tba			
 咨	HLo			
 姿	HLA			
@@ -1697,8 +1804,9 @@
 差	Do			
 养	yuTL			
 美	miVH			
-姜	jTy	“薑”的简化字 生~			
+姜	jTy	“薑”的简化字 生~		
 姜	AquT	姓氏	-	
+姜	juTy	旧拼写	-	
 叛	piTr			
 送	zgE			
 类	lVH			
@@ -1720,11 +1828,14 @@
 剃	ltE			
 洼	waE			
 洁	EqV			
+洁	jeE	旧拼写	-	
 洪	hi3E			
 洒	E5a			
 柒	Ni6c			
+柒	Ni6E	旧拼写	-	
 浇	EyuL			
 浊	EkiA			
+浊	Eci3	旧拼写	-	
 洞	d3E			
 测	EDe			
 洗	Ex2			
@@ -1742,6 +1853,7 @@
 津	EciY			
 恃	YHuT			
 恒	gi8Y			
+恒	f6Y	旧拼写	-	
 恢	YhV			
 恍	fTY			
 恬	ti2Y			
@@ -1762,15 +1874,20 @@
 客	cef			
 诫	iN2			
 冠	HB2			
+冠	B2f	旧拼写	-	
 诬	iwia			
 语	7Vi			
 扁	bi2	bián		
 扁	pi2	piān	~舟	
 袄	yuLu			
 祖	ciau			
+祖	ciat	旧拼写	-	
 神	us8			
+神	ts8	旧拼写	-	
 祝	uxu3			
+祝	txu3	旧拼写	-	
 祠	uHo			
+祠	tHo	旧拼写	-	
 误	wi3i			
 诱	ixu6			
 诲	hiVi			
@@ -1849,7 +1966,8 @@
 载	zYq			
 赶	Dgi2			
 起	qED			
-盐	dyV			
+盐	jV4			
+盐	dyV	旧拼写	-	
 捎	suL8			
 捍	8h2			
 捏	ne8			
@@ -1868,6 +1986,7 @@
 换	8fY			
 挽	4u28			
 挚	Huaj			
+挚	Hua8	旧拼写	-	
 热	rex			
 恐	Fki3			
 捣	8FL			
@@ -1910,6 +2029,7 @@
 校	cjL	jiào 比较；查对、订正	~正 ~勘 ~订 ~对 ~点 ~注 ~验 ~本 ~样 ~准 ~阅 ~核	
 核	hec			
 样	yuTc			
+样	cyuT	旧拼写	-	
 根	cg8			
 索	flia			
 哥	ge			
@@ -1918,7 +2038,8 @@
 栗	viL			
 贾	gia			
 酌	ko4			
-配	4giY			
+配	ppiV			
+配	4giY	旧拼写	-	
 翅	nHua			
 辱	rua			
 唇	oBi8			
@@ -1930,6 +2051,7 @@
 破	pios			
 原	yu2			
 套	H7L			
+套	f7L	旧拼写	-	
 逐	rLz			
 烈	xlie			
 殊	kiVt			
@@ -1950,6 +2072,7 @@
 晒	b5a			
 眠	Tmi8			
 晓	byuL			
+晓	bxuL	旧拼写	-	
 哮	oxuL			
 唠	lLo			
 鸭	4ian			
@@ -2000,6 +2123,7 @@
 氨	6Ni2			
 特	FYg			
 牺	5ag			
+牺	g5a	旧拼写	-	
 造	BL			
 乘	c3			
 敌	FEr			
@@ -2026,6 +2150,7 @@
 俱	V5iV			
 倡	VDT			
 候	Vhi6			
+候	hi6	旧拼写	-	
 赁	xru8			
 俯	V4io			
 倍	biVV			
@@ -2036,8 +2161,10 @@
 躬	g3D			
 息	xEH			
 倔	Vjuo			
-徒	Fi6V			
-徐	V7io			
+徒	Fi6z			
+徒	Fi6V	旧拼写	-	
+徐	z7io			
+徐	V7io	旧拼写	-	
 殷	7i8			
 舰	qjV			
 舱	qDuT			
@@ -2045,6 +2172,7 @@
 航	hTq			
 途	tAz			
 拿	haj			
+拿	ha8	旧拼写	-	
 耸	TD3			
 爹	die			
 舀	tL			
@@ -2080,17 +2208,20 @@
 恋	v2F			
 桨	cjT			
 浆	6jT			
+浆	EjT	旧拼写	-	
 衰	DVH			
 衷	uz3			
 高	gL			
 郭	gioH			
 席	N2H			
 准	43E			
+准	FVE	旧拼写	-	
 座	5zuo			
 症	tz8			
 病	bi8t			
 疾	N1t			
-斋	rnuY			
+斋	jEu			
+斋	rnuY	旧拼写	-	
 疹	z8t			
 疼	tdi3			
 疲	piLt			
@@ -2098,6 +2229,7 @@
 效	xLr			
 离	viV			
 紊	uwi8			
+紊	awi8	旧拼写	-	
 唐	tiT			
 瓷	7HuV			
 资	HLx			
@@ -2114,6 +2246,7 @@
 羔	gLH			
 瓶	pi87			
 拳	quoj			
+拳	quo8	旧拼写	-	
 粉	hf8			
 料	hd6			
 益	5iY			
@@ -2123,6 +2256,7 @@
 烦	fLx			
 烧	ruLx			
 烛	xkiA			
+烛	xci3	旧拼写	-	
 烟	y2x			
 烙	lox			
 递	zdV			
@@ -2165,6 +2299,7 @@
 宴	yof			
 宾	fbi8			
 窍	juLf			
+窍	fqL	旧拼写	-	
 窄	zuYH			
 容	r3			
 宰	HuVf			
@@ -2181,10 +2316,12 @@
 袍	pLu			
 被	piLu			
 祥	xTu			
+祥	xTt	旧拼写	-	
 课	kiei			
 冥	m8H			
 谁	suVi			
 调	diLi			
+调	diLo	旧拼写	-	
 冤	ftiA			
 谅	liTi			
 谆	B3i			
@@ -2194,10 +2331,12 @@
 恳	k8F			
 展	Hu2H			
 剧	5iVl			
+剧	ljA	旧拼写	-	
 屑	pxL			
 弱	ruo			
 陵	vi81			
 祟	uDA			
+祟	tDA	旧拼写	-	
 陶	tL1			
 陷	qua1			
 陪	piV1			
@@ -2274,10 +2413,14 @@
 菊	NAy			
 菩	piVy			
 萍	Eypi8			
+萍	yEpi8	旧拼写	-	
 菠	ybio			
 萤	nu3k			
-营	nu3oo			
+营	onu3o			
+营	nu3oo	旧拼写	-	
+营	nu3o	旧拼写	-	
 乾	hYl			
+乾	ge7	旧拼写	-	
 萧	xuLy			
 萨	DYy			
 菇	ygA			
@@ -2299,11 +2442,13 @@
 副	4iTl			
 票	piL			
 酝	vi34			
+酝	4yu8	旧拼写	-	
 酗	4x3			
 厢	5xT			
 戚	NLH			
 硅	sBV			
 硕	sEr			
+硕	fLs	旧拼写	-	
 奢	hue			
 盔	4hV			
 爽	4uTH			
@@ -2319,10 +2464,12 @@
 虚	xA			
 彪	ahiL			
 雀	Hque			
+雀	queH	旧拼写	-	
 堂	tT			
 常	BiT			
 眶	TcT			
 匙	lsE			
+匙	tsE	旧拼写	-	
 晨	bBi8			
 睁	TH8			
 眯	TmE			
@@ -2346,7 +2493,9 @@
 蛇	kFio			
 唬	ohiL			
 累	uliV			
+累	aliV	旧拼写	-	
 鄂	14o			
+鄂	14T	旧拼写	-	
 唱	oDT			
 患	fi6			
 啰	olo			
@@ -2376,6 +2525,7 @@
 银	73N			
 矫	jL7			
 甜	ti2L			
+甜	ti24	旧拼写	-	
 秸	jeh			
 梨	cvV			
 犁	gvV			
@@ -2403,10 +2553,13 @@
 兜	d6H			
 假	juaV			
 衅	xnV			
-徘	pYVV			
+徘	pYz			
+徘	pYVV	旧拼写	-	
 徙	56H			
-得	FeV	动词 dé	~到 获~ 取~ 不~ ~名 ~以 ~知 难~ ~罪 ~意 ~出 夺~ 赢~ ~分 所~ 求~ ~来 ~力 ~不到 ~天独厚 ~胜 ~失 彼~ ~手 彼~ ~体 博~ 欧几里~ ~逞 心~ ~当 应~ ~寸进尺 ~益 争~ ~心应手 ~悉 ~主 适~其反 自~ ~利 心安理~ 挣~ ~救 征~ ~克萨斯 购~ ~不偿失 ~道 ~数 罗~ 各~其所 不可多~ ~势 分~ ~奖 既~ 一举两~ 志在必~ 贪~无厌 如鱼~水 ~病 ~愈 唾手可~ 患~患失 ~克萨斯 ~宠 始~ 用~上 ~人心 兼~ ~志 ~空 因祸~福 易~ 死~其所 ~过且过 ~票 摘~ ~州 ~闲 ~法 种瓜~瓜 马上~天下 ~宜 势在必~ 近水楼台先~月 一无所~ 种豆~豆 一举三~ ~而复失 贪多务~ 一举数~ 一举多~	
-得	Vde	助词		
+得	Fez	动词	~到 获~ 取~ 不~ ~名 ~以 ~知 难~ ~罪 ~意 ~出 夺~ 赢~ ~分 所~ 求~ ~来 ~力 ~不到 ~天独厚 ~胜 ~失 彼~ ~手 彼~ ~体 博~ 欧几里~ ~逞 心~ ~当 应~ ~寸进尺 ~益 争~ ~心应手 ~悉 ~主 适~其反 自~ ~利 心安理~ 挣~ ~救 征~ ~克萨斯 购~ ~不偿失 ~道 ~数 罗~ 各~其所 不可多~ ~势 分~ ~奖 既~ 一举两~ 志在必~ 贪~无厌 如鱼~水 ~病 ~愈 唾手可~ 患~患失 ~克萨斯 ~宠 始~ 用~上 ~人心 兼~ ~志 ~空 因祸~福 易~ 死~其所 ~过且过 ~票 摘~ ~州 ~闲 ~法 种瓜~瓜 马上~天下 ~宜 势在必~ 近水楼台先~月 一无所~ 种豆~豆 一举三~ ~而复失 贪多务~ 一举数~ 一举多~	
+得	zde	助词		
+得	FeV	动词，旧拼写	-	
+得	Vde	助词，旧拼写	-	
 衔	7i8m			
 盘	peH			
 舶	boq			
@@ -2427,11 +2580,13 @@
 脸	li2e			
 脱	esuV			
 象	xuT			
-够	4gi6			
+够	egi6			
+够	4gi6	旧拼写	-	
 逸	ztiA			
 猜	vq8			
 猪	HAH			
 猎	liev			
+猎	liav	旧拼写	-	
 猫	vmiL			
 凰	nfiT			
 猖	vDT			
@@ -2454,12 +2609,14 @@
 庸	yu3H			
 鹿	vio			
 盗	E4qo			
+盗	4HuV	旧拼写	-	
 章	zTH			
 竟	j8			
 商	ciTH			
 族	cia			
 旋	xuV			
 望	ewiT			
+望	TwT	旧拼写	-	
 率	suY			
 阎	yVm			
 阐	D2m			
@@ -2471,6 +2628,7 @@
 粗	Bi6h			
 粒	viYh			
 断	F27			
+断	F2j	旧拼写	-	
 剪	ljuV			
 兽	vs6			
 焊	xh2			
@@ -2478,6 +2636,7 @@
 清	Eq8			
 添	Eti2			
 鸿	nh3E			
+鸿	h3En	旧拼写	-	
 淋	li8E			
 涯	yaE			
 淹	Ey2			
@@ -2487,6 +2646,7 @@
 淌	tTE			
 混	fi8E			
 淮	zVE			
+淮	Ela	旧拼写	-	
 淆	Eyu6x			
 渊	EnmE			
 淫	43			
@@ -2522,6 +2682,7 @@
 寂	fcL			
 宿	kiV			
 窒	hu6H			
+窒	fHYH	旧拼写	-	
 窑	yLf			
 密	maw			
 谋	imi6			
@@ -2530,7 +2691,9 @@
 谐	xuVi			
 袱	u46			
 祷	FiLu			
+祷	FiLt	旧拼写	-	
 祸	gou			
+祸	got	旧拼写	-	
 谓	iwie			
 谚	i7iV			
 谜	izmE			
@@ -2543,6 +2706,7 @@
 堕	Fio1			
 随	sVz			
 蛋	Hd2k			
+蛋	d2k	旧拼写	-	
 隅	17ia			
 隆	li3			
 隐	1nuo			
@@ -2571,6 +2735,7 @@
 琳	li83			
 琢	zuo3			
 琼	3Hx3			
+琼	q33	旧拼写	-	
 斑	kio			
 替	tia			
 揍	Du68			
@@ -2601,9 +2766,11 @@
 搀	Du28			
 裁	zYu			
 搁	8mgie			
+搁	8mge	旧拼写	-	
 搓	8Do			
 搂	8l6			
-搅	8jV			
+搅	8xueT			
+搅	8jV	旧拼写	-	
 壹	fNV			
 握	8wio			
 搔	nuL8			
@@ -2635,18 +2802,21 @@
 椰	yec			
 植	cH6			
 森	li8c			
+森	3miA	旧拼写	-	
 焚	li8x			
 椅	5iTc			
 椒	ccL			
 棵	kiec			
 棍	Bi8c			
 椎	zVc			
+椎	zVcH	旧拼写	-	
 棉	cme			
 棚	cp3			
 棕	zu3c			
 棺	cBi2			
 榔	clT			
 椭	Fioc			
+椭	sVc			
 惠	fe			
 惑	Fhio			
 逼	4iTz			
@@ -2654,7 +2824,9 @@
 棘	Hue2H			
 酣	h14			
 酥	4Hco			
+酥	4co	旧拼写	-	
 厨	DA5			
+厨	DAH	旧拼写	-	
 厦	5xua			
 硬	sgi8			
 硝	sxL			
@@ -2668,6 +2840,7 @@
 雳	6vi6			
 暂	bH2			
 雅	nyaH			
+雅	4ya	旧拼写	-	
 翘	nyuL			
 辈	bi3q			
 悲	bi3F			
@@ -2678,6 +2851,7 @@
 棠	ctT			
 赏	sTx			
 掌	sTj			
+掌	sT8	旧拼写	-	
 晴	bq8			
 睐	TlY			
 暑	ciob			
@@ -2737,6 +2911,7 @@
 锐	NsuV			
 甥	Vsu3			
 掰	p2j			
+掰	p28H	旧拼写	-	
 短	7di6			
 智	bHa			
 氮	Fie6			
@@ -2753,6 +2928,7 @@
 筑	2ki3			
 策	Hue2			
 筛	2nuV			
+筛	2sY	旧拼写	-	
 筒	2t3			
 筏	2ha			
 答	da2			
@@ -2763,6 +2939,7 @@
 牌	pY			
 堡	bLd			
 集	rEc			
+集	zVc	旧拼写	-	
 焦	juL			
 傍	bTV			
 储	BioV			
@@ -2772,11 +2949,16 @@
 奥	4L			
 街	wam			
 惩	VFz8			
-御	VyV			
-循	F8V			
+惩	Vz8F	旧拼写	-	
+御	zxV			
+御	VyV	旧拼写	-	
+循	F8z			
+循	F8V	旧拼写	-	
 艇	qti8			
 舒	sAL			
-逾	z7io			
+舒	sA4	旧拼写	-	
+逾	z7o			
+逾	z7io	旧拼写	-	
 番	p2	pān 只用于“番禺”	~禺	
 番	fi2	fān		
 释	zeh			
@@ -2792,6 +2974,7 @@
 猾	fiav			
 猴	vhi6			
 惫	Fbe			
+惫	5be	旧拼写	-	
 然	ru2			
 馈	ciVL			
 馋	Du2L			
@@ -2800,6 +2983,7 @@
 就	j6H			
 敦	F8			
 斌	w6r			
+斌	rwi8	旧拼写	-	
 痘	tdi6			
 痢	tvV			
 痪	tfY			
@@ -2810,6 +2994,7 @@
 善	ci2			
 翔	xTn			
 羡	Egqo			
+羡	yuTD	旧拼写	-	
 普	pA			
 粪	f8h			
 尊	zu8			
@@ -2864,22 +3049,27 @@
 裤	ukA			
 裙	qu8u			
 禅	D2u			
+禅	D2t	旧拼写	-	
 禄	ulA			
+禄	tlA	旧拼写	-	
 谢	xoi			
 谣	yLi			
 谤	bTi			
 谦	quVi			
 犀	56			
 属	pkiA			
+属	kTp	旧拼写	-	
 屡	viap			
 强	qT			
 粥	lmEl			
+粥	lmE	旧拼写	-	
 疏	cL4			
 隔	Be1			
 隙	liL1			
 隘	15iY			
 媒	Ami6			
 絮	urA			
+絮	arA	旧拼写	-	
 嫂	As6			
 媚	AmV			
 婿	xAA			
@@ -2895,13 +3085,15 @@
 编	abi2			
 骚	nuLg			
 缘	atV			
-瑟	3b63			
+瑟	3b6			
+瑟	3b63	旧拼写	-	
 鹉	w6n			
 瑞	Fi23			
 瑰	BiV3			
 瑙	nL3			
 魂	tyu8			
-肆	sciY			
+肆	DciY			
+肆	sciY	旧拼写	-	
 摄	se8			
 摸	8mo			
 填	7ied			
@@ -2917,6 +3109,7 @@
 摊	8t2			
 聘	Tp1			
 斟	7ki2			
+斟	fki2	旧拼写	-	
 蒜	ysu2			
 勤	Ni3l			
 靴	4iex			
@@ -2968,6 +3161,7 @@
 睛	N8T			
 睹	F6T			
 睦	vaT			
+睦	miAT	旧拼写	-	
 瞄	TmiL			
 睫	juoT			
 睡	TDV			
@@ -3013,6 +3207,7 @@
 锤	NDV			
 锥	zVN			
 锦	7i8p			
+锦	Nme	旧拼写	-	
 键	NjuY			
 锯	NjA			
 锰	m3N			
@@ -3021,7 +3216,8 @@
 稚	rEh			
 稠	D6h			
 颓	rti6			
-愁	FDu6			
+愁	Fqu6			
+愁	FDu6	旧拼写	-	
 筹	2D6			
 签	quY2			
 简	2j2			
@@ -3031,7 +3227,9 @@
 鼠	lieH			
 催	VDuV			
 傻	Vla			
+傻	raV	旧拼写	-	
 像	VxuT			
+像	axuT	旧拼写	-	
 躲	Ddio			
 魁	cVf			
 衙	mwi6			
@@ -3050,7 +3248,9 @@
 鲍	BbL			
 猿	vtiV			
 颖	Hy8h			
+颖	y8h	旧拼写	-	
 触	7kiA			
+触	7ci3	旧拼写	-	
 解	xe			
 煞	xz6r			
 雏	BiLn			
@@ -3065,6 +3265,7 @@
 廉	vi2			
 靖	N8f			
 新	7Fi8			
+新	77i8	旧拼写	-	
 韵	534			
 意	5L			
 誊	t8i			
@@ -3104,6 +3305,7 @@
 褂	uBia			
 裸	liou			
 福	4iTu			
+福	4iTt	旧拼写	-	
 谬	mi6i			
 群	qu8g			
 殿	Fie			
@@ -3121,6 +3323,7 @@
 缤	abi8			
 剿	DLl			
 静	Ni8h			
+静	Ni8q	旧拼写	-	
 碧	bo3			
 璃	3viV			
 赘	4iLxH			
@@ -3140,6 +3343,7 @@
 慕	mAF			
 暮	mAb			
 摹	jmo			
+摹	8moH	旧拼写	-	
 蔓	ym2			
 蔑	miey			
 蔡	huY			
@@ -3190,6 +3394,7 @@
 锻	NF2			
 镀	NdA			
 舞	Dw6			
+舞	4w6	旧拼写	-	
 舔	Lti2			
 稳	hnuo			
 熏	5i8H			
@@ -3215,10 +3420,12 @@
 馒	Lm2			
 裹	ugio			
 敲	rgL			
+敲	DgL	旧拼写	-	
 豪	hL			
 膏	egL			
 遮	zuez			
 腐	j4io			
+腐	e4ioH	旧拼写	-	
 瘩	dat			
 瘟	w8t			
 瘦	ts6			
@@ -3230,6 +3437,7 @@
 精	N8h			
 粹	DuVh			
 歉	quVr			
+歉	yqo	旧拼写	-	
 弊	biTt			
 熄	xEx			
 熔	xr3			
@@ -3247,7 +3455,9 @@
 慷	YkiT			
 寨	qYc			
 赛	sYx			
-寡	rq3			
+寡	giaf			
+寡	rq3	旧拼写	-	
+寡	4q3	旧拼写	-	
 察	Da			
 蜜	mak			
 寥	vLf			
@@ -3270,9 +3480,11 @@
 撩	liL8			
 趣	DFT			
 趟	tTD			
-撑	8ruT			
+撑	8sTj			
+撑	8ruT	旧拼写	-	
 撮	8zV			
 撬	8HqL			
+撬	8qL	旧拼写	-	
 播	8p2			
 擒	8qu3			
 墩	dF8			
@@ -3302,6 +3514,7 @@
 磕	cos			
 磊	sliV			
 磅	spT	理论音bTs用于bàng		
+磅	bTs			
 碾	nu2s			
 震	H86			
 霄	6xL			
@@ -3328,6 +3541,7 @@
 蝙	kbi2			
 嘿	ohE			
 嘱	opkiA			
+嘱	okTp	旧拼写	-	
 幢	7iTp			
 墨	m6d			
 镇	NHu8			
@@ -3336,6 +3550,7 @@
 镑	bTN			
 靠	hgiL			
 稽	HjE			
+稽	hjEb	旧拼写	-	
 稻	htY			
 黎	vL			
 稿	hgL			
@@ -3355,6 +3570,7 @@
 鲫	BNiY			
 熟	xciL			
 摩	moj			
+摩	mo8	旧拼写	-	
 褒	bLu			
 瘪	biet			
 瘤	tli6			
@@ -3362,10 +3578,12 @@
 凛	El8			
 颜	r7iV			
 毅	v5T			
+毅	75T	旧拼写	-	
 糊	hfiA			
 遵	zzu8			
 憋	bie5			
 潜	BYE			
+潜	Etia	旧拼写	-	
 澎	Ep8			
 潮	EDuL			
 潭	E72			
@@ -3400,12 +3618,15 @@
 薛	nue			
 薇	wiLy			
 擎	jki8			
+擎	8ki8	旧拼写	-	
 薪	y7Fi8			
+薪	y77i8	旧拼写	-	
 薄	bioy			
 颠	di2			
 翰	fiY			
 噩	4o3			
 橱	cDA5			
+橱	DAc	旧拼写	-	
 橙	cd8			
 橘	tiYc			
 整	4rz8			
@@ -3419,12 +3640,12 @@
 餐	gEL			
 嘴	ruVo			
 踱	DdA			
+踱	ddA	旧拼写	-	
 蹄	7ED			
 蹂	Dr6			
 蟆	kmo			
 螃	kpT			
 器	4oquV			
-器	kE4			
 噪	zuLo			
 鹦	nHu3			
 赠	H3x			
@@ -3446,6 +3667,7 @@
 磨	mos			
 瘾	tnuo			
 瘸	tjja			
+瘸	teja	旧拼写	-	
 凝	ENE			
 辨	BEl			
 辩	BEi			
@@ -3467,7 +3689,9 @@
 戴	FiY			
 擦	8Da			
 藉	NYy			
+藉	Nyy	旧拼写	-	
 鞠	NAx			
+鞠	NAq	旧拼写	-	
 藏	ruTy			
 藐	yhuL			
 檬	cm3			
@@ -3482,6 +3706,7 @@
 瞬	su8T			
 瞳	Tti3			
 瞩	TpkiA			
+瞩	TkTp	旧拼写	-	
 瞪	Td8			
 曙	bcio4			
 蹋	taD			
@@ -3496,6 +3721,7 @@
 簧	hiT2			
 簇	2cia			
 繁	uhu2			
+繁	ahu2	旧拼写	-	
 徽	wiLa			
 爵	Nie			
 朦	em3			
@@ -3533,6 +3759,7 @@
 蘑	ymos			
 藻	yzuLE			
 攀	jpi6			
+攀	8pi6	旧拼写	-	
 曝	bpL			
 蹲	Dzu8			
 蹭	D8D			
@@ -3545,6 +3772,7 @@
 靡	mEh			
 癣	txuo			
 瓣	BE2			
+瓣	BEh	旧拼写	-	
 羹	gLx			
 鳖	bieB			
 爆	xpL			
@@ -3570,6 +3798,7 @@
 霹	6pa			
 躏	v3D			
 黯	Ni2bH			
+黯	Ni2b	旧拼写	-	
 髓	sVj			
 赣	g2H			
 囊	nT			
@@ -3579,17 +3808,23 @@
 矗	3H6			
 乂	5EH			
 乜	HmE			
+乜	mEH	旧拼写	-	
 兀	wiYH			
 弋	7e			
 孑	Hje			
+孑	zje	旧拼写	-	
 孓	jeV			
 幺	4uL			
 亓	1huE			
 韦	wiV			
 廿	Yn2			
 丏	mie			
+丏	Hmie	旧拼写	-	
+丏	mieH	旧拼写	-	
 卅	xk2			
+卅	asa	旧拼写	-	
 仄	Hze			
+仄	5ze	旧拼写	-	
 厄	4e			
 仃	Vdi8			
 仉	VjE			
@@ -3637,6 +3872,7 @@
 尻	giVp			
 阡	1q2			
 尕	Hga			
+尕	ga1	旧拼写	-	
 弁	ciYH			
 驭	g4i6			
 匡	cT			
@@ -3667,6 +3903,7 @@
 戍	wiAd			
 尥	hsuL			
 乩	lz2H			
+乩	lz2	旧拼写	-	
 旯	olaj			
 曳	5ieH			
 岌	wNa			
@@ -3680,6 +3917,7 @@
 牝	p6g			
 伎	NiaV			
 伛	VFi6			
+伛	Fi6	旧拼写	-	
 伢	Vya			
 佤	Vwa			
 仵	wAV			
@@ -3688,7 +3926,9 @@
 伉	VkT			
 伫	VHA			
 囟	mDu3			
+囟	Du3H	旧拼写	-	
 汆	7iVL			
+汆	7iVV	旧拼写	-	
 刖	lyue			
 夙	liYn			
 旮	oga			
@@ -3782,6 +4022,7 @@
 呃	o4e			
 旸	yTb			
 吡	obE			
+吡	pEo	旧拼写	-	
 町	ti84	tīng		
 町	4di8	dīng 用于“畹町”（地名）	畹~	
 虬	zak			
@@ -3794,7 +4035,8 @@
 岈	wya			
 岘	wjV			
 岑	4i3H			
-岚	bs2			
+岚	wf3			
+岚	bs2	旧拼写	-	
 兕	tAe			
 囵	mv8			
 囫	hAm			
@@ -3813,7 +4055,8 @@
 佟	Vdi3			
 佗	tioi			
 伽	Vja			
-彷	VVfT			
+彷	zfT			
+彷	VVfT	旧拼写	-	
 佘	se			
 佥	quYH			
 孚	4iT			
@@ -3823,7 +4066,8 @@
 邸	1diT			
 奂	fY			
 劬	Fol			
-狄	d1h			
+狄	d1H			
+狄	d1h	旧拼写	-	
 狁	vv3			
 鸠	nju6			
 邹	z61			
@@ -3907,7 +4151,8 @@
 纾	a7L			
 玮	3wiV			
 玡	3ya			
-玭	pE3			
+玭	pE3H			
+玭	pE3	旧拼写	-	
 玠	3je			
 玢	p23	bīn		
 玢	3f8	fēn 用于“赛璐玢”	赛璐~	
@@ -3927,6 +4172,7 @@
 拃	8za			
 拊	84i3			
 坼	dto			
+坼	dtio	旧拼写	-	
 坻	ddiT			
 㧟	84V			
 坨	tiod			
@@ -3982,7 +4228,9 @@
 昊	huLH			
 昙	teb			
 杲	gLb			
+杲	gLc	旧拼写	-	
 昃	bHze			
+昃	b5ze	旧拼写	-	
 咂	huao			
 呸	opE			
 昕	ki8b			
@@ -3999,6 +4247,7 @@
 呱	giAo	gū	~~坠地	
 呱	oBa	guā		
 呤	oli8H			
+呤	oli8	旧拼写	-	
 咚	odi3			
 咆	pLo			
 咛	on8			
@@ -4054,7 +4303,8 @@
 帛	me			
 阜	biA			
 侔	Vm6			
-徂	Bi6V			
+徂	Bi6z			
+徂	Bi6V	旧拼写	-	
 刽	lcY			
 郄	1lio			
 怂	FD3			
@@ -4066,6 +4316,7 @@
 肽	etiY			
 肱	eh3			
 肫	e78			
+肫	78e	旧拼写	-	
 剁	ldio			
 迩	znu8			
 郇	1xu8			
@@ -4078,8 +4329,10 @@
 枭	cnuL			
 饯	juYL			
 饴	NiTL			
-冽	ElieE			
-冼	Ex2E			
+冽	Elie			
+冽	ElieE	旧拼写	-	
+冼	Ex2H			
+冼	Ex2E	旧拼写	-	
 庖	pL5			
 疠	tvY			
 疝	ts2			
@@ -4100,7 +4353,8 @@
 泱	EyT			
 泅	EF6			
 泗	EHe			
-泠	Eli8			
+泠	Eli8H			
+泠	Eli8	旧拼写	-	
 泺	Ele			
 泖	EmiT			
 泫	xu2E			
@@ -4129,13 +4383,18 @@
 诘	jei			
 戾	vEH			
 诙	ihV			
-戽	pd6			
+戽	7fio			
+戽	pd6	旧拼写	-	
 郓	yu81			
 衩	Dau			
 祆	yuLu			-
+祆	yuLt	旧拼写	-	
 祎	uwiVH			
+祎	twiVH	旧拼写	-	
 祉	uHu6			
+祉	tHu6	旧拼写	-	
 祇	H6u			
+祇	tdiT	旧拼写	-	
 诛	izA			
 诜	ix2			
 诟	gi6i			
@@ -4146,6 +4405,7 @@
 诨	hi8i			
 诩	Fai			
 戕	lpie			
+戕	pgV	旧拼写	-	
 孢	VbL			
 亟	4uE			
 陔	gY1			
@@ -4157,13 +4417,15 @@
 孥	nAV			
 驽	nAg			
 虱	78k			
+虱	sEk	旧拼写	-	
 迦	zja			
 迨	dYz			
 绀	ag2			
 绁	ano			
 绂	fAa			
 驷	gHe			
-驸	g4u3			
+驸	g4i3			
+驸	g4u3	旧拼写	-	
 绉	z6a			
 绌	doa			
 驿	5iYg			
@@ -4182,6 +4444,7 @@
 垭	dyua			
 挝	wo8			
 垣	f6d			
+垣	gi8d	旧拼写	-	
 挞	8dia			
 垤	ded			
 赳	7i6D			
@@ -4218,7 +4481,9 @@
 茨	yHuV			
 垩	4od			
 荥	nu36			
-荦	ynu6			
+荥	nu3E	旧拼写	-	
+荦	lLg			
+荦	ynu6	旧拼写	-	
 荨	y5i8			
 荩	yN3			
 剋	lke			
@@ -4257,6 +4522,7 @@
 砗	sDue			
 砘	Fi8s			
 砒	pEs			
+砒	sbE	旧拼写	-	
 斫	sj3			
 砭	bes			
 砜	sf3			
@@ -4276,6 +4542,7 @@
 毖	tb6			
 觇	Tz2			
 尜	fHga			
+尜	gaV	旧拼写	-	
 哐	ocT			
 眄	Tmie			
 眍	k6T			
@@ -4290,6 +4557,7 @@
 曷	he			
 昴	bmiT			
 昱	kEb			
+昱	yAb	旧拼写	-	
 昵	bnE			
 咦	yEo			
 哓	oyuL			
@@ -4365,8 +4633,10 @@
 俑	Vyu3			
 俟	VNY			
 逅	zh6			
-徇	VVxu8			
-徉	VVyuT			
+徇	zxu8			
+徇	VVxu8	旧拼写	-	
+徉	zyuT			
+徉	VVyuT	旧拼写	-	
 舢	qs2			
 俞	7o	yú		
 俞	c3H	shū	-	
@@ -4400,6 +4670,7 @@
 饸	Lhie			
 饹	leL			
 胤	nuTe			
+胤	nyue	旧拼写	-	
 孪	v2V			
 娈	v2A			
 弈	t5iL			
@@ -4431,7 +4702,8 @@
 洱	Ere			
 洹	f6E			
 洧	weE			
-洌	Elie			
+洌	ElieH			
+洌	Elie	旧拼写	-	
 浃	Eqa			
 洇	Ey8			
 洄	EfiV			
@@ -4462,18 +4734,25 @@
 衿	N3u			
 袂	jueu			
 祛	uqA			
+祛	tqA	旧拼写	-	
 祜	fiou			
+祜	fiot	旧拼写	-	
 祓	fAu			
+祓	fAt	旧拼写	-	
 祚	zou			
+祚	zot	旧拼写	-	
 诮	qLi			
 祗	udiT			
+祗	H6t	旧拼写	-	
 祢	miau			
+祢	miat	旧拼写	-	
 诰	igiL			
 诳	cTi			
 鸩	4u8n			
 昶	bvi3			
 郡	1ju8			
 咫	rzE			
+咫	DzE	旧拼写	-	
 弭	lre			
 牁	qkieH			
 胥	xAH			
@@ -4495,13 +4774,16 @@
 骁	gyuL			
 骅	gfa			
 绗	5ea			
+绗	ahT	旧拼写	-	
 绛	ajuT			
 骈	pi8g			
 耖	DuL7			
 挈	jqV			
+挈	8qV	旧拼写	-	
 珥	3re			
 珙	3gi3			
 顼	rFY			
+顼	fL3	旧拼写	-	
 珰	3dT			
 珩	5e3			
 珧	3zuL			
@@ -4521,6 +4803,7 @@
 挹	5iL8			
 耆	NiLH			
 耄	tmL			
+耄	jmLH	旧拼写	-	
 埒	h6d			
 捋	hi68			
 贽	Huax			
@@ -4538,7 +4821,8 @@
 莅	viYy			
 荼	tAy			
 莩	y4iT			
-荽	yto			
+荽	ytio			
+荽	yto	旧拼写	-	
 莸	yvy6			
 荻	d1y			
 莘	y5i3			
@@ -4618,6 +4902,7 @@
 蚋	krV			
 蚬	kjV			
 蚝	khL			
+蚝	kmL	旧拼写	-	
 蚧	kje			
 唢	suoo			
 圄	7Vm			
@@ -4691,7 +4976,8 @@
 倨	VjA			
 衄	n6j			
 颀	N6r			
-徕	VVlY			
+徕	zlY			
+徕	VVlY	旧拼写	-	
 舫	qfT			
 釜	4iAH			
 奚	5i6			
@@ -4703,6 +4989,7 @@
 脍	ecY			
 胼	pi8e			
 朕	t8H			
+朕	egE	旧拼写	-	
 脒	emE			
 胺	eNi2			
 鸱	H6n			
@@ -4717,9 +5004,11 @@
 桀	5i2			
 袅	unuL			
 饽	Lbo			
-凇	Es3E			
+凇	Es3c			
+凇	Es3E	旧拼写	-	
 栾	v2c			
 挛	v2j			
+挛	v28	旧拼写	-	
 亳	thL			
 疳	tg2			
 疴	tkie			
@@ -4736,6 +5025,7 @@
 旆	pVf			
 旄	fmL			
 旃	fte			
+旃	fteV	旧拼写	-	
 阃	c8m			
 阄	BiYm			
 訚	m7iY			
@@ -4745,6 +5035,7 @@
 朔	suo			
 郸	d21			
 烜	f6x			
+烜	gi8x	旧拼写	-	
 烨	xfa			
 烩	xhiV			
 烊	xyuT			
@@ -4769,7 +5060,8 @@
 悚	Ys3			
 悭	Yko			
 悝	YlE			
-悒	Y5iL			
+悒	5iLY			
+悒	Y5iL	旧拼写	-	
 悌	YtE			
 悛	ju8Y			
 宸	fBi8			
@@ -4781,6 +5073,7 @@
 袒	72u			
 袢	piTu			
 祯	uci8			
+祯	tci8	旧拼写	-	
 诿	iwV			
 谀	7Ti			
 谂	inu2			
@@ -4833,9 +5126,11 @@
 埸	d5iT			
 埵	dDV			
 赧	4iVh			
+赧	4iVD	旧拼写	-	
 埤	pTd			
 捭	b68			
 逵	zcV			
+逵	ccV	旧拼写	-	
 埝	dnu2			
 堋	b3d			
 堍	dtiA			
@@ -4864,7 +5159,8 @@
 菖	yDT			
 萜	tiey			
 萸	7Ty			
-萑	lYy			
+萑	zVy			
+萑	lYy	旧拼写	-	
 棻	yf8c			
 菔	y4iV			
 菟	ytiA			
@@ -4876,6 +5172,7 @@
 菅	yBi2			
 菀	ywi2			
 萦	nu3u			
+萦	nu3a	旧拼写	-	
 菰	giAy			
 菡	h2y			
 梵	f2c			
@@ -4887,6 +5184,7 @@
 梓	HuVc			
 棁	csuV			
 桫	cso			
+桫	sac	旧拼写	-	
 棂	cvi8			
 啬	sueH			
 郾	yo1			
@@ -4908,8 +5206,10 @@
 硌	los	luò 山上的大石	-	
 鸸	nnuY			
 瓠	2ca			
+瓠	fiAj	旧拼写	-	
 匏	pL2			
 厩	5gY			
+厩	j65	旧拼写	-	
 龚	vgi3			
 殒	ki3t			
 殓	li2t			
@@ -4973,6 +5273,7 @@
 崆	wk3			
 赇	xq6			
 赈	H8x			
+赈	H8xH	旧拼写	-	
 赊	xse			
 铑	NlL			
 铒	Nre			
@@ -5023,13 +5324,16 @@
 偻	viaV	lǚ 脊背弯曲		
 偻	Vl6	lóu 用于“偻㑩”“佝偻”	~㑩 佝~	
 皑	kYb			
+皑	kYbw	旧拼写	-	
 皎	bjL			
 鸻	5en			
-徜	BTVV			
+徜	BTz			
+徜	BTVV	旧拼写	-	
 舸	qge			
 舻	qvaH			
 舴	qza			
-舷	qxu2			
+舷	xu2q			
+舷	qxu2	旧拼写	-	
 龛	vhie			
 翎	nli8			
 脬	e4iT			
@@ -5048,7 +5352,9 @@
 鸾	v2n			
 孰	ciL			
 庹	rdA			
+庹	DdA	旧拼写	-	
 庾	7T5			
+庾	7TN	旧拼写	-	
 痔	Hat			
 痍	yEt			
 疵	tHV			
@@ -5063,6 +5369,7 @@
 阋	m4ie			
 阍	mfi8			
 阏	m7iL			
+阏	76m	旧拼写	-	
 羟	F3g			
 粝	hvY			
 粕	boh			
@@ -5084,6 +5391,7 @@
 淖	Ezo			
 挲	jso	suō		
 挲	saj	shā/sā	-	
+挲	8soH	旧拼写	-	
 淠	bi6E			
 涸	Ega			
 渑	ci8E			
@@ -5099,6 +5407,7 @@
 悻	x3Y			
 悱	YfV			
 惝	BTY			
+惝	tTY	旧拼写	-	
 惘	wiTY			
 悸	YNio			
 惆	D6Y			
@@ -5108,7 +5417,8 @@
 窕	tiLf			
 谌	iki2			
 谏	juVi			
-扈	pfio			
+扈	1fio			
+扈	pfio	旧拼写	-	
 皲	j58			
 谑	nuei			
 裆	udT			
@@ -5156,14 +5466,17 @@
 缁	HuYa			
 耠	7hie			
 琫	3fi3			
-琵	3pE3			
-琶	pa33			
+琵	pE3			
+琵	3pE3	旧拼写	-	
+琶	pa3			
+琶	pa33	旧拼写	-	
 琪	3qE			
 瑛	3nu3			
 琦	3Ni6			
 琥	3hiL			
 琨	3c8			
 靓	N8TH			
+靓	Tq8	旧拼写	-	
 琰	3yuV			
 琮	Bi33			
 琯	3Bi2			
@@ -5173,6 +5486,7 @@
 辇	nuVH			
 鼋	vyuo			
 揳	8qV			
+揳	8qVH	旧拼写	-	
 堞	died			
 搽	8ra			
 揸	zua8			
@@ -5185,6 +5499,7 @@
 塄	l8d			
 揿	8F3			
 耋	det			
+耋	dej	旧拼写	-	
 揄	87io			
 蛩	q3k			
 蛰	Huak			
@@ -5207,14 +5522,17 @@
 蒌	yl6			
 萱	yxu2			
 戟	hYl			
+戟	hY7	旧拼写	-	
 葭	juay			
 楮	Bioc			
-棼	p2c			
+棼	ccf8			
+棼	p2c	旧拼写	-	
 椟	dAc			
 棹	czoH			
 椤	clo			
 棰	cDV			
 赍	jEx			
+赍	xlY	旧拼写	-	
 椋	liTc			
 椁	gioc			
 椪	4u3c			
@@ -5249,6 +5567,7 @@
 喱	o5lE			
 喹	ocV			
 晷	b4u6			
+晷	BYb	旧拼写	-	
 喈	xuVo			
 跖	sED			
 跗	D4i3			
@@ -5307,9 +5626,11 @@
 锔	jAN			
 锕	N4a			
 掣	Duej			
+掣	Due8	旧拼写	-	
 矬	Do7			
 氰	6q8			
 毳	HqL			
+毳	jqL	旧拼写	-	
 毽	jjuY			
 犊	dAg			
 犄	NiYg			-
@@ -5317,6 +5638,7 @@
 鹄	ngiL			
 犍	gjuY			
 嵇	wHjE			
+嵇	hjEw	旧拼写	-	
 黍	co			
 稃	h4iT			
 稂	lTh			
@@ -5329,10 +5651,13 @@
 牍	dAp			
 傥	dTV			
 傧	Vbi8			
-遑	zfiT			
+遑	zfiTH			
+遑	zfiT	旧拼写	-	
 傩	Vt2			
-遁	F8z			
-徨	VVfiT			
+遁	F8zH			
+遁	F8z	旧拼写	-	
+徨	zfiT			
+徨	VVfiT	旧拼写	-	
 媭	A4uT			
 畲	4se			
 弑	tHT			
@@ -5354,6 +5679,7 @@
 鲀	B78			
 鲂	BfT			
 颍	Hy86			
+颍	y86	旧拼写	-	
 猢	vfiA			
 猹	vDua			
 猥	vwL			
@@ -5362,11 +5688,13 @@
 觚	giA7			
 猱	vr6			
 颎	y8xH			
+颎	y8xt	旧拼写	-	
 飧	L5ia			
 馇	LDua			
 馊	Ls6			
 亵	Huau			
 脔	v2j			-
+脔	v2e	旧拼写	-	
 裒	ju6u			
 痣	Hu6t			
 痨	lLt			
@@ -5383,6 +5711,7 @@
 鹇	x2n			
 阑	l2H			
 阒	mHjA			
+阒	m5iV	旧拼写	-	
 阕	mciV			
 粞	h5a			
 遒	qu6z			
@@ -5424,15 +5753,20 @@
 裎	uB8			
 裥	uj2			
 祾	vi8u			
+祾	vi8t	旧拼写	-	
 祺	uqE			
+祺	tqE	旧拼写	-	
 谠	dTi			
 幂	fmAp			
 谡	rai			
 谥	i5iY			
 谧	ima4			
+谧	i4ma	旧拼写	-	
 遐	xaz			
 孱	Bie			
-弼	lbiYl			
+弼	llbiY			
+弼	lbiYl	旧拼写	-	
+弼	lbiY	旧拼写	-	
 巽	zu2H			
 骘	g4uo			
 媪	w8A			
@@ -5494,7 +5828,8 @@
 蓓	biVy			
 蓖	pi6y			
 蓊	yw3			
-蒯	yp3l			
+蒯	ylp3			
+蒯	yp3l	旧拼写	-	
 蓟	y7T			
 蓑	DVy			
 蒿	hLy			
@@ -5626,11 +5961,13 @@
 牒	diep			
 煲	bLx			
 敫	juLH			
-徭	yLV			
+徭	yLzH			
+徭	yLV	旧拼写	-	
 愆	F4u2			
 艄	suLq			
 觎	T7o			
 毹	c3j			
+毹	j7o	旧拼写	-	
 貊	4uov			
 貅	vx6			
 貉	vgie			
@@ -5640,6 +5977,7 @@
 腼	mi2e			
 腭	e4o			
 腧	c3e			
+腧	e7o	旧拼写	-	
 塍	t8d			
 媵	t8A			
 詹	Hu2			
@@ -5648,12 +5986,14 @@
 鲇	n2B			
 鲈	Bva			
 稣	Hco			
+稣	Bco	旧拼写	-	
 鲋	B4i3			
 鲐	BtY			
 肄	rNE			
 鹐	quan			
 飕	bs6			
-觥	7TB			
+觥	7BT			
+觥	7TB	旧拼写	-	
 遛	zli6			
 馐	LDu6			
 鹑	B3n			
@@ -5663,6 +6003,7 @@
 痼	tga			
 痿	twV			
 瘐	7Tt			
+瘐	t7T	旧拼写	-	
 瘁	DuVt			
 瘆	tD2			
 麂	vjE			
@@ -5679,6 +6020,7 @@
 猷	qu6v			
 煳	xfiA			
 煜	xkEb			
+煜	xyAb	旧拼写	-	
 煨	xwL			
 煅	xF2			
 煊	xxu2			
@@ -5689,6 +6031,7 @@
 溘	coE			
 漭	EmT			
 滢	nu3E			
+滢	Enu33	旧拼写	-	
 溥	4EE			
 溧	EviL			
 溽	Erua			
@@ -5721,6 +6064,7 @@
 裾	ujA			
 裰	diou			
 禊	uqV			
+禊	tqV	旧拼写	-	
 谩	im2			
 谪	ruYi			
 媾	g6A			
@@ -5754,6 +6098,7 @@
 墁	dm2			
 撂	liA8			
 摞	8uliV			
+摞	8aliV	旧拼写	-	
 撄	8Hu3			
 翥	zAn			
 踅	Dzue			
@@ -5762,6 +6107,7 @@
 墒	ciTd			
 榖	gAc			
 綦	HuqE			
+綦	aqE	旧拼写	-	
 蔫	yYy			
 蔷	quTy			
 靺	xmio			
@@ -5777,6 +6123,7 @@
 蔻	yki6			
 蓿	ykiV			
 斡	hY7			
+斡	hYY	旧拼写	-	
 鹕	nfiA			
 蓼	vLy			
 榛	Hu8c			
@@ -5789,6 +6136,7 @@
 槁	cgL			
 槟	cfbi8			
 槠	cBioi			
+槠	Bioic	旧拼写	-	
 榷	quec			
 僰	Hue1			
 酽	4yuY			
@@ -5925,6 +6273,7 @@
 潢	hiTE			
 漕	EDL			
 滹	hi6E			
+滹	EhiA			
 漯	EliV			
 漶	Efi6			
 潋	Eli2r			
@@ -5937,9 +6286,11 @@
 潍	wVE			
 慵	yu3Y			
 搴	qYj			
+搴	qY8	旧拼写	-	
 窨	f73			
 寤	fwi6			
 綮	uqua			
+綮	aqua	旧拼写	-	
 谮	BYi			
 褡	dau			
 褙	ubiV			
@@ -5960,6 +6311,7 @@
 嫘	AliV			
 嫡	FEA			
 鼐	7nY			
+鼐	4nY	旧拼写	-	
 翟	d1			
 瞀	TrmiY			
 鹜	wi6n			
@@ -5968,6 +6320,7 @@
 缥	apiL			
 缦	am2			
 缧	auliV			
+缧	aliV	旧拼写	-	
 缨	aHu3			
 骢	gDu3			
 缪	mi6a			
@@ -5999,10 +6352,12 @@
 鞒	xquL			
 蕈	y72			
 蕨	yjue			
-蕤	yrL			
+蕤	rLy			
+蕤	yrL	旧拼写	-	
 蕞	yzV			
 蕺	yNiol			
 瞢	mi3T			
+瞢	mi3H	旧拼写	-	
 蕃	yfi2			
 蕲	N6y			
 赜	4ze			
@@ -6030,7 +6385,8 @@
 瞑	m8T			
 嘭	op8			
 噎	oNV			
-噶	ogV			
+噶	og1			
+噶	ogV	旧拼写	-	
 颙	r7ia			
 暹	bzVz			
 噘	ojue			
@@ -6085,12 +6441,14 @@
 篆	2tV			
 牖	pphiA			
 儋	BieV			
+儋	VHu2	旧拼写	-	
 徵	wiL3			
 磐	pes			
 虢	hiAv			
 鹞	yLn			
 膘	biLe			
 滕	t86			
+滕	t8E	旧拼写	-	
 鲠	Bgi8			
 鲡	BviY			
 鲢	Bli2			
@@ -6105,11 +6463,13 @@
 馔	zu2L			
 麾	moj			
 廛	r2H			
-瘛	He5			
+瘛	HeF			
+瘛	He5	旧拼写	-	
 瘼	tmo			
 瘢	tb2			
 瘠	t4T			
-齑	rk1			
+齑	jEh			
+齑	rk1	旧拼写	-	
 羯	jog			
 羰	g7Y			
 𥻗	zuah			
@@ -6121,8 +6481,10 @@
 熵	ciTx			
 熠	NVx			
 澍	DAE			
+澍	dVE	旧拼写	-	
 澌	EnuT			
-潸	Eyue			
+潸	Esua			
+潸	Eyue	旧拼写	-	
 潦	liLE			
 潲	suLE			
 鋈	wioN			
@@ -6163,6 +6525,8 @@
 髭	HuLjH			
 髹	jx6			
 擀	8hYc			
+擀	87gi2	旧拼写	-	
+擀	8gi2	旧拼写	-	
 熹	x5o			
 甏	7p8			
 擞	su68			
@@ -6172,6 +6536,7 @@
 蕻	hi3y			
 鞘	qLx	qiào 装刀、剑的套子		
 鞘	suLx	shāo 拴在鞭子末端的细皮条	-	
+鞘	qYx	旧拼写	-	
 颟	m2r			
 薤	yk1			
 薨	mi3t			
@@ -6180,15 +6545,18 @@
 薮	su6y			
 薜	ybi6			
 薅	Ayrua			
+薅	yArua	旧拼写	-	
 樾	yuoc			
 橛	cjue			
 橇	cHqL			
+橇	cqL	旧拼写	-	
 樵	quLc			
 檎	cqu3			
 橹	voc			
 樽	czu8			
 樨	c56			
 橼	actV			
+橼	catV	旧拼写	-	
 墼	dvie			
 橐	csdA			
 翮	Ben			
@@ -6199,6 +6567,7 @@
 磲	sNiA			
 赝	xyV			
 飙	4uEb			
+飙	4uLb	旧拼写	-	
 殪	tNV			
 霖	li86			
 霏	6fV			
@@ -6247,18 +6616,22 @@
 氇	voj			
 氆	jpA			
 憩	xEL			
+憩	ti24F	旧拼写	-	
 穑	sueh			
 篝	g62			
 篥	2viL			
 篦	pi62			
 篪	g12			
 篙	2gL			
-盥	B264			
+盥	B24			
+盥	B264	旧拼写	-	
 劓	lbi64			
+劓	bi64l	旧拼写	-	
 翱	gLn			
 魉	tviT			
 魈	txL			
-徼	juLV			
+徼	juLzH			
+徼	juLV	旧拼写	-	
 歙	5ior			
 膳	eci2			
 膦	v8e			
@@ -6278,6 +6651,7 @@
 鹧	zuen			
 廨	5xe			
 赟	xw6r			
+赟	xrwi8	旧拼写	-	
 瘰	tliV			
 廪	5l8			
 瘿	tHu3			
@@ -6287,7 +6661,8 @@
 瘳	mi6t			
 斓	l2r			
 麇	hvio			
-麈	dvio			-
+麈	vka			
+麈	dvio	旧拼写	-	-
 嬴	y8A			
 壅	y3d			
 羲	5aH			
@@ -6303,6 +6678,7 @@
 潞	Evo			
 澧	viVE			
 澹	BieE			
+澹	EHu2	旧拼写	-	
 澥	Exe			
 澶	ci2E			
 濂	Evi2			
@@ -6311,6 +6687,7 @@
 窸	5of			
 褶	5iau			
 禧	u5o			
+禧	t5o	旧拼写	-	
 嬖	Abi6			
 犟	gqT			
 隰	xY1			
@@ -6347,8 +6724,10 @@
 龋	kTj			
 龌	jwio			
 豳	rLw			
+豳	2rLw	旧拼写	-	
 壑	hued			
 黻	fAuH			
+黻	fAu	旧拼写	-	
 嚏	o7E			
 嚅	rAo			
 蹑	Dne			
@@ -6379,6 +6758,7 @@
 镫	Nd8			
 罅	7vhiA			
 黏	n2h			
+黏	n2hh	旧拼写	-	
 簌	c62			
 篾	mie2			
 篼	d62			
@@ -6393,6 +6773,7 @@
 魍	wiTt			
 龠	4ueH			
 繇	yLu			
+繇	yLa	旧拼写	-	
 貘	vmo			
 邈	zhuL			
 貔	pi6v			
@@ -6413,6 +6794,7 @@
 襄	kiTH			
 糜	mEhH			
 縻	mEu			
+縻	mEa	旧拼写	-	
 膺	eH3			
 癍	tkio			
 麋	vmE			
@@ -6420,6 +6802,7 @@
 濡	rAE			
 濮	piAE			
 濞	Ebi64			
+濞	bi64E	旧拼写	-	
 濠	EhL			
 濯	Ed1			
 蹇	qYD			
@@ -6428,8 +6811,10 @@
 襁	uqT			
 檗	cpia			
 擘	jbi6			
+擘	8bi6	旧拼写	-	
 孺	rAz			
-隳	suVeF			
+隳	sVF			
+隳	suVeF	旧拼写	-	
 嬷	Am1			
 蟊	kmiY			
 鹬	tiYn			
@@ -6447,10 +6832,12 @@
 藜	yvL			
 藠	5i2y			
 藩	Eyfi2			
+藩	yEfi2	旧拼写	-	
 醪	vL4			
 蹙	NLD			
 礓	jTs			
 燹	rLx			
+燹	2rLx	旧拼写	-	
 餮	z8L			
 瞿	qAH			
 曛	5i8b			
@@ -6509,6 +6896,7 @@
 黼	pAu			
 嚯	hioo			
 蹰	DDA5			
+蹰	DAD	旧拼写	-	
 蹶	Djue			
 蹽	liLD			
 蹼	piAD			
@@ -6518,10 +6906,12 @@
 蠖	hok			
 蠓	km3			
 蟾	Biek			
+蟾	kHu2			
 蠊	kvi2			
 黢	ju8bH			
 髋	jc2			
 髌	jfbi8			
+髌	jbi8H	旧拼写	-	
 镲	NDa			
 籀	28li6			
 籁	2liY			
@@ -6559,11 +6949,14 @@
 巉	Du2w			
 黩	dAb			
 黥	bNi3			
+黥	Ni3b	旧拼写	-	
 黪	bD2			
 镳	4uLN			
 镴	lieN			
+镴	liaN	旧拼写	-	
 黧	bvL			
 纂	usu2			
+纂	asu2	旧拼写	-	
 璺	5i33			
 鼯	7Vj			
 臜	z2e			
@@ -6581,11 +6974,13 @@
 曩	bnT			
 鳢	viVB			
 癫	tdi2			
+癫	ydi2	旧拼写	-	
 麝	vrue			
 夔	cEH			
 爝	xNie			
 灏	fiLE			
 禳	rTu			
+禳	rTt	旧拼写	-	
 鐾	Npa			
 羼	p3yuT			
 蠡	vVH			
@@ -6597,46 +6992,60 @@
 氍	qAj			
 饕	LhL			
 躐	lieD			
+躐	liaD	旧拼写	-	
 髑	jkiA			
 镵	Du2N			
+镵	D2N	旧拼写	-	
 穰	rTh			
 饔	w3L			
-鬻	Belh			
+鬻	hBel			
+鬻	Belh	旧拼写	-	
 鬟	fi2j			
 趱	z2DH			
 攫	Nie8			
 攥	8usu2			
+攥	8asu2	旧拼写	-	
 颧	qu2r			
 躜	z2D			
 鼹	yov			
 癯	qAt			
 麟	v8v			
 蠲	Tk5iY			
+蠲	45iY	旧拼写	-	
 蠹	kdiA			
+蠹	kdiAk	旧拼写	-	
 躞	4uYD			
 衢	qAm			
 鑫	7i83			
 灞	biaE			
 襻	upi6			
 纛	udiA			
+纛	adiA	旧拼写	-	
 鬣	liej			
+鬣	liaj	旧拼写	-	
 攮	8nT			
 囔	onT			
 馕	LnT			
 戆	g2F			
-爨	5i3xc			
+爨	c5i3x			
+爨	5i3xc	旧拼写	-	
 齉	jnT			
 亍	HDA			
+亍	DAj	旧拼写	-	
 尢	Hy6			
 彳	HDE			
+彳	VDE	旧拼写	-	
+彳	7H	旧拼写	-	
 卬	7iYH			
 殳	5T			
 𠙶	mliL			
 毌	B2H			
+毌	diA	旧拼写	-	
 邘	1yA			
 戋	juYH			
 圢	ddi8			
 氕	pie6			
+氕	6NV	旧拼写	-	
 伋	VNa			
 仝	4u3			
 冮	gTE			
@@ -6659,6 +7068,7 @@
 邨	781			
 吒	Duao			
 吖	oyay			
+吖	oyaY	旧拼写	-	
 屼	wiYw			
 屾	ws2			
 辿	zs2			
@@ -6672,10 +7082,12 @@
 犴	42v			
 冱	Efo			
 邡	1fTH			
+邡	1HfT	旧拼写	-	
 闫	mk2			
 𬇕	Ew2			
 汋	EsuL			
 䜣	ki8i			
+䜣	ij3	旧拼写	-	
 讻	ix3			
 𬣞	iHA			
 孖	2HL			
@@ -6720,6 +7132,7 @@
 旴	byA			
 旵	wrE			
 呙	goH			
+呙	woH	旧拼写	-	
 㕮	o4iA			
 岍	wkY			
 𫵷	wvi6			
@@ -6754,10 +7167,12 @@
 忺	Yqo			
 𬣡	juYi			
 祃	uma			
+祃	tma	旧拼写	-	
 诇	ju3i			
 邲	1b6			
 诎	doi			
-诐	ip6			
+诐	piLi			
+诐	ip6	旧拼写	-	
 屃	bVp			
 𫸩	k6lH			
 岊	paw			
@@ -6780,7 +7195,8 @@
 玟	3wi8			
 邽	1BV			
 邿	1HuT			
-坥	dNiA			
+坥	NiAd			
+坥	dNiA	旧拼写	-	
 坰	ju3d			
 坬	dBa			
 坽	dli8			
@@ -6821,6 +7237,7 @@
 钐	cieN			
 钔	Nm8			
 钖	DuTN			
+钖	tDuTN	旧拼写	-	
 牥	gfT			
 佴	Vre			
 垈	ddY			
@@ -6858,7 +7275,9 @@
 峃	xuew			
 穸	f5ia			
 祋	u5T			
+祋	t5T	旧拼写	-	
 祊	ufT			
+祊	tfT	旧拼写	-	
 𫍣	it3			
 𬣳	h8i			
 𬩽	15i8			
@@ -6874,14 +7293,16 @@
 妭	Abia			
 姈	Ali8			
 𫰛	j8A			
-迳	j8z			
+迳	j8zH			
+迳	j8z	旧拼写	-	
 叕	dioH			
 𬳵	gpE			
 驵	NiAg			
 𬳶	ju3g			
 䌹	ju3a			
 驺	BiLg			
-𫠊	xu2g			
+𫠊	xu2gH			
+𫠊	xu2g	旧拼写	-	
 绋	a4iL			
 绐	dYa			
 砉	h1			
@@ -6893,7 +7314,8 @@
 𬍛	vY3			
 珋	vi63			
 玹	xu23			
-珌	3b6			
+珌	3b6H			
+珌	3b6	旧拼写	-	
 玿	sL3			
 韨	pbia			
 垚	3tA			
@@ -6903,6 +7325,7 @@
 埏	dyY			
 垍	dt1			
 耇	tgi6			
+耇	tNiA	旧拼写	-	
 鿍	djuT			
 垎	lod			
 垴	nLd			
@@ -6912,8 +7335,10 @@
 垵	dNi2			
 垏	dciY			
 拶	418			
+拶	4ua8	旧拼写	-	
 荖	ylL			
 荁	f6y			
+荁	gi8y	旧拼写	-	
 荙	ydia			
 荛	ruLy			
 茈	yHV	cí 用于“凫茈”	凫~	
@@ -6955,6 +7380,7 @@
 盷	53T			
 咡	ore			
 咺	f6o			
+咺	gi8o	旧拼写	-	
 昳	di2b	dié		
 昳	5Yb	yì 用于“昳丽”	~丽	
 昣	z8b			
@@ -6975,6 +7401,7 @@
 峧	wjL			
 帡	pi8pH			
 钘	x8N			
+钘	NkY	旧拼写	-	
 𫓧	N4ia			
 钜	N5V			
 𬬮	BiTN			
@@ -7037,8 +7464,11 @@
 扂	diVp			
 袆	uwiV			
 祏	sEu			
+祏	sEt	旧拼写	-	
 祐	u7i6			
+祐	t7i6	旧拼写	-	
 祕	ub6			
+祕	tb6H	旧拼写	-	
 叚	xaH			
 陧	ne1			
 陞	1dfiL			
@@ -7062,6 +7492,7 @@
 珛	yu63			
 珹	3D8			
 琊	31ya			
+琊	3ya1	旧拼写	-	
 玼	3HV			
 珖	3BT			
 𪟝	lze			
@@ -7085,7 +7516,8 @@
 茝	NTy			
 𬜯	m2H			
 鄀	ro1			
-莶	yquY			
+莶	quYy			
+莶	yquY	旧拼写	-	
 莝	Doy			
 䓖	yq3			
 莙	yju8			
@@ -7095,6 +7527,7 @@
 桄	cBE			
 梠	vioc			
 栴	cfte			
+栴	cteV	旧拼写	-	
 梴	cyY			
 栒	cxu8			
 酎	Du84			
@@ -7116,11 +7549,13 @@
 赀	HuLx			
 哢	l3o			
 晅	f6b			
+晅	gi8b	旧拼写	-	
 晊	bHY			
 唝	oxg3			
 哳	ozueH			
 哱	obo			
 冔	obyA			
+冔	boyA	旧拼写	-	
 晔	bfa			
 晐	gYb			
 晖	hVbH			
@@ -7136,7 +7571,8 @@
 崄	juYw			
 帨	psuV			
 崀	lTw			
-赆	xj8			
+赆	xN3H			
+赆	xj8	旧拼写	-	
 𬬸	NsA			
 钷	Npo			
 𬬻	Nva			
@@ -7176,6 +7612,7 @@
 眢	tVT			
 𫗧	Ls3			
 勍	lNi3H			
+勍	lNi3	旧拼写	-	
 痄	tza			
 疰	tka			
 痃	xu2t			
@@ -7213,12 +7650,16 @@
 扅	5Tp			
 扆	pyE			
 袪	uqAH			-
+袪	uqA	旧拼写	-	
 袗	z8u			
 袯	upio			
 祧	tiLu			
+祧	tiLt	旧拼写	-	
 隺	queH			
+隺	quenH	旧拼写	-	
 堲	dNiY			
 疍	Dd2			
+疍	fd2	旧拼写	-	
 𨺙	nE1			
 陴	b61			
 烝	xBi3			
@@ -7255,7 +7696,8 @@
 壸	fyua			
 㙍	diod			
 聍	Tn8			
-菝	y8bia			
+菝	8ybia			
+菝	y8bia	旧拼写	-	
 萚	yze8			
 菥	y5io			
 莿	yHuel			
@@ -7267,7 +7709,8 @@
 菍	ynu2			
 菼	yyuV			
 萣	di8y			
-䓨	yyuL			
+䓨	nu37			
+䓨	yyuL	旧拼写	-	
 菉	ylA			
 䓛	yjuo			
 梼	FiLc			
@@ -7336,23 +7779,27 @@
 㿠	bBT			
 鄅	kT1			
 偓	Vwio			
-徛	VNi6			
+徛	zNi6			
+徛	VNi6	旧拼写	-	
 衒	xu2m			
 舳	qyu6			
 舲	qli8			
 鸼	nzu6			
 悆	F7io			
 鄃	c31			
+鄃	17o	旧拼写	-	
 瓻	7xE			
 䝙	vFi6			
 脶	goe			
 脞	Doe			
 脟	hi6e			
 䏲	edV			
+䏲	etE	旧拼写	-	
 鱾	qEB			
 猇	vhiL			
 猊	nEv			
 猄	vNi3			
+猄	xNi3	旧拼写	-	
 觖	jue7H			
 𠅤	fnua			
 庱	vi85			
@@ -7389,6 +7836,7 @@
 袼	ugie			
 裈	u58			
 祲	q8u			
+祲	q8t	旧拼写	-	
 𬤊	isE			
 𫍲	is6			
 谞	xAi			
@@ -7398,6 +7846,7 @@
 𬯎	ciV1			
 隃	c31H	shū		
 隃	17o	yú		
+隃	17oH	旧拼写	-	
 婞	x3A			
 娵	r6A			
 婼	roA			
@@ -7420,6 +7869,7 @@
 骕	gc6			
 𫘧	glA			
 絜	uqV			
+絜	aqV	旧拼写	-	
 珷	w63			
 琲	bi33			
 琡	3cL			
@@ -7436,6 +7886,7 @@
 塅	dF2			
 堠	dhi6			
 絷	Huau			-
+絷	Huaa	旧拼写	-	
 𪣻	dl6			
 𡎚	dpi2			
 葜	yqV			
@@ -7448,7 +7899,8 @@
 蒈	kiYy			
 鄚	1moH			
 蒉	yBiV			
-蓇	ygia			
+蓇	ygiA			
+蓇	ygia	旧拼写	-	
 萩	yqu6			
 蒐	BiVy			
 葰	ju8y			
@@ -7457,9 +7909,11 @@
 蒎	ypiY			
 葖	tiAy			
 蒄	yHB2			
+蒄	yB2f	旧拼写	-	
 萹	ybi2			
 棤	Duoc			
-棽	N3cc			
+棽	cN3c			
+棽	N3cc	旧拼写	-	
 棫	chio			
 椓	zuoc			
 椑	cbV			
@@ -7469,6 +7923,7 @@
 椆	diLc	diāo	~苕	
 棓	biVc			
 棬	quoc			
+棬	quo8c	旧拼写	-	
 棪	cyuV			
 椀	cwi2			
 楗	cjuY			
@@ -7476,7 +7931,8 @@
 甦	Vgi8			
 酦	4pio			
 觌	TpmY			
-奡	txua			
+奡	huLr			
+奡	txua	旧拼写	-	
 皕	2biY			
 硪	swo			
 欹	rNi6			
@@ -7529,6 +7985,7 @@
 筘	28k6			
 筜	2dT			
 筥	vio2			
+筥	vuo2	旧拼写	-	
 筅	2x2			
 傃	Vci6			
 傉	Vrua			
@@ -7550,7 +8007,8 @@
 猯	DuYv			
 㺄	v7o			
 馉	fiaL			
-凓	EviLE			
+凓	EviLH			
+凓	EviLE	旧拼写	-	
 鄗	hL1			
 𫷷	5F3			
 廋	5s6			
@@ -7586,6 +8044,7 @@
 扊	pyuV			
 裣	j2u			
 祼	liou			-
+祼	liot	旧拼写	-	
 婻	An2			
 媆	AnuYf			
 媞	ti6A			
@@ -7598,6 +8057,7 @@
 𬴃	gh1			
 𫘨	ti6g			
 缊	vi3a			
+缊	wi3a	旧拼写	-	
 缐	aquo			
 骙	gciV			
 瑃	3Du8			
@@ -7619,6 +8079,7 @@
 塥	Bed			
 堽	giTd			
 赪	hci8			
+赪	Dci8	旧拼写	-	
 摛	8viV			
 塝	bTd			
 搒	bT8			
@@ -7634,6 +8095,7 @@
 椹	cki2			
 楪	diec			
 榃	li84			
+榃	ctie	旧拼写	-	
 榅	vi3c			
 楒	cnua			
 楞	l8c			
@@ -7661,6 +8123,7 @@
 𫫇	4oo			
 㬊	yu2bH			
 暅	bgi8Y			
+暅	bf6Y	旧拼写	-	
 跱	HuaD			
 蜐	klFiV			
 蜎	ju2k			
@@ -7694,6 +8157,7 @@
 谼	hi3h			
 貆	f6v			
 腽	vi3e			
+腽	wi3e	旧拼写	-	
 腨	DuYe			
 腯	F8e			
 鲉	Byu6			
@@ -7744,9 +8208,13 @@
 𫌀	uze			
 裼	u5iT			
 禋	y2u			
+禋	y2t	旧拼写	-	
 禔	usE			
+禔	tsE	旧拼写	-	
 禘	udE			
+禘	tdE	旧拼写	-	
 禒	utV			
+禒	ttV	旧拼写	-	
 谫	iljuV			
 鹔	nc6			
 𫖳	rju8			
@@ -7773,6 +8241,7 @@
 墈	dlki2			
 墐	Ni3d			
 墘	dhYl			
+墘	dge7	旧拼写	-	
 摴	86wia			
 銎	Ng3f			
 𡐓	dkiT			
@@ -7788,6 +8257,7 @@
 蔊	yxh2			
 嘏	bgA	gǔ		
 嘏	juab	jiǎ		
+嘏	juaB	旧拼写	-	
 榰	NiLc			
 榑	bioc			
 槚	cgiA			
@@ -7810,6 +8280,7 @@
 劂	ljue			
 𫚖	HuLB			
 䴗	nHjA			
+䴗	n5iV	旧拼写	-	
 夥	hdo			
 瞍	Ts6			
 鹖	Nen			
@@ -7829,7 +8300,8 @@
 镃	HVN			
 镄	fVN			
 镅	NmiV			
-馝	hb6H			
+馝	hb6			
+馝	hb6H	旧拼写	-	
 鹙	nqu6			
 箨	2ze8			
 箖	li82			
@@ -7851,10 +8323,12 @@
 𬶏	BVB			
 𩽾	BNi2			
 夐	Hx3			
+夐	lxua	旧拼写	-	
 獍	vj8			
 飗	bli6			
 𬸚	n7Y			
-凘	EnuTE			
+凘	EnuTH			
+凘	EnuTE	旧拼写	-	
 廑	Ni35			
 廙	NiV5			
 瘗	tvie			
@@ -7869,7 +8343,8 @@
 漤	v6E			
 潩	NiVE			
 漼	EDuV			
-漴	Bi3Ew			
+漴	EBi3w			
+漴	Bi3Ew	旧拼写	-	
 㽏	TqaE			
 漈	NoE			
 漋	Eli3			
@@ -7881,7 +8356,9 @@
 𬤝	ife			
 褕	u7o			
 禛	uHu8			
+禛	tHu8	旧拼写	-	
 禚	gLu			
+禚	gLt	旧拼写	-	
 隩	14L			
 嫕	ANiVF			
 嫭	hi6A			
@@ -7892,10 +8369,12 @@
 麹	NAh			-
 璆	mi63			
 漦	lE6			
+漦	lEE	旧拼写	-	
 叇	diY6			
 墣	piAd			
 墦	dfi2			
-墡	dc2			
+墡	dci2			
+墡	dc2	旧拼写	-	
 劐	hol			
 薁	y4L			
 蕰	ywi3E			
@@ -7930,6 +8409,7 @@
 镈	bioN			
 镋	dTN			
 镎	Nhaj			
+镎	Nha8	旧拼写	-	
 𬭩	Nw3			
 镕	Nr3			
 稹	hHu8			
@@ -7947,7 +8427,8 @@
 橥	HAc			
 觭	7Ni6			
 鹠	nli6			
-鹡	nNT			
+鹡	n4T			
+鹡	nNT	旧拼写	-	
 糇	hhi6			
 糈	xAh			
 翦	njuV			
@@ -7955,7 +8436,8 @@
 鹣	quVn			
 熛	biLx			
 潖	paE			
-潵	Esua			
+潵	EsuaH			
+潵	Esua	旧拼写	-	
 㵐	Ejue			
 澂	EwiL3			
 澛	voE			
@@ -7969,6 +8451,7 @@
 戭	ti3l			
 褯	N2u			
 禤	tau			-
+禤	tat	旧拼写	-	
 𫍽	fi2i			
 嫽	liLA			
 遹	tiYz			
@@ -7982,6 +8465,7 @@
 薳	yztiV			
 鞔	qmi2			
 黇	diVh			
+黇	n2h	旧拼写	-	
 𬞟	ypi3			
 蕗	yvo			
 薢	yxe			
@@ -8026,10 +8510,12 @@
 盦	4piV			
 螣	t8k			
 縢	t8u			
+縢	t8a	旧拼写	-	
 鲭	Bq8			
 鲯	BqE			
 鲰	r6B			
 鲺	B78k			
+鲺	BsEk	旧拼写	-	
 鲹	BD2			
 𫗴	ci2L			
 亸	B34H			
@@ -8058,7 +8544,8 @@
 鹨	vLn			
 翯	hLn			
 𫄷	a5L			
-璱	33b63			
+璱	33b6			
+璱	33b63	旧拼写	-	
 𤩽	352			
 璬	juL3			
 璮	ci23			
@@ -8066,16 +8553,19 @@
 擿	8ruYz			
 薿	yNE			
 薸	EypiL			
+薸	yEpiL	旧拼写	-	
 檑	clV			
 櫆	ccVf			
 檞	cxe			
 醨	4viV			
 繄	uNiV			
+繄	aNiV	旧拼写	-	
 磹	s72			
 磻	sp2			
 瞫	T72			
 瞵	v8T			
-蹐	DNT			
+蹐	D4T			
+蹐	DNT	旧拼写	-	
 蟏	kxuLy			
 㘎	fiYo			
 𬭳	N5o			
@@ -8123,12 +8613,14 @@
 𦈡	rAa			
 𫄸	5i8a			
 瓀	rA3			
+瓀	arA3	旧拼写	-	
 釐	lEr			
 鬶	kVq			
 爇	yrex			
 鞳	dax			
 鞮	ti6x			
-𬟁	Beny			
+𬟁	yBen			
+𬟁	Beny	旧拼写	-	
 藟	yliV			
 藦	ymoj			
 藨	4uLy			
@@ -8136,7 +8628,8 @@
 檫	cDa			
 黡	yuab			
 礞	sm3			
-礌	sl1			
+礌	slV			
+礌	sl1	旧拼写	-	
 𥖨	zuLs			
 蹢	ruYD			
 蹜	DkiV			
@@ -8175,6 +8668,7 @@
 嚭	xpEo			
 㰀	cvL			
 鬷	qrx3			
+鬷	raq	旧拼写	-	
 醭	piA4			
 蹯	Dp2			
 蠋	kkiA			
@@ -8190,6 +8684,7 @@
 鳛	5iaB			
 麑	nEvH			
 麖	vNi3H			
+麖	vNi3	旧拼写	-	
 蠃	y8k			
 彟	hox			
 嬿	yuYA			
@@ -8199,6 +8694,7 @@
 醵	5iV4			
 颥	rAr			
 甗	752			
+甗	7wa	旧拼写	-	
 𨟠	Nie1			
 巇	wkE			
 酅	15iem			
@@ -8212,11 +8708,13 @@
 瀹	4ueE			
 瀼	rTE			
 瀵	Ef8h			
+瀵	ENiVh	旧拼写	-	
 襫	u4uTs			
 孅	Ak1			
 骦	gsuT			
 𬙋	rTa			
 耰	7n6			
+耰	7y6	旧拼写	-	
 𤫉	4uY3			
 瓖	kiT3			
 鬘	jm2			
@@ -8243,6 +8741,7 @@
 籥	4ue2			
 鼷	v5i6			
 𫚭	lieB			
+𫚭	liaB	旧拼写	-	
 玃	Niev			
 醾	4mEh			
 齇	jhiL			
@@ -8262,6 +8761,7 @@
 㪎	hu2r			
 㳠	Edia			
 㷂	k1xH			
+㷂	k1x	旧拼写	-	
 㹂	k1g			
 䁂	k1T			
 䌷	ki6a			
@@ -8281,6 +8781,7 @@
 丌	huE			
 並	4u3H			
 丨	41			
+丨	1H	旧拼写	-	
 丩	7i6H			
 丶	diVH			
 丼	pN8			
@@ -8289,17 +8790,23 @@
 乧	ld6			
 乫	lja			
 乭	sEl			
+乭	sEz	旧拼写	-	
 乮	lmiT			
 乶	hiAl			
+乶	hiAz	旧拼写	-	
 乷	sal			
+乷	saz	旧拼写	-	
 乻	l7iL			
+乻	z7iL	旧拼写	-	
 亃	v8l			
 亙	gi8H			-
 亯	B3H			-
 亻	4VH			
+亻	VH	旧拼写	-	
 仛	DuaV			
 仜	h3V			
 仠	hi2V			
+仠	Vgi2			
 仮	Vf2			
 仯	DuLV			
 仸	yuLV			
@@ -8398,7 +8905,8 @@
 偔	V4o			
 偙	VdE			
 偛	ruaV			
-偝	VbiV			
+偝	VebiV			
+偝	VbiV	旧拼写	-	
 偟	VfiT			
 偠	VyL			
 偣	Ni2V			
@@ -8431,6 +8939,7 @@
 傦	VgiA			
 傪	VD2			
 傫	VuliV			
+傫	ValiV	旧拼写	-	
 傭	yu3V			
 傮	zLV	zāo		
 傮	VDL	cáo		
@@ -8462,18 +8971,21 @@
 僾	4YV			
 僿	sYV			
 億	V5L			
+億	V5E	旧拼写	-	
 儅	VdT			
 儊	VBi6			
 儌	juLVH			
 儏	gEV			
 儓	VtYH			
+儓	VHtY	旧拼写	-	
 儖	vi2V			
 儗	VNE			
 儙	Vque			
 儚	mi3V			
 儛	Vw6			
 儠	lieV	liè		
-儢	Vvia	là		
+儠	liaV	là		
+儢	Vvia			
 儤	VpL			
 優	Vn6			-
 儫	VhL			
@@ -8488,7 +9000,9 @@
 兒	nEH			
 兤	fT5			
 冂	Hm8			
+冂	mH	旧拼写	-	
 冇	HmL			
+冇	mLy	旧拼写	-	
 冋	ju3H			
 冎	BiaH			
 冓	g6H			
@@ -8496,15 +9010,20 @@
 冞	fmE			
 冧	li8f			
 冩	xo			-
+冩	fxo	旧拼写	-	
 冪	fmAp			-
+冪	mEp	旧拼写	-	
 冭	dtiY			
 冴	Eya			
 冹	fAE			
 凅	EgaH			
 凎	7i8EH			
-凐	Ey8E			
+凐	Ey8H			
+凐	Ey8E	旧拼写	-	
 凖	43E			-
-凗	EDuVE			
+凖	FVx	旧拼写	-	
+凗	EDuVH			
+凗	EDuVE	旧拼写	-	
 凢	f2d			
 凮	bf3			
 凵	ki2H			
@@ -8556,6 +9075,7 @@
 勭	lti3			
 勮	5iVlH			
 勲	x5i8l			
+勲	5i8lx	旧拼写	-	
 勳	5i8l			
 勴	lvia			
 勶	Del			
@@ -8570,9 +9090,13 @@
 匘	nLt			
 匚	fTH			
 匞	juTm			
+匞	juTc	旧拼写	-	
 匟	mkT			
+匟	ckT	旧拼写	-	
 匢	hAm			
+匢	hAc	旧拼写	-	
 匥	ciYm			
+匥	ciYc	旧拼写	-	
 匧	mqa			
 匫	mhAb			
 匰	d2m			
@@ -8601,6 +9125,7 @@
 叄	pk2			
 叅	Fk2			
 叡	hueT			
+叡	hue2	旧拼写	-	
 叿	h3o			
 吂	mTo			
 吇	oHL			
@@ -8757,12 +9282,14 @@
 嚾	fi6o			
 囄	oviV			
 囅	D2p			
+囅	D2z	旧拼写	-	
 囋	z2o			
 囌	oyco			
 囍	z5o			
 囎	H3o			
 囒	l2o			
 囗	Hgo			
+囗	goH	旧拼写	-	
 囘	efiV			
 囝	mHL			
 囥	mkTH			
@@ -8803,6 +9330,7 @@
 垬	hi3d			
 垰	kad			
 垳	5ed			
+垳	dhT	旧拼写	-	
 垹	dbT			
 埁	4i3d			
 埄	fi3d			
@@ -8820,16 +9348,19 @@
 埳	quad			
 埶	reH			
 埿	EdnE			
+埿	dEnE	旧拼写	-	
 堀	djuo			
 堁	kied			
 堈	dgT			
 堏	dcfT			
+堏	cdfT	旧拼写	-	
 堓	42d			
 堗	tiAd			
 堢	bLdH			
 堥	drmiY			
 堦	xuVd			
 堩	dgi8Y			
+堩	df6Y	旧拼写	-	
 堮	d4o			
 堳	dmiV			
 塀	dpi8p			
@@ -8862,6 +9393,7 @@
 墫	dzu8			
 墮	sVd			
 墯	dFioY			
+墯	FioYd	旧拼写	-	
 墰	d72			
 墱	dd8			
 墲	dw6			
@@ -8888,7 +9420,8 @@
 夌	vi8H			
 夎	Dor			
 夗	tVH			
-夠	xgi6			
+夠	egi6			
+夠	xgi6	旧拼写	-	
 夢	ymi3b			
 夣	mi3z			
 奃	fdiT			
@@ -8897,6 +9430,7 @@
 奟	b3f			
 奤	4da			
 奧	4L			-
+奧	h4L	旧拼写	-	
 奵	Adi8			
 奼	DuaA			
 妅	h3A			
@@ -8944,7 +9478,8 @@
 娏	miTA			
 娔	Ake			
 娗	Ati8			
-娚	Aj2			
+娚	A4l2			
+娚	Aj2	旧拼写	-	
 娡	Hu6A			
 娤	AzuTd			
 娪	7VA			
@@ -9001,6 +9536,7 @@
 嫏	AlT			
 嫑	byL			
 嫓	pi6A			-
+嫓	pi6AH	旧拼写	-	
 嫙	AxuV			
 嫝	AkiT			
 嫞	yu3A			
@@ -9065,7 +9601,8 @@
 尃	bAf	fū		
 尃	4EH	bù		
 尅	fke			
-導	dLzf			
+導	fdLz			
+導	dLzf	旧拼写	-	
 尞	liLH			
 尡	fi8b			
 尦	hsuL			-
@@ -9075,11 +9612,13 @@
 屌	pFiL			
 屍	pHue			
 屒	H8pH			
+屒	H8t	旧拼写	-	
 屚	l6H			
 屝	pfVH			
 屪	liLp			
 屬	pkiA			-
 屮	Hya			
+屮	yH	旧拼写	-	
 屰	ci6H			
 屽	hi2w	hàn		
 屽	42wH	àn		
@@ -9142,7 +9681,8 @@
 嵔	wwL			
 嵙	wce			
 嵜	wNi6H			
-嵞	tAww			
+嵞	wtAw			
+嵞	tAww	旧拼写	-	
 嵟	wDuV			
 嵡	ww3			
 嵢	wDuT			
@@ -9159,6 +9699,7 @@
 嵾	wD2			
 嶆	wDL			
 嶋	FL			
+嶋	wFL	旧拼写	-	
 嶑	wxuT			
 嶚	liLwH			
 嶛	liLw			
@@ -9172,6 +9713,7 @@
 嶿	rAw			
 巃	wl3			
 巈	NAw			
+巈	wNA	旧拼写	-	
 巏	qu2w			
 巒	v2w			-
 巖	w5yuY			
@@ -9179,7 +9721,8 @@
 巛	3giV			
 巠	F3H			
 巤	liaH			
-巶	szL			
+巶	ezL			
+巶	szL	旧拼写	-	
 巿	huVH			
 帄	pdi8			
 帉	pf8			
@@ -9196,6 +9739,7 @@
 帹	pqY			
 帺	Nap			
 帾	F6p			
+帾	zApH	旧拼写	-	
 帿	phi6			
 幇	f3p			
 幈	ppi8p			
@@ -9206,12 +9750,15 @@
 幙	pmo			
 幚	pbT			-
 幣	biTp			
-幥	pruT			
+幥	psTj			
+幥	pruT	旧拼写	-	
 幨	Biep			
 幩	f8p			
 幭	miep			
 幮	pDA5			
+幮	DAp	旧拼写	-	
 幹	hYc	与榦合并		-
+幹	7gi2	旧拼写	-	
 庀	p65			
 庅	5m1			
 庉	578	tún		
@@ -9223,16 +9770,20 @@
 庫	kA			-
 庬	miT5			-
 庰	5bi3			
+庰	pi85			
 庲	5lY			
 庴	Duo5			-
+庴	Duof	旧拼写	-	
 庿	5miL			
 廂	5xT			-
 廇	5li6			
 廈	5xua			-
+廈	fxua	旧拼写	-	
 廍	kia5			
 廗	5diY			
 廘	5vio			
 廝	5nuT			
+廝	5nuTH	旧拼写	-	
 廥	5cY			
 廦	5bi6			
 廧	quT5	qiáng		
@@ -9243,16 +9794,19 @@
 廱	w35			
 廸	FiVzH			
 廹	piYzH			
-廻	zfiV			
+廻	HzfiV			
+廻	zfiV	旧拼写	-	
 廾	Hgi3			
 弅	tf8			
 弉	zuTt			
 弌	7NV			
 弎	7k2			-
+弎	lk2	旧拼写	-	
 弤	ldiT			
 弪	Hj8l			
 弫	ci8l			
 弮	quolH			
+弮	quol	旧拼写	-	
 彁	lge			
 彄	k6lH			-
 彆	biel			
@@ -9260,27 +9814,46 @@
 彊	jTl			
 彏	Niel			
 彐	Hxue			
+彐	vxue	旧拼写	-	
 彡	ak2			
 彫	diLa			
 彯	apiLH			
-彶	VVNa			
-彺	VVwT			
-後	Vh6			
-徎	VVB8			
-徏	V4uo			
-徖	Bi3VV			
-徝	VVH6			
-從	VD3			
-徥	ti6VV			
-徦	xaV			
-徧	Vbi2			
-復	VkiY			
-徬	VpT			
-徱	VVpiL			
-徲	V56			
-徹	DeVH			
-忀	kiTVV			
-忂	qAV			
+彶	zNa			
+彶	VVNa	旧拼写	-	
+彺	zwTH			
+彺	VVwT	旧拼写	-	
+後	zh6H			
+後	Vh6	旧拼写	-	
+徎	zB8H			
+徎	VVB8	旧拼写	-	
+徏	z4uo			
+徏	V4uo	旧拼写	-	
+徖	Bi3z			
+徖	Bi3VV	旧拼写	-	
+徝	zH6			
+徝	VVH6	旧拼写	-	
+從	zD3			
+從	VD3	旧拼写	-	
+徥	ti6z			
+徥	ti6VV	旧拼写	-	
+徦	xazH			
+徦	xaV	旧拼写	-	
+徧	zbi2H			
+徧	Vbi2	旧拼写	-	
+復	zkiY			
+復	VkiY	旧拼写	-	
+徬	zpT			
+徬	VpT	旧拼写	-	
+徱	zpiL			
+徱	VVpiL	旧拼写	-	
+徲	z56H			
+徲	V56	旧拼写	-	
+徹	DezH			
+徹	DeVH	旧拼写	-	
+忀	kiTz			
+忀	kiTVV	旧拼写	-	
+忂	qAz			
+忂	qAV	旧拼写	-	
 忊	Ydi8			
 忋	YgiY			
 忓	hi2Y	hàn		
@@ -9290,12 +9863,14 @@
 忲	YtiY			
 忷	Yx3			
 忼	YkT			
+忼	hTY	旧拼写	-	
 怇	Y5V			
 怑	YbiT			
 怗	tieY			
 怘	FgA			
 怚	qeY	qū		
 怚	NiAY	jù		
+怚	ciaY	旧拼写	-	
 怞	ki6Y	chóu		
 怞	Yyu6	yóu		
 怢	di2Y			
@@ -9351,7 +9926,9 @@
 愗	FrmiY			
 愘	Ycef			
 愙	Fcef			
+愙	ceF	旧拼写	-	
 愛	4YF			-
+愛	4YFH	旧拼写	-	
 愢	suYY	sāi		
 愢	Ynua	sī		
 愬	Fsuo			
@@ -9389,6 +9966,7 @@
 憯	BYY			
 憱	j6Y			
 憶	Y5L			
+憶	Y5E	旧拼写	-	
 懁	fi2Y			
 懅	5iVY			
 懆	kiLY			
@@ -9406,6 +9984,7 @@
 懹	rTY			
 懺	Yk1			
 懽	B2Y			
+懽	fi6Y	旧拼写	-	
 戄	NieY			
 戉	yuoH			
 戙	d3l			
@@ -9429,6 +10008,7 @@
 拕	tio8			
 拚	ciY8			
 拝	bYH			-
+拝	bY8	旧拼写	-	
 拫	h88			
 拵	84u8			
 拺	Hue8			
@@ -9437,6 +10017,7 @@
 挌	8gie			
 挏	d38			
 挐	jrA			
+挐	8rA	旧拼写	-	
 挒	8lie			
 挢	8quL			
 挩	8suV			
@@ -9453,6 +10034,7 @@
 捱	ya8			
 捲	quo8	quán		
 捲	8ju2	juǎn		
+捲	quo8H	旧拼写	-	
 捳	87Y			
 捹	b88			
 掁	BiT8			
@@ -9495,16 +10077,19 @@
 搙	8rua			
 搧	8cie			
 搫	jb2			
+搫	8b2H	旧拼写	-	
 搯	8tL			
 搵	w88			-
 搷	7ie8			
 搸	Hu88			
 搿	giej			
+搿	gie8	旧拼写	-	
 摋	8sa			
 摡	8gY			
 摥	tiT8			
 摪	8jT			
 摮	4iLj			
+摮	4iL8	旧拼写	-	
 摱	8m2			
 摲	8H2			
 摵	N68			
@@ -9513,8 +10098,11 @@
 摺	5ia8			-
 摾	8qT			
 撀	Fi3j			
+撀	Fi38	旧拼写	-	
 撆	piej			
+撆	pie8H	旧拼写	-	
 撉	jF8			
+撉	8F8	旧拼写	-	
 撗	hiT8			
 撘	8da2			
 撣	d28			-
@@ -9550,11 +10138,14 @@
 敾	rci2			
 斏	lTr			
 斣	7kiAH			
+斣	4d6	旧拼写	-	
 斮	Duo7			
+斮	Duoj	旧拼写	-	
 斻	hTf			
 斿	76H			
 旈	li6fH			
 旊	7fTH			
+旊	7fTV	旧拼写	-	
 旙	ffi2H			
 旛	ffi2			
 旝	fcY			
@@ -9683,6 +10274,7 @@
 椡	FLc			
 椥	cHa			
 椦	cquol			
+椦	quoc	旧拼写	-	
 椩	g8c			
 椯	DuYc			
 椱	ckiY			
@@ -9708,6 +10300,7 @@
 榡	cci6			
 榥	fiTc			
 榦	hYc			
+榦	cgi2H	旧拼写	-	
 榶	ctiT			
 榼	coc			
 槀	cgLH			
@@ -9755,6 +10348,7 @@
 橷	d6c			
 橿	jTc			
 檊	chYc			
+檊	c7gi2	旧拼写	-	
 檤	dLc			
 檦	lbiLc			
 檮	cD6			
@@ -9765,6 +10359,7 @@
 櫐	cliV			
 櫖	cvia			
 櫯	cHco			
+櫯	cco	旧拼写	-	
 櫱	cnue			-
 櫴	cliY			
 櫵	cjuL			
@@ -9795,7 +10390,8 @@
 殺	7sa			
 殻	gAn			
 毈	F2q			
-毘	pE4H			
+毘	pE4			
+毘	pE4H	旧拼写	-	
 毚	Du2H			
 毢	j5a			
 毧	ru3j			
@@ -9806,14 +10402,16 @@
 毾	taj			
 氎	FiTj			
 気	N6			
+気	xN6	旧拼写	-	
 氜	6rE			
 氣	N6			
+氣	hN6	旧拼写	-	
 氭	6d3			
 氵	Ek2			
 氻	leE			
 氽	r8E			
-汃	baE	bīn		
-汃	paEH	pà		
+汃	baE			
+汃	paEH	pà，旧拼写	-	
 汎	f2E			
 汏	Eda			
 汒	mTE			
@@ -9838,6 +10436,7 @@
 泩	Esu3			
 泬	ExuY			
 泶	xue6			
+泶	xueE	旧拼写	-	
 洃	EhV			
 洉	Eh6			
 洐	x8E			
@@ -9848,7 +10447,8 @@
 洩	5ieE			
 洶	Elx3			
 浀	EFE			
-浄	Ni8E			
+浄	Ni8EH			
+浄	Ni8E	旧拼写	-	
 浌	Eha			
 浗	Eq6			
 浢	Edi6			
@@ -9908,6 +10508,7 @@
 漥	Ewaf			
 漮	EkiT			
 潌	hu6E			
+潌	fHYE	旧拼写	-	
 潎	pieE			
 潒	ExuT			
 潕	Ew6			-
@@ -9931,13 +10532,15 @@
 濛	Em3			
 濢	EzuV	zuǐ		
 濢	EDuVn	cuì		
-濨	HVEF			
+濨	EHVF			
+濨	HVEF	旧拼写	-	
 濲	EgAc			
 瀎	mieE			
 瀖	hioE			
 瀙	EFi8			
 瀞	ENi8q			
-瀦	HAEv			
+瀦	EHAv			
+瀦	HAEv	旧拼写	-	
 瀻	EFiY			
 灀	EsuT			
 灆	Evi2y			
@@ -9951,6 +10554,7 @@
 炤	xzL			
 炰	pLxH			
 炲	xtYH			
+炲	xHtY	旧拼写	-	
 炴	xyTH			
 炿	xzu6			
 烌	xx6			
@@ -9998,13 +10602,15 @@
 爮	pLjH			
 爼	ciax			
 牑	pbi2			
+牑	qbi2	旧拼写	-	
 牓	bTp			
 牞	leg			
 牠	tiag			
 牳	gmA			
 牸	gHL			
 犅	ggT			
-犖	xnu6			
+犖	lLg			
+犖	xnu6	旧拼写	-	
 犜	gF8			
 犮	fAH			
 犳	kLvH			
@@ -10021,6 +10627,7 @@
 猂	vhi2			
 猅	pYv			
 猋	4uEH			
+猋	3quV	旧拼写	-	
 猑	vc8			
 猓	vgio			
 猵	vbi2			
@@ -10042,7 +10649,8 @@
 珮	3pV			
 珯	3lL			
 珴	4io3			
-琌	34i3			
+琌	4i33			
+琌	34i3	旧拼写	-	
 琍	3vV			
 琓	wT3			
 琖	rY3			
@@ -10071,10 +10679,12 @@
 瓭	FiY7			
 瓹	ju27			
 甂	7bi2H			
+甂	7Hbi2	旧拼写	-	
 甆	HV7			
 甊	7l6H			-
 甙	7g2			
 甛	ti2LH			
+甛	ti24H	旧拼写	-	
 甼	4di8H			
 畐	4iTH			
 畑	xtie			
@@ -10088,8 +10698,10 @@
 畾	liV			
 疊	FiT4			
 疋	Hd2			
+疋	d2H	旧拼写	-	
 疌	juoH			
 疒	bi8tH			
+疒	tH	旧拼写	-	
 疘	gTt			
 疛	zu6t			
 疨	tya			
@@ -10182,23 +10794,35 @@
 磪	sDuV			
 磳	H3s			
 磺	hiTs			
-礃	sruT			
+礃	ssTj			
+礃	sruT	旧拼写	-	
 礋	zes			
 礠	sHVF			
 礡	bios			
 礣	mies			
 礤	shuY			
 礽	ru8u			
+礽	ru8t	旧拼写	-	
 祂	tiau			
+祂	tiat	旧拼写	-	
 祒	7iLu			
+祒	7iLt	旧拼写	-	
 祤	Fau			
+祤	Fat	旧拼写	-	
 祰	ugiL			
+祰	tgiL	旧拼写	-	
 祱	usuV			
+祱	tsuV	旧拼写	-	
 祴	uN2			
+祴	tN2	旧拼写	-	
 祻	uga			
+祻	tgaH	旧拼写	-	
 祽	uzuV			
+祽	tzuV	旧拼写	-	
 禞	ugL			
+禞	tgL	旧拼写	-	
 禴	4ueu			
+禴	4uet	旧拼写	-	
 秂	r8h			
 秄	hHLH			
 秅	Duah			
@@ -10231,6 +10855,7 @@
 竪	k1f			-
 竬	kTf			
 竲	D8f			
+竲	H3f	旧拼写	-	
 竳	fd8			
 竸	2j8			-
 笍	2rV			
@@ -10244,11 +10869,13 @@
 筈	2kio			
 筎	2rA			
 筕	5e2			
+筕	2hT	旧拼写	-	
 筰	2zoV			
 筳	2ti8			
 箁	piV2	póu		
 箁	kia2	bù		
 箄	2bV			
+箄	2pY	旧拼写	-	
 箝	2g2			
 箠	2DV			
 箣	2Huel			
@@ -10296,9 +10923,11 @@
 粫	hnuY			
 糄	hbi2H			
 糛	htT			
-糥	nohh			
+糥	hnoh			
+糥	nohh	旧拼写	-	
 糩	hcY			
 糸	nuTu			
+糸	nuTa	旧拼写	-	
 紃	xu8a			-
 紘	ah3			-
 紝	aru8			-
@@ -10306,13 +10935,16 @@
 紱	fAa			-
 紸	aka			
 経	j8a			
+経	aBY	旧拼写	-	
 絔	4uoa	mò		
 絔	abiY	bǎi		
 絘	aHuV			
 絙	f6a			
+絙	gi8a	旧拼写	-	
 絚	gi8a			
 絟	su2a			
 絩	tiLa			
+絩	tiYa	旧拼写	-	
 絯	gYa	gāi		
 絯	ahY	hài		
 絴	xTa			
@@ -10324,6 +10956,7 @@
 緄	Bi8a			
 緈	x3a			
 緪	agi8Y			
+緪	af6Y	旧拼写	-	
 緶	pi2a			-
 緺	Biaa			
 縒	aDo			
@@ -10335,7 +10968,8 @@
 繙	afi2			
 繜	azu8			
 纄	pi3a			
-纇	rliV			
+纇	alVr			
+纇	rliV	旧拼写	-	
 纟	nuTa			
 缋	ciVa			
 缍	aDV			
@@ -10356,6 +10990,7 @@
 翲	npiL			
 翿	FiLn			
 耈	tgi6			
+耈	jgi6	旧拼写	-	
 耉	tgi6			-
 耊	det			-
 耑	Fi2H			
@@ -10368,6 +11003,7 @@
 肜	ciee			
 胕	e4i3			
 胷	elx3			
+胷	ex3	旧拼写	-	
 胹	enuY			
 脈	epiY			
 脝	eh8			
@@ -10384,8 +11020,10 @@
 膄	es6			
 膇	zuVe			
 膐	jl1			
+膐	el1	旧拼写	-	
 膔	4uLe			
 膣	hu6e			
+膣	fHYe	旧拼写	-	
 膤	exue			
 膪	rVe			
 膰	ep2	pán		
@@ -10396,6 +11034,7 @@
 膹	f8e			
 臁	evi2			
 臋	jFie			
+臋	eFieH	旧拼写	-	
 臎	eDuVn			
 臗	ec2			
 臘	liae			-
@@ -10433,6 +11072,7 @@
 茡	yfHL			
 茤	ydo			
 茩	gi6y			
+茩	yh6	旧拼写	-	
 茲	HVy			
 茷	yha			
 荅	daH			
@@ -10497,6 +11137,7 @@
 蕡	f8y			
 蕣	su8y			
 蕥	ynya			
+蕥	y4ya	旧拼写	-	
 蕯	yli3			
 薆	4Yy			
 薒	gEy			
@@ -10512,7 +11153,9 @@
 蘹	yfYY			
 蘾	fYy			
 虌	ybiev			
+虌	biev	旧拼写	-	
 虍	HhiL			
+虍	vaH	旧拼写	-	
 號	vrL			
 虭	kdL			
 虰	kdi8			
@@ -10520,6 +11163,7 @@
 蚮	kdY			
 蚵	kkie			
 蚻	kzac			
+蚻	zak	旧拼写	-	
 蛥	kdo			
 蜸	k1k			
 蝳	kdiA			-
@@ -10539,23 +11183,29 @@
 蠛	miek			
 蠟	liak			-
 蠰	nTk			
+蠰	knT	旧拼写	-	
 蠶	BYk			-
 衇	jpiY			
 衵	urE			
 袙	piau			
 袛	udiTH			
+袛	udiT	旧拼写	-	
 袳	udo			
 裃	kau			
 裄	5eu			
+裄	uhT	旧拼写	-	
 裏	ulE			
 補	bAu			-
 裠	qu8uH			-
+裠	qu8u	旧拼写	-	
 裡	ulEH			
 裯	D6u			
 裺	4i2u			
 褀	uqEH			
+褀	uqE	旧拼写	-	
 褃	uk8			
 褅	udEH			
+褅	udE	旧拼写	-	
 褆	ti6u			
 褩	ub2			
 褱	fYH			
@@ -10567,6 +11217,7 @@
 襬	biYu			
 襶	uFiY			
 覌	B2T			-
+覌	B2r	旧拼写	-	
 覩	F6j			
 親	rFi8			
 覴	Td8H			
@@ -10612,7 +11263,8 @@
 豖	zuoH			
 豘	v78			
 豦	5iVH			
-豿	vgi6H			
+豿	Hvgi6			
+豿	vgi6H	旧拼写	-	
 貇	k8v			
 貑	juav			
 財	xDY			-
@@ -10651,6 +11303,7 @@
 躻	Dk3			
 躿	DkiT			
 軎	qk6			
+軎	oDue	旧拼写	-	
 軘	q78			
 輙	qFT			
 輦	nuVH			-
@@ -10681,6 +11334,7 @@
 郖	1di6			
 郠	1gi8			
 郷	xuTH			-
+郷	xuTj	旧拼写	-	
 鄇	1hi6			
 鄧	1d8			-
 鄮	1miT			
@@ -10692,6 +11346,7 @@
 釨	NHL			
 釭	gTN			
 釹	NnA			-
+釹	NnAH	旧拼写	-	
 鈊	N53			
 鈣	giYN			-
 鈤	NrE			
@@ -10744,6 +11399,7 @@
 镙	NliV			
 镟	NxuV			
 門	m8			-
+門	Hm8	旧拼写	-	
 開	mkY			
 閗	md6			
 閤	mhie			
@@ -10758,6 +11414,7 @@
 隣	v81			-
 隥	1d8H			
 隨	sVz			-
+隨	sVzH	旧拼写	-	
 雚	fi6H			
 離	nviV			
 雲	6yu8			
@@ -10769,6 +11426,7 @@
 靁	6liV			
 靉	4Y6			-
 靚	N8TH			-
+靚	Tq8	旧拼写	-	
 靵	n6x			
 鞉	7Lx			
 鞎	h8x			
@@ -10781,6 +11439,7 @@
 韻	ki34			
 頪	lVr			
 顕	xYr			
+顕	rxY	旧拼写	-	
 願	ryu2			
 顣	NLr			
 顥	fiLH			
@@ -10788,6 +11447,7 @@
 颾	nuLb			
 飄	bpiL			-
 飚	3bho			
+飚	b3ho	旧拼写	-	
 飛	nfiLn			
 餂	ti2L			-
 餟	LDuo			
@@ -10846,6 +11506,7 @@
 麆	Bi6v			
 麗	vviY			
 麥	4uY			-
+麥	H4uY	旧拼写	-	
 麯	hFE			
 麴	NAh			-
 麺	mi2h			-
@@ -10854,6 +11515,7 @@
 點	diVx			
 鼑	di8l			
 鼳	vHjA			
+鼳	v5iV	旧拼写	-	
 齄	TDua			
 齅	xu64			
 齆	w3T			
@@ -10887,6 +11549,119 @@
 𬙙	l8H			
 𰀂	nueH			
 𰕎	DeH			
+旫	bdL			
+庯	bA5			
+瓪	b27			
+汳	b2E			
+啚	b1			
+罷	biYH			
+䎬	biY7			
+䎱	biY7			
+枈	pEcH			
+椕	p2c			
+訜	p2i			
+甹	p1			
+牉	piTp			
+閸	myua			
+畂	m1r			
+畆	m1l			
+畒	m1V			
+峔	wlL			
+毦	jre			
+婽	juaA			
+艌	qnu2			
+炶	xz2			
+煣	xr6H			
+炵	xdi3			
+煰	xhu8			
+貣	x7e			
+啈	x3o			
+芀	ydL			
+莂	yBiY			
+牗	yu3p			
+迯	zwY			
+週	zru6			
+邆	zd8			
+乢	zaw			
+踿	Dqu6			
+踄	Dkia			
+僢	su8V			
+倽	rueV			
+緅	r6a			
+箃	r62			
+掫	r68			
+鍒	Nr6			
+鎹	NgE			
+劤	lj3			
+刵	lreH			
+𨑰	liYz			
+埜	li8d			
+奅	dmiT			
+坣	dtT			
+塵	dvio			
+墪	dF8			
+剳	dal			
+幉	diepH			
+諚	di8i			
+魀	tjeH			
+瘯	tcia			
+騲	gruL			
+殲	k1t			
+濬	hueE			
+𡿪	41H			
+桚	418			
+報	4iVx			
+爂	5i3x			
+猭	vtV			
+獞	vti3			
+豞	vgi6H			
+怸	FsA			
+恏	FHL			
+惪	FH6			
+慜	Fhu2			
+慶	Fvio			
+氹	7iVl			
+嚃	Bi2o			
+朹	cju6			
+栮	cre			
+檺	chL			
+儃	ci2V			
+窌	fmiT			
+夲	fHuo			
+叴	oju6			
+唀	oxu6			
+嗏	ora			
+廤	okA			
+啌	ok3			
+哬	ohieV			
+唎	ovV			
+羘	eyuT			
+膯	ed8			
+脦	e7e			
+𣲩	Eba			
+瀓	EwiL3			
+湷	EDu8			
+渘	Er6			
+灂	ENie			
+淲	EhiL			
+媃	Ar6			
+娭	ANY			
+恘	Yx6			
+愺	YruL			
+餸	LgE			
+𫕠	6ba			
+扏	8ju6			
+抧	8zE			
+挕	8re			
+瑏	3fya			
+丠	VbiV			
+侢	VzY			
+仩	VrT			
+侤	VkL			
+偘	Vhu8			
+佀	V4uV			
+儶	V5ie			
+詜	iHua			
 	aho	希顶PUA编码简体		
 	aho	希顶PUA编码繁体		
 	aho	希顶PUA编码上下结构		

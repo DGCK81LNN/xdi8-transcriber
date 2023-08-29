@@ -29,6 +29,13 @@
     <aside>
       <h2 class="h4">更新记录</h2>
       <dl class="changelog mb-0">
+        <dt>2023-08-29</dt>
+        <dd>
+          <ul>
+            <li>字表更新至 2023-08-23 版。</li>
+            <li>现在希顶转汉字模式可以识别曾经在字表中存在过但现已移除的历史希顶拼写，在汉字转希顶模式下也可以手动选用这类拼写。</li>
+          </ul>
+        </dd>
         <dt>2023-01-29</dt>
         <dd>
           <ul>
@@ -49,7 +56,7 @@
     <hr class="d-md-none">
     <footer class="text-md-end">
       <p>DGCK81LNN 制作</p>
-      <p>基于〇改希顶语字表 2022-12-06 版</p>
+      <p>〇改希顶语字表更新至 2023-08-23 版</p>
       <p class="d-flex flex-wrap gap-1 justify-content-md-end">
         <a
           href="https://github.com/DGCK81LNN/xdi8-transcriber"
