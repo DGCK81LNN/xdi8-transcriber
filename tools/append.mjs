@@ -46,6 +46,7 @@ for (const [h, xs] of entries) {
       if (e.hh && e.hh !== "-")
         console.warn(`Removing hanzi hint for entry ${h} — ${x}, was: ${e.hh}`)
       e.hh = "-"
+      e.xh = "-"
       e.n = (e.n || "") + (e.n ? "，" : "") + "旧拼写"
     }
   }
