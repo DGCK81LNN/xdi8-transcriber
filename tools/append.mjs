@@ -47,7 +47,8 @@ for (const [h, xs] of entries) {
         console.warn(`Removing hanzi hint for entry ${h} — ${x}, was: ${e.hh}`)
       e.hh = "-"
       e.xh = "-"
-      e.n = (e.n || "") + (e.n ? "，" : "") + "旧拼写"
+      if (!e.n?.includes("旧拼写"))
+        e.n = (e.n || "") + (e.n ? "，" : "") + "旧拼写"
     }
   }
   dictTable[h].sort(
