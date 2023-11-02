@@ -1,6 +1,11 @@
 {
   "name": "xdi8-transcriber",
   "version": "0.1.6",
+  "keywords": [
+    "shidinn",
+    "xdi8",
+    "希顶"
+  ],
   "author": "DGCK81LNN <triluolnn@163.com>",
   "license": "MIT",
   "files": [
