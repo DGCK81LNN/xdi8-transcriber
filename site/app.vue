@@ -29,6 +29,12 @@
     <aside>
       <h2 class="h4">更新记录</h2>
       <dl class="changelog mb-0">
+        <dt>2023-11-02</dt>
+        <dd>
+          <ul>
+            <li>字表更新至 2023-10-21 版。</li>
+          </ul>
+        </dd>
         <dt>2023-08-29</dt>
         <dd>
           <ul>
@@ -56,7 +62,7 @@
     <hr class="d-md-none">
     <footer class="text-md-end">
       <p>DGCK81LNN 制作</p>
-      <p>〇改希顶语字表更新至 2023-08-23 版</p>
+      <p>〇改希顶语字表更新至 2023-10-21 版</p>
       <p class="d-flex flex-wrap gap-1 justify-content-md-end">
         <a
           href="https://github.com/DGCK81LNN/xdi8-transcriber"

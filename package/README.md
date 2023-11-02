@@ -4,6 +4,8 @@
 
 〇改希顶语字表转写模块
 
+字表已更新至 2023-10-21 版
+
 [在线转写器 ![GitHub Actions build status][actions-badge]][site]
 
 [npm]: https://npmjs.org/package/xdi8-transcriber
