@@ -7,10 +7,14 @@ export interface DictEntry {
   n?: string
   /**
    * Hanzi hints. May be a space-separated list of patterns or a single `-`.
+   *
+   * An entry whose `hh` and `xh` are both `"-"` is a legacy spelling.
    */
   hh?: string
   /**
    * Shidinn hints. Always equal to `"-"` if present.
+   *
+   * An entry whose `hh` and `xh` are both `"-"` is a legacy spelling.
    */
   xh?: "-"
 }
@@ -26,6 +30,8 @@ export interface Transcriber {
 export interface Alternation {
   content: TranscribedSegment[]
   note?: string
+  /** True if this alternation involves a legacy spelling. */
+  legacy?: boolean
 }
 /**
  * `h` and `x` must be either both empty or both non-empty. When they are empty,

@@ -25,6 +25,7 @@ function getMatchSum(
       .map(({ x, n }) => n && `${alphaFilter(x)} — ${n}`)
       .filter(n => n)
       .join("\n"),
+    legacy: matchStack.some(({ hh, xh }) => hh === "-" && xh === "-"),
   }
 }
 
@@ -105,6 +106,7 @@ export class AlphaToHanziTranscriber implements Transcriber {
             matches.map(match => ({
               content: [{ x: char, h: match.h, v: match.h }],
               note: match.n || "",
+              legacy: match.hh === "-" && match.xh === "-",
             }))
           )
         })
