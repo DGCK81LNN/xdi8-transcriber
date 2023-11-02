@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Alternations } from "utils/transcribe"
+import type { Alternations } from "~/utils/transcribe"
 
 export interface Props {
   value: Alternations

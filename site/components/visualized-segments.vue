@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { TranscribedSegment } from "utils/transcribe"
+import type { TranscribedSegment } from "~/utils/transcribe"
 
 export interface Props {
   id?: string

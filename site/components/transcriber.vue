@@ -83,7 +83,7 @@
 </style>
 
 <script setup lang="ts">
-import type { Format, VisualResult } from "utils/transcribe"
+import type { Format, VisualResult } from "~/utils/transcribe"
 
 const options: { text: string; value: Format }[] = [
   { text: "汉字", value: "hanzi" },

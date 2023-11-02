@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { VisualResultSegment } from "utils/transcribe"
+import type { VisualResultSegment } from "~/utils/transcribe"
 
 export interface Props {
   value: VisualResultSegment[]
