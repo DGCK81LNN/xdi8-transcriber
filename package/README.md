@@ -1,16 +1,21 @@
-# xdi8-transcriber
+# [xdi8-transcriber 〇改希顶转写器][site]
 
-[![npm package version][npm-badge]][npm] [![GitHub: DGCK81LNN/xdi8-transcriber][gh-badge]][gh]
+[![npm 包][npm-badge]][npm] [![GitHub Pages 构建状态][actions-badge]][actions]
 
-〇改希顶语字表转写模块
+**〇改[希顶语][xdi8]↔汉字**转写工具
 
-字表已更新至 2023-10-21 版
+- [X] 字表已更新至 2023-10-21 版
+- [X] 兼容旧版字表
+- [X] 自带多音字提示
+- [X] 部分常见多音字读音自动推测
 
-[在线转写器 ![GitHub Actions build status][actions-badge]][site]
+[启动转写器→][site]
 
-[npm]: https://npmjs.org/package/xdi8-transcriber
-[npm-badge]: https://img.shields.io/npm/v/xdi8-transcriber?label=xdi8-transcriber&logo=npm
-[gh]: https://github.com/DGCK81LNN/xdi8-transcriber
-[gh-badge]: https://img.shields.io/static/v1?label=GitHub&message=DGCK81LNN/xdi8-transcriber&color=lightgrey&logo=github
+![](https://github.com/DGCK81LNN/xdi8-transcriber/raw/main/images/snapshot.png)
+
 [site]: https://dgck81lnn.github.io/xdi8-transcriber/
+[npm]: https://npmjs.org/package/xdi8-transcriber
+[npm-badge]: https://img.shields.io/npm/v/xdi8-transcriber?logo=npm
+[actions]: https://github.com/DGCK81LNN/xdi8-transcriber/actions/workflows/pages.yml
 [actions-badge]: https://img.shields.io/github/actions/workflow/status/DGCK81LNN/xdi8-transcriber/pages.yml?branch=main&logo=github-actions&logoColor=white
+[xdi8]: https://wiki.xdi8.top/wiki/%E5%B8%8C%E9%A1%B6%E8%AF%AD
