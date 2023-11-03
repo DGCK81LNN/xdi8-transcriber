@@ -1,5 +1,5 @@
-const { expect } = require("earljs")
-const { chatToXdPUA, xdPUAToChat } = require("../src/encoding")
+import { expect } from "earl"
+import { chatToXdPUA, xdPUAToChat } from "../src/encoding"
 
 describe("encoding", function () {
   describe("chatToXdPUA", function () {

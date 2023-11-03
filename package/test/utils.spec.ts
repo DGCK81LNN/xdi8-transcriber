@@ -1,6 +1,6 @@
-const { expect } = require("earljs")
-const { range, sampleSize } = require("lodash")
-const {
+import { expect } from "earl"
+import { range, sampleSize } from "lodash"
+import {
   PropTrie,
   bisectLookUp,
   compare,
@@ -9,7 +9,7 @@ const {
   hhMatches,
   multiSubst,
   reverseCompare,
-} = require("../src/utils")
+} from "../src/utils"
 
 describe("utils", function () {
   describe("compare", function () {
@@ -47,10 +47,8 @@ describe("utils", function () {
 
   describe("bisectLookUp", function () {
     it("finds all objects in the dict with matchng prop", function () {
-      /** @type {{ key: string }[]} */
-      const objs = []
-      /** @type {Record<string, number>} */
-      const lens = {}
+      const objs: { key: string }[] = []
+      const lens: Record<string, number> = {}
       for (let i = 0; i < 100; ++i) {
         const key = String(i)
         lens[key] = Math.random() >= 0.2 ? 1 : Math.random() >= 0.2 ? 2 : 3
@@ -59,7 +57,7 @@ describe("utils", function () {
       objs.sort(getPropComparer("key"))
       for (const num of sampleSize(range(100), 10)) {
         const key = String(num)
-        expect(bisectLookUp(objs, "key", key)).toBeAnArrayOfLength(lens[key])
+        expect(bisectLookUp(objs, "key", key)).toHaveLength(lens[key])
       }
     })
   })
@@ -93,18 +91,14 @@ describe("utils", function () {
 
   describe("PropTrie", function () {
     it("finds all objects in the trie with matchng prop", function () {
-      /** @type {{ key: string }[]} */
-      const objs = []
+      const objs: { key: string }[] = []
       for (let i = 0; i < 100; ++i) {
         const key = String(i)
         objs.push({ key })
       }
       const trie = new PropTrie(objs, "key")
       expect([...trie.search("001")]).toEqual([{ key: "0" }])
-      expect([...trie.search("123")]).toEqual([
-        { key: "12" },
-        { key: "1" },
-      ])
+      expect([...trie.search("123")]).toEqual([{ key: "12" }, { key: "1" }])
     })
   })
 })

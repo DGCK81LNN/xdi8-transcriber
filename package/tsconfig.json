@@ -1,12 +1,11 @@
 {
   "include": ["src/**/*.ts"],
   "compilerOptions": {
-    "allowJs": true,
     "strict": true,
     "lib": ["es2021"],
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "types": [],
+    "types": ["mocha"],
     "target": "es6",
     "outDir": "lib",
     "module": "CommonJS",
