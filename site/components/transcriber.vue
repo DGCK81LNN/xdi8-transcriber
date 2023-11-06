@@ -7,7 +7,7 @@
         v-model="sourceFmt"
         :options="exclude(options, targetFmt)"
         :disabled="showOverlay"
-        @input="go()"
+        @change="go()"
       />
     </BInputGroup>
     <BButton
@@ -25,7 +25,7 @@
         v-model="targetFmt"
         :options="exclude(options, sourceFmt)"
         :disabled="showOverlay"
-        @input="go()"
+        @change="go()"
       />
     </BInputGroup>
     <BInputGroup
@@ -42,7 +42,7 @@
           '_',
         ]"
         :disabled="showOverlay"
-        @input="go()"
+        @change="go()"
       />
     </BInputGroup>
   </BButtonToolbar>
