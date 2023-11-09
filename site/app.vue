@@ -29,6 +29,12 @@
     <aside>
       <h2 class="h4">更新记录</h2>
       <dl class="changelog mb-0">
+        <dt>2023-11-09</dt>
+        <dd>
+          <ul>
+            <li>添加了访问量统计。在此之前的访问量未被计入。</li>
+          </ul>
+        </dd>
         <dt>2023-11-02</dt>
         <dd>
           <ul>
@@ -64,6 +70,17 @@
     <footer class="text-md-end">
       <p>DGCK81LNN 制作</p>
       <p>〇改希顶语字表更新至 2023-10-21 版</p>
+      <p>
+        <span id="busuanzi_container_page_pv" style="display: none">
+          本页面已被访问 <span id="busuanzi_value_page_pv"></span> 次
+        </span>
+      </p>
+      <Body>
+        <Script
+          src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+          defer
+        ></Script>
+      </Body>
       <p class="d-flex flex-wrap gap-1 justify-content-md-end">
         <a
           href="https://github.com/DGCK81LNN/xdi8-transcriber"
