@@ -6,6 +6,7 @@
     "xdi8",
     "希顶"
   ],
+  "description": "Transcribe Hanzi characters into Shidinn, a constructed language, and vice versa. 〇改希顶语字表转写模块",
   "author": "DGCK81LNN <triluolnn@163.com>",
   "license": "MIT",
   "files": [
