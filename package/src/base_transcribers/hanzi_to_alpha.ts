@@ -77,6 +77,7 @@ export class HanziToAlphaTranscriber implements Transcriber {
         matches.map(match => ({
           content: [{ h: char, x: match.x, v: match.x }],
           note: match.n || "",
+          exceptional: match.hh === "-",
           legacy: match.hh === "-" && match.xh === "-",
         }))
       )

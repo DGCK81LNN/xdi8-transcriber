@@ -7,14 +7,21 @@ export interface DictEntry {
   n?: string
   /**
    * Hanzi hints. May be a space-separated list of patterns or a single `-`.
+   * Useful for differentiating different senses of the same hanzi.
    *
-   * An entry whose `hh` and `xh` are both `"-"` is a legacy spelling.
+   * `-` means that when converting from hanzi to shidinn, the entry is
+   * considered "exceptional" and should never be selected by default.
+   *
+   * An entry whose `hh` and `xh` are both `"-"` is a "legacy" spelling.
    */
   hh?: string
   /**
-   * Shidinn hints. Always equal to `"-"` if present.
+   * Shidinn hints. Always equal to `"-"` if present, which means that when
+   * converting from shidinn to hanzi the entry is considered "exceptional" and
+   * should never be selected by default. Used to mark traditional variants of
+   * common hanzi.
    *
-   * An entry whose `hh` and `xh` are both `"-"` is a legacy spelling.
+   * An entry whose `hh` and `xh` are both `"-"` is a "legacy" spelling.
    */
   xh?: "-"
 }
@@ -30,6 +37,8 @@ export interface Transcriber {
 export interface Alternation {
   content: TranscribedSegment[]
   note?: string
+  /** True if this alternation involves an exceptional dict entry. */
+  exceptional?: boolean
   /** True if this alternation involves a legacy spelling. */
   legacy?: boolean
 }
