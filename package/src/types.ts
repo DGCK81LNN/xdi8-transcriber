@@ -10,16 +10,17 @@ export interface DictEntry {
    * Useful for differentiating different senses of the same hanzi.
    *
    * `-` means that when converting from hanzi to shidinn, the entry is
-   * considered "exceptional" and should never be selected by default.
+   * considered "exceptional" and should not be selected by default wherever
+   * possible.
    *
    * An entry whose `hh` and `xh` are both `"-"` is a "legacy" spelling.
    */
   hh?: string
   /**
    * Shidinn hints. Always equal to `"-"` if present, which means that when
-   * converting from shidinn to hanzi the entry is considered "exceptional" and
-   * should never be selected by default. Used to mark traditional variants of
-   * common hanzi.
+   * converting from shidinn to hanzi, the entry is considered "exceptional" and
+   * should not be selected by default wherever possible. Used to mark
+   * traditional variants of common hanzi.
    *
    * An entry whose `hh` and `xh` are both `"-"` is a "legacy" spelling.
    */
