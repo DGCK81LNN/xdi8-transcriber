@@ -304,6 +304,31 @@ describe("base_transcribers", function () {
         ])
       })
 
+      it('obeys the "same-hanzi rule" for reduplicates', function () {
+        const t = new AlphaToHanziTranscriber({
+          dict: [
+            { h: "用", x: "y3" },
+            { h: "心", x: "53" },
+            { h: "蕊", x: "y353" },
+          ],
+        })
+        expect(t.transcribe("y353y353")).toEqual([
+          [
+            OW({
+              content: [OW({ h: "蕊", x: "y353" }), OW({ h: "蕊", x: "y353" })],
+            }),
+            OW({
+              content: [
+                OW({ h: "用", x: "y3" }),
+                OW({ h: "心", x: "53" }),
+                OW({ h: "用", x: "y3" }),
+                OW({ h: "心", x: "53" }),
+              ],
+            }),
+          ],
+        ])
+      })
+
       it("supports explicit separators", function () {
         const t = new AlphaToHanziTranscriber({
           dict: [
