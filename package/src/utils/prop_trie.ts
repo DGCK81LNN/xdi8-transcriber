@@ -16,7 +16,7 @@ export class PropTrie<
       let node = this.root
 
       for (let i = 0, l = key.length; i < l; i++) {
-        const prop = `_${key[i]}` as `_${string}`
+        const prop = `_${key[i]}` as const
         if (prop in node) node = node[prop]
         else node = node[prop] = [] as O[] as TrieNode<O>
       }

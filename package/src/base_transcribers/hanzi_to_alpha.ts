@@ -35,7 +35,7 @@ export class HanziToAlphaTranscriber implements Transcriber {
         typeof segment === "string" &&
         typeof result[result.length - 1] === "string"
       )
-        result[result.length - 1] += segment
+        result.push((result.pop() as string) + segment)
       else result.push(segment)
     }
 
@@ -61,16 +61,18 @@ export class HanziToAlphaTranscriber implements Transcriber {
 
       // Reorder the matches
       {
-        const regularMatches: DictEntry[] = []
         const topMatches: DictEntry[] = []
+        const regularMatches: DictEntry[] = []
+        const lowMatches: DictEntry[] = []
         const bottomMatches: DictEntry[] = []
         for (const match of matches) {
           if (!match.hh) regularMatches.push(match)
           else if (match.hh !== "-" && hhMatches(input, i, char, match.hh))
             topMatches.push(match)
+          else if (match.xh !== "-") lowMatches.push(match)
           else bottomMatches.push(match)
         }
-        matches = topMatches.concat(regularMatches, bottomMatches)
+        matches = topMatches.concat(regularMatches, lowMatches, bottomMatches)
       }
 
       append(

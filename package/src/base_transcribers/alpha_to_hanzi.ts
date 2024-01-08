@@ -64,7 +64,7 @@ function violatesSameHanziRule(matchStack: DictEntry[], nextEntry: DictEntry) {
       for (let oldStart = oldEnd; oldStart >= 0; oldStart--) {
         oldX = stack[oldStart].x + oldX
         oldH = stack[oldStart].h + oldH
-        if (oldX === newX && oldH !== newH) {debugger;return true}
+        if (oldX === newX && oldH !== newH) return true
         if (oldX.length >= newX.length) break
         if (oldX !== newX.slice(-oldX.length)) break
       }
@@ -112,7 +112,7 @@ export class AlphaToHanziTranscriber implements Transcriber {
         typeof segment === "string" &&
         typeof result[result.length - 1] === "string"
       )
-        result[result.length - 1] += segment
+        result.push((result.pop() as string) + segment)
       else result.push(segment)
     }
 

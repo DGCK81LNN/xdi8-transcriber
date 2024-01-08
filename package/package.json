@@ -33,6 +33,7 @@
     "test": "test"
   },
   "scripts": {
+    "lint": "eslint src",
     "test": "mocha",
     "build": "npm run build:data && npm run build:libdts && npm run build:lib",
     "build:data": "node build/data.js",
