@@ -21,10 +21,16 @@ function getMatchSum(
   const alphaFilter = _alphaFilter ?? (x => x)
   return {
     content: matchStack.map(({ x, h }) => ({ x, h, v: h })),
-    note: matchStack
-      .map(({ x, n }) => n && `${alphaFilter(x)} — ${n}`)
-      .filter(n => n)
-      .join("\n"),
+    note:
+      matchStack.length === 1
+        ? matchStack[0].n || ""
+        : Array.from(
+            new Set(
+              matchStack
+                .filter(({ n }) => n)
+                .map(({ x, n }) => n && `${alphaFilter(x)} — ${n}`)
+            )
+          ).join("\n"),
     exceptional: matchStack.some(({ xh }) => xh === "-"),
     legacy: matchStack.some(({ hh, xh }) => hh === "-" && xh === "-"),
   }
@@ -37,6 +43,34 @@ function getWordRe(ziSeparator: string) {
 
   const sepRe = escapeRegExp(ziSeparator)
   return new RegExp(`[0-9A-Za-z]+(?:${sepRe}[0-9A-Za-z]+)*`, "g")
+}
+
+/**
+ * If `nextEntry` were appended to `matchStack`, will it become part of a
+ * consecutive range of entries that has the same spelling as another
+ * consecutive range of entries (the two ranges do not overlap) with a different
+ * hanzi form?
+ */
+function violatesSameHanziRule(matchStack: DictEntry[], nextEntry: DictEntry) {
+  const stack = [...matchStack, nextEntry]
+  let newX = ""
+  let newH = ""
+  for (let newStart = matchStack.length; newStart > 0; newStart--) {
+    newX = stack[newStart].x + newX
+    newH = stack[newStart].h + newH
+    for (let oldEnd = newStart - 1; oldEnd >= 0; oldEnd--) {
+      let oldX = ""
+      let oldH = ""
+      for (let oldStart = oldEnd; oldStart >= 0; oldStart--) {
+        oldX = stack[oldStart].x + oldX
+        oldH = stack[oldStart].h + oldH
+        if (oldX === newX && oldH !== newH) {debugger;return true}
+        if (oldX.length >= newX.length) break
+        if (oldX !== newX.slice(-oldX.length)) break
+      }
+    }
+  }
+  return false
 }
 
 export class AlphaToHanziTranscriber implements Transcriber {
@@ -132,7 +166,13 @@ export class AlphaToHanziTranscriber implements Transcriber {
           attempts++
           continue
         }
+
         const match = next.value
+        if (violatesSameHanziRule(matchStack, next.value)) {
+          attempts++
+          continue
+        }
+
         matchStack.push(match)
         const i = item.i + match.x.length
         if (i >= word.length) {
