@@ -60,7 +60,11 @@ describe("base_transcribers", function () {
       it("reorders alternations according to hints", function () {
         const t = new HanziToAlphaTranscriber({
           dict: [
-            { h: "Ａ", x: "111", n: "bottom", hh: "-" },
+            // Correct order is:
+            // conditional matching > regular > conditional non-matching > exceptional > legacy
+            // A should give 333-222-111-000 when condition for 333 matches, 222-333-111-000 otherwise
+            { h: "Ａ", x: "000", n: "legacy", hh: "-", xh: "-" },
+            { h: "Ａ", x: "111", n: "exceptional", hh: "-" },
             { h: "Ａ", x: "222", n: "regular" },
             { h: "Ａ", x: "333", n: "conditional", hh: "Ａ~ Ｂ~ ~Ｄ" },
             { h: "Ｂ", x: "444" },
@@ -77,6 +81,7 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
           ],
         ])
         expect(t.transcribe("ＡＡ")).toEqual([
@@ -84,11 +89,13 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
           ],
           [
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
           ],
         ])
         expect(t.transcribe("ＢＡ")).toEqual([
@@ -97,6 +104,7 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
           ],
         ])
         expect(t.transcribe("ＣＡ")).toEqual([
@@ -105,6 +113,7 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
           ],
         ])
         expect(t.transcribe("ＡＤ")).toEqual([
@@ -112,6 +121,7 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
           ],
           OW({ h: "Ｄ", x: "666" }),
         ])
@@ -120,6 +130,7 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
           ],
           OW({ h: "Ｅ", x: "777" }),
         ])
