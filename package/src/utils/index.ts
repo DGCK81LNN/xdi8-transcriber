@@ -1,8 +1,8 @@
-export function compare<T extends string | number>(a: T, b: T) {
+export function compare(a: string | number, b: string | number) {
   return a > b ? 1 : a < b ? -1 : 0
 }
 
-export function reverseCompare<T extends string | number>(a: T, b: T) {
+export function reverseCompare(a: string | number, b: string | number) {
   return a > b ? -1 : a < b ? 1 : 0
 }
 
@@ -11,13 +11,13 @@ export function getPropComparer<
   V extends string | number
 >(
   prop: P,
-  comp: (a: V, b: V) => number = compare
+  comp = compare as (a: V, b: V) => number
 ): (a: { [prop in P]: V }, b: { [prop in P]: V }) => number {
   return (a, b) => /*@__INLINE__*/ comp(a[prop], b[prop])
 }
 
 export function multiSubst(str: string, map: Record<string, string>) {
-  const keys = Object.getOwnPropertyNames(map).sort(
+  const keys = Object.keys(map).sort(
     /*@__INLINE__*/
     getPropComparer("length", reverseCompare)
   )
