@@ -75,15 +75,15 @@ describe("base_transcribers", function () {
         expect(t.transcribe("Ａ")).toEqual([
           [
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "111" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "111" })] }),
           ],
         ])
         expect(t.transcribe("ＡＡ")).toEqual([
           [
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "111" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "111" })] }),
           ],
           [
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
@@ -103,8 +103,8 @@ describe("base_transcribers", function () {
           OW({ h: "Ｃ", x: "555" }),
           [
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "111" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "111" })] }),
           ],
         ])
         expect(t.transcribe("ＡＤ")).toEqual([
@@ -118,8 +118,8 @@ describe("base_transcribers", function () {
         expect(t.transcribe("ＡＥ")).toEqual([
           [
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "111" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "111" })] }),
           ],
           OW({ h: "Ｅ", x: "777" }),
         ])

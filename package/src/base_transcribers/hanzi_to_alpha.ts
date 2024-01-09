@@ -1,5 +1,11 @@
 import type { DictEntry, Transcriber, TranscribeResultSegment } from "../types"
-import { bisectLookUp, getPropComparer, hhMatches, multiSubst } from "../utils"
+import {
+  bisectLookUp,
+  getPropComparer,
+  hhMatches,
+  multiSubst,
+  sortByFunc,
+} from "../utils"
 
 export class HanziToAlphaTranscriber implements Transcriber {
   public readonly dict: DictEntry[]
@@ -59,21 +65,11 @@ export class HanziToAlphaTranscriber implements Transcriber {
         return append({ h: char, x, v: x })
       }
 
-      // Reorder the matches
-      {
-        const topMatches: DictEntry[] = []
-        const regularMatches: DictEntry[] = []
-        const lowMatches: DictEntry[] = []
-        const bottomMatches: DictEntry[] = []
-        for (const match of matches) {
-          if (!match.hh) regularMatches.push(match)
-          else if (match.hh !== "-" && hhMatches(input, i, char, match.hh))
-            topMatches.push(match)
-          else if (match.xh !== "-") lowMatches.push(match)
-          else bottomMatches.push(match)
-        }
-        matches = topMatches.concat(regularMatches, lowMatches, bottomMatches)
-      }
+      sortByFunc(matches, ({ hh, xh }) => {
+        if (hh === "-") return xh === "-" ? 3 : 2
+        if (hh) return hhMatches(input, i, char, hh) ? -1 : 1
+        return 0
+      })
 
       append(
         matches.map(match => ({

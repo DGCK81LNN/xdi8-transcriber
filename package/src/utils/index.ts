@@ -16,6 +16,22 @@ export function getPropComparer<
   return (a, b) => /*@__INLINE__*/ comp(a[prop], b[prop])
 }
 
+export function sortByFunc<T>(
+  array: T[],
+  keyFunc: (item: T) => string | number
+) {
+  const cache = new Map<T, string | number>()
+  return array.sort((a, b) => {
+    const hasA = cache.has(a)
+    const hasB = cache.has(b)
+    const aKey = hasA ? cache.get(a)! : keyFunc(a)
+    const bKey = hasB ? cache.get(b)! : keyFunc(b)
+    if (!hasA) cache.set(a, aKey)
+    if (!hasB) cache.set(b, bKey)
+    return compare(aKey, bKey)
+  })
+}
+
 export function multiSubst(str: string, map: Record<string, string>) {
   const keys = Object.keys(map).sort(
     /*@__INLINE__*/

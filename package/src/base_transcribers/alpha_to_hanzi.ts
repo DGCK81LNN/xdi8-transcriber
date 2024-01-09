@@ -1,4 +1,4 @@
-import { PropTrie } from "../utils"
+import { PropTrie, sortByFunc } from "../utils"
 import type {
   Alternation,
   DictEntry,
@@ -43,6 +43,14 @@ function getWordRe(ziSeparator: string) {
 
   const sepRe = escapeRegExp(ziSeparator)
   return new RegExp(`[0-9A-Za-z]+(?:${sepRe}[0-9A-Za-z]+)*`, "g")
+}
+
+function sortAlternations(alts: Alternation[]) {
+  return sortByFunc(alts, ({ exceptional, legacy }) => {
+    if (legacy) return 3
+    if (exceptional) return 2
+    return 0
+  })
 }
 
 /**
@@ -126,29 +134,19 @@ export class AlphaToHanziTranscriber implements Transcriber {
             return append({ x: char, h, v: h })
           }
 
-          // Reorder the matches
-          {
-            const regularMatches: DictEntry[] = []
-            const bottomMatches: DictEntry[] = []
-            for (const match of matches) {
-              if (match.xh === "-") bottomMatches.push(match)
-              else regularMatches.push(match)
-            }
-            matches = regularMatches.concat(bottomMatches)
-          }
-
           append(
-            matches.map(match => ({
-              content: [{ x: char, h: match.h, v: match.h }],
-              note: match.n || "",
-              exceptional: match.xh === "-",
-              legacy: match.hh === "-" && match.xh === "-",
-            }))
+            sortAlternations(
+              matches.map(match => ({
+                content: [{ x: char, h: match.h, v: match.h }],
+                note: match.n || "",
+                exceptional: match.xh === "-",
+                legacy: match.hh === "-" && match.xh === "-",
+              }))
+            )
           )
         })
 
-      const regularMatchSums: Alternation[] = []
-      const bottomMatchSums: Alternation[] = []
+      const matchSums: Alternation[] = []
       let attempts = 0
       const stack: StackItem[] = [
         {
@@ -176,10 +174,7 @@ export class AlphaToHanziTranscriber implements Transcriber {
         matchStack.push(match)
         const i = item.i + match.x.length
         if (i >= word.length) {
-          const category = matchStack.some(m => m.xh === "-")
-            ? bottomMatchSums
-            : regularMatchSums
-          category.push(getMatchSum(matchStack, alphaFilter))
+          matchSums.push(getMatchSum(matchStack, alphaFilter))
           matchStack.pop()
           attempts++
           continue
@@ -191,10 +186,9 @@ export class AlphaToHanziTranscriber implements Transcriber {
         })
       } while (stack.length && attempts <= 100)
 
-      const matchSums = regularMatchSums.concat(bottomMatchSums)
       if (matchSums.length === 0) append(word)
       else if (matchSums.length === 1) matchSums[0].content.forEach(append)
-      else append(matchSums)
+      else append(sortAlternations(matchSums))
     }
   }
 }
