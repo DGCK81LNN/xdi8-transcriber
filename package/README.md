@@ -11,6 +11,8 @@
 
 [启动转写器→][site]
 
+引流(?)：[DGCK81LNN/fairfax_xdpua](https://github.com/DGCK81LNN/fairfax_xdpua) — Fairfax字体 希顶字母PUA编码版
+
 ![](https://github.com/DGCK81LNN/xdi8-transcriber/raw/main/images/snapshot.png)
 
 [site]: https://dgck81lnn.github.io/xdi8-transcriber/
