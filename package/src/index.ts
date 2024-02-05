@@ -1,4 +1,4 @@
-import { data } from "./data"
+import data from "../data/bundle.json"
 import {
   HanziToAlphaTranscriber,
   AlphaToHanziTranscriber,
@@ -6,6 +6,7 @@ import {
 import { chatToXdPUA, xdPUAToChat } from "./encoding"
 
 export {
+  data,
   HanziToAlphaTranscriber,
   AlphaToHanziTranscriber,
   chatToXdPUA,
@@ -15,14 +16,14 @@ export {
 export * from "./types"
 
 export class HanziToXdi8Transcriber extends HanziToAlphaTranscriber {
-  constructor() {
-    super(data)
+  constructor(dictData = data) {
+    super(dictData)
   }
 }
 
 export class Xdi8ToHanziTranscriber extends AlphaToHanziTranscriber {
-  constructor() {
-    super(data)
+  constructor(dictData = data) {
+    super(dictData)
   }
 
   transcribe(

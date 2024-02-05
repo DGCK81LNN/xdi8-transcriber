@@ -10,7 +10,9 @@
   "author": "DGCK81LNN <triluolnn@163.com>",
   "license": "MIT",
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "data/bundle.json",
+    "data/bundle.json.d.ts"
   ],
   "main": "lib/index.js",
   "repository": {
