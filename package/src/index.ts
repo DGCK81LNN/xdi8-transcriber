@@ -1,4 +1,4 @@
-import data from "../data/bundle.json"
+import data from "./data.json"
 import {
   HanziToAlphaTranscriber,
   AlphaToHanziTranscriber,

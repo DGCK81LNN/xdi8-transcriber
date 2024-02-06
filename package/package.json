@@ -1,6 +1,6 @@
 {
   "name": "xdi8-transcriber",
-  "version": "0.2.3",
+  "version": "0.3.0-alpha",
   "keywords": [
     "shidinn",
     "xdi8",
@@ -10,11 +10,11 @@
   "author": "DGCK81LNN <triluolnn@163.com>",
   "license": "MIT",
   "files": [
-    "lib/**/*",
-    "data/bundle.json",
-    "data/bundle.json.d.ts"
+    "lib/**/*"
   ],
   "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DGCK81LNN/xdi8-transcriber.git"
@@ -25,6 +25,7 @@
     "@typescript-eslint/eslint-plugin": "^6.9.1",
     "earl": "^1.1.0",
     "esbuild": "^0.19.5",
+    "esbuild-plugin-umd-wrapper": "^2.0.0",
     "eslint": "^8.52.0",
     "lodash": "^4.17.21",
     "mocha": "^10.2.0",

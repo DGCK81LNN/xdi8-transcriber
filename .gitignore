@@ -1,7 +1,7 @@
 node_modules
 lib
 dist
-/package/data/bundle.json
+/package/src/data.json
 *.log*
 .nuxt
 .nitro

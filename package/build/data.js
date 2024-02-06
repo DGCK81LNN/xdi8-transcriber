@@ -10,7 +10,7 @@ function pr(p) {
 }
 
 const startTime = Date.now()
-const outStream = fs.createWriteStream(pr("../data/bundle.json"))
+const outStream = fs.createWriteStream(pr("../src/data.json"))
 
 const convertPromise = new Promise(resolve => {
   const inStream = fs.createReadStream(pr("../data/dict.tsv"))
@@ -66,5 +66,5 @@ Promise.all([convertPromise, miscPromise])
     outStream.close()
     const kb = (outStream.bytesWritten / 1024).toFixed(1)
     const ms = (Date.now() - startTime).toFixed(0)
-    process.stderr.write(`data/bundle.json ${kb}kb\ndone in ${ms}ms\n`)
+    process.stderr.write(`src/data.json ${kb}kb\ndone in ${ms}ms\n`)
   })
