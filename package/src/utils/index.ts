@@ -1,3 +1,6 @@
+export * from "./prop_trie"
+export * from "./word_split_possibilities"
+
 export function compare(a: string | number, b: string | number) {
   return a > b ? 1 : a < b ? -1 : 0
 }
@@ -120,4 +123,7 @@ export function escapeRegExp(source: string) {
   return source.replace(/[|\\{}()[\]^$+*?.]/g, "\\$&").replace(/-/g, "\\x2d")
 }
 
-export { PropTrie } from "./prop_trie"
+// TODO: add unit test for this ?
+export function* lazyMap<T, U>(iterable: Iterable<T>, fn: (value: T) => U) {
+  for (const value of iterable) yield fn(value)
+}

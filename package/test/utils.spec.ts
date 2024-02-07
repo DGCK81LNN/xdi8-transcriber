@@ -9,6 +9,7 @@ import {
   hhMatches,
   multiSubst,
   reverseCompare,
+  wordSplitPossibilities,
 } from "../src/utils"
 
 describe("utils", function () {
@@ -99,6 +100,56 @@ describe("utils", function () {
       const trie = new PropTrie(objs, "key")
       expect([...trie.search("001")]).toEqual([{ key: "0" }])
       expect([...trie.search("123")]).toEqual([{ key: "12" }, { key: "1" }])
+    })
+  })
+
+  describe("wordSplitPossibilities", function () {
+    it("finds possibilities for word split", function () {
+      function* matchSubWord(word: string): Generator<[number, string]> {
+        // A : any of the 45 shidinn letters
+        // R : any shidinn letter except nz
+        // C : consonant letter other than nz
+        // G : glide letter
+        // V : vowel letter
+        // H : nz
+
+        // AACGV, ACGVA, CGVRH
+        if (
+          word.match(/^[CGVH][CGVH][CH]GV/) ||
+          word.match(/^[CGVH][CH]GV[CGVH]/) ||
+          word.match(/^[CH]GV[CGV]H/)
+        )
+          yield [5, word.slice(0, 5)]
+
+        // ACGV, CGVA, AACV, ACVA, CVRH
+        if (
+          word.match(/^[CGVH][CH]GV/) ||
+          word.match(/^[CH]GV[CGVH]/) ||
+          word.match(/^[CGVH][CGVH]CV/) ||
+          word.match(/^[CGVH]CV[CGVH]/) ||
+          word.match(/^[CH]V[CGV]H/)
+        )
+          yield [4, word.slice(0, 4)]
+
+        // CGV, ACV, CVA
+        if (
+          word.match(/^[CH]GV/) ||
+          word.match(/^[CGVH]CV/) ||
+          word.match(/^CV[CGVH]/)
+        )
+          yield [3, word.slice(0, 3)]
+
+        // CV
+        if (word.match(/^[CH]V/)) yield [2, word.slice(0, 2)]
+      }
+
+      expect([...wordSplitPossibilities("CVCHCGVHCCV", matchSubWord)]).toEqual([
+        ["CVCH", "CGVH", "CCV"],
+        ["CVCH", "CGV", "HCCV"],
+        ["CVC", "HCGVH", "CCV"],
+        ["CVC", "HCGV", "HCCV"],
+        ["CV", "CHCGV", "HCCV"],
+      ])
     })
   })
 })

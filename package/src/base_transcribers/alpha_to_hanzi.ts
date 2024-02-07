@@ -1,4 +1,4 @@
-import { PropTrie, sortByFunc } from "../utils"
+import { PropTrie, lazyMap, sortByFunc, wordSplitPossibilities } from "../utils"
 import type {
   Alternation,
   DictEntry,
@@ -6,13 +6,6 @@ import type {
   TranscribeResultSegment,
 } from "../types"
 import { bisectLookUp, getPropComparer, escapeRegExp } from "../utils"
-
-interface StackItem {
-  /** Start position of the char in the word. */
-  i: number
-  /** Iterator of matching entries. */
-  M: Iterator<DictEntry, void>
-}
 
 function getMatchSum(
   matchStack: DictEntry[],
@@ -54,16 +47,14 @@ function sortAlternations(alts: Alternation[]) {
 }
 
 /**
- * If `nextEntry` were appended to `matchStack`, will it become part of a
- * consecutive range of entries that has the same spelling as another
- * consecutive range of entries (the two ranges do not overlap) with a different
- * hanzi form?
+ * Is the last element of `matchStack` part of a consecutive sequence of entries
+ * that has the same spelling as another consecutive range of entries (the two
+ * ranges do not overlap) with a different hanzi form?
  */
-function violatesSameHanziRule(matchStack: DictEntry[], nextEntry: DictEntry) {
-  const stack = [...matchStack, nextEntry]
+function violatesSameHanziRule(stack: DictEntry[]) {
   let newX = ""
   let newH = ""
-  for (let newStart = matchStack.length; newStart > 0; newStart--) {
+  for (let newStart = stack.length - 1; newStart > 0; newStart--) {
     newX = stack[newStart].x + newX
     newH = stack[newStart].h + newH
     for (let oldEnd = newStart - 1; oldEnd >= 0; oldEnd--) {
@@ -146,49 +137,21 @@ export class AlphaToHanziTranscriber implements Transcriber {
           )
         })
 
-      const matchSums: Alternation[] = []
-      let attempts = 0
-      const stack: StackItem[] = [
+      const matches: Alternation[] = []
+      for (const match of wordSplitPossibilities(
+        word,
+        ws => lazyMap(this_.trie.search(ws), entry => [entry.x.length, entry]),
         {
-          i: 0,
-          M: this_.trie.search(word),
-        },
-      ]
-      const matchStack: DictEntry[] = []
-      do {
-        const item = stack[stack.length - 1]
-        const next = item.M.next()
-        if (next.done === true) {
-          matchStack.pop()
-          stack.pop()
-          attempts++
-          continue
+          validateStack: stack => !violatesSameHanziRule(stack),
+          maxAttempts: 100, // TODO: make this configurable ?
         }
+      )) {
+        matches.push(getMatchSum(match, alphaFilter))
+      }
 
-        const match = next.value
-        if (violatesSameHanziRule(matchStack, next.value)) {
-          attempts++
-          continue
-        }
-
-        matchStack.push(match)
-        const i = item.i + match.x.length
-        if (i >= word.length) {
-          matchSums.push(getMatchSum(matchStack, alphaFilter))
-          matchStack.pop()
-          attempts++
-          continue
-        }
-
-        stack.push({
-          i,
-          M: this_.trie.search(word.slice(i)),
-        })
-      } while (stack.length && attempts <= 100)
-
-      if (matchSums.length === 0) append(word)
-      else if (matchSums.length === 1) matchSums[0].content.forEach(append)
-      else append(sortAlternations(matchSums))
+      if (matches.length === 0) append(word)
+      else if (matches.length === 1) matches[0].content.forEach(append)
+      else append(sortAlternations(matches))
     }
   }
 }
