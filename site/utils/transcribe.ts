@@ -40,15 +40,12 @@ const from: Record<
   },
 }
 
-const into: Record<
-  Format,
-  (med: Intermediate, opt?: TranscribeOptions) => Intermediate
-> = {
-  chat: med => med,
-  xdpua: med => {
-    if (typeof med === "string") return chatToXdPUA(med)
+function alphaTransformer(
+  filter: (text: string) => string
+): (med: Intermediate) => Intermediate {
+  return (med: Intermediate) => {
+    if (typeof med === "string") return filter(med)
     return med.map(seg => {
-      //if (typeof seg === "string") return chatToXdPUA(seg)
       if (typeof seg === "string") return seg
       if (Array.isArray(seg))
         return seg.map(alt =>
@@ -56,9 +53,17 @@ const into: Record<
             content: into.xdpua(alt.content),
           })
         )
-      return Object.assign({}, seg, { v: chatToXdPUA(seg.v) })
+      return Object.assign({}, seg, { v: filter(seg.v) })
     })
-  },
+  }
+}
+
+const into: Record<
+  Format,
+  (med: Intermediate, opt?: TranscribeOptions) => Intermediate
+> = {
+  chat: med => med,
+  xdpua: alphaTransformer(chatToXdPUA),
   hanzi: (med, opt) => {
     if (typeof med !== "string")
       throw new Error("内部错误：无法将 TranscribeResult 转写成 hanzi")
