@@ -8,10 +8,13 @@ import {
 } from "../utils"
 
 export class HanziToAlphaTranscriber implements Transcriber {
-  public readonly dict: DictEntry[]
+  public readonly dict: readonly DictEntry[]
   public readonly subst: Record<string, string>
 
-  constructor(data: { dict: DictEntry[]; subst: Record<string, string> }) {
+  constructor(data: {
+    dict: readonly DictEntry[]
+    subst: Record<string, string>
+  }) {
     this.dict = data.dict.slice().sort(/*@__INLINE__*/ getPropComparer("h"))
     this.subst = data.subst
   }

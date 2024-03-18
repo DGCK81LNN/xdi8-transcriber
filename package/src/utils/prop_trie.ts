@@ -10,7 +10,7 @@ export class PropTrie<
    * @param items Elements to insert into the tree.
    * @param prop The property on the elements to index on.
    */
-  constructor(items: O[], prop: P) {
+  constructor(items: readonly O[], prop: P) {
     items.forEach(item => {
       const key = item[prop]
       let node = this.root

@@ -63,7 +63,7 @@ export function multiSubst(str: string, map: Record<string, string>) {
 export function bisectLookUp<
   O extends { [prop in P]: string },
   P extends string | number | symbol
->(arr: O[], prop: P, search: string) {
+>(arr: readonly O[], prop: P, search: string) {
   const lenMinusOne = arr.length - 1
 
   // Find one matching element

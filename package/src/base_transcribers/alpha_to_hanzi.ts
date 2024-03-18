@@ -8,7 +8,7 @@ import type {
 import { bisectLookUp, getPropComparer, escapeRegExp } from "../utils"
 
 function getMatchSum(
-  matchStack: DictEntry[],
+  matchStack: readonly DictEntry[],
   _alphaFilter?: ((x: string) => string) | null | undefined
 ): Alternation {
   const alphaFilter = _alphaFilter ?? (x => x)
@@ -51,7 +51,7 @@ function sortAlternations(alts: Alternation[]) {
  * that has the same spelling as another consecutive range of entries (the two
  * ranges do not overlap) with a different hanzi form?
  */
-function violatesSameHanziRule(stack: DictEntry[]) {
+function violatesSameHanziRule(stack: readonly DictEntry[]) {
   let newX = ""
   let newH = ""
   for (let newStart = stack.length - 1; newStart > 0; newStart--) {
@@ -73,10 +73,10 @@ function violatesSameHanziRule(stack: DictEntry[]) {
 }
 
 export class AlphaToHanziTranscriber implements Transcriber {
-  public readonly dict: DictEntry[]
+  public readonly dict: readonly DictEntry[]
   public readonly trie: PropTrie<DictEntry, "x">
 
-  constructor(data: { dict: DictEntry[] }) {
+  constructor(data: { dict: readonly DictEntry[] }) {
     this.dict = data.dict.slice().sort(/*@__INLINE__*/ getPropComparer("x"))
     this.trie = new PropTrie(this.dict, "x")
   }
