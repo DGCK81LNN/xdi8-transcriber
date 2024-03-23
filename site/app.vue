@@ -128,12 +128,6 @@
           本页面已被访问 <span id="busuanzi_value_page_pv"></span> 次
         </span>
       </p>
-      <Body>
-        <Script
-          src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
-          defer
-        ></Script>
-      </Body>
       <p class="d-flex flex-wrap gap-1 justify-content-md-end">
         <a
           href="https://github.com/DGCK81LNN/xdi8-transcriber"
@@ -181,6 +175,12 @@ useHead({
   titleTemplate: titleChunk => {
     return titleChunk ? `${titleChunk} - ${siteName}` : siteName
   },
+  script: [
+    {
+      src: "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js",
+      defer: true,
+    },
+  ],
 })
 </script>
 
