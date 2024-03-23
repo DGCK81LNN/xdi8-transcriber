@@ -7,7 +7,7 @@
         v-model="sourceFmt"
         :options="exclude(options, targetFmt)"
         :disabled="showOverlay"
-        @change="go()"
+        @change="nextTick(go)"
       />
     </BInputGroup>
     <BButton
@@ -25,7 +25,7 @@
         v-model="targetFmt"
         :options="exclude(options, sourceFmt)"
         :disabled="showOverlay"
-        @change="go()"
+        @change="nextTick(go)"
       />
     </BInputGroup>
     <BInputGroup
@@ -42,7 +42,7 @@
           '_',
         ]"
         :disabled="showOverlay"
-        @change="go()"
+        @change="nextTick(go)"
       />
     </BInputGroup>
   </BButtonToolbar>
@@ -53,7 +53,7 @@
       :placeholder="inPlaceholders[sourceFmt](ziSep)"
       title="输入"
       :disabled="showOverlay"
-      @input="go()"
+      @input="nextTick(go)"
     />
     <BFormTextarea
       class="textarea"

@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+  modules: ['@bootstrap-vue-next/nuxt'],
   typescript: {
     shim: false,
   },

@@ -20,17 +20,17 @@
     "url": "git+https://github.com/DGCK81LNN/xdi8-transcriber.git"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.200",
-    "@types/mocha": "^10.0.3",
-    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@types/lodash": "^4.17.0",
+    "@types/mocha": "^10.0.6",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
     "earl": "^1.1.0",
-    "esbuild": "^0.19.5",
+    "esbuild": "^0.20.2",
     "esbuild-plugin-umd-wrapper": "^2.0.0",
-    "eslint": "^8.52.0",
+    "eslint": "^8.57.0",
     "lodash": "^4.17.21",
-    "mocha": "^10.2.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "mocha": "^10.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
   },
   "directories": {
     "test": "test"
