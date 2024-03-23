@@ -1,4 +1,10 @@
-import { PropTrie, lazyMap, sortByFunc, wordSplitPossibilities } from "../utils"
+import {
+  PropTrie,
+  lazyMap,
+  makeTranscribedSegment,
+  sortByFunc,
+  wordSplitPossibilities,
+} from "../utils"
 import type {
   Alternation,
   DictEntry,
@@ -13,7 +19,7 @@ function getMatchSum(
 ): Alternation {
   const alphaFilter = _alphaFilter ?? (x => x)
   return {
-    content: matchStack.map(({ x, h }) => ({ x, h, v: h })),
+    content: matchStack.map(match => makeTranscribedSegment(match, "h")),
     note:
       matchStack.length === 1
         ? matchStack[0].n || ""
@@ -120,15 +126,13 @@ export class AlphaToHanziTranscriber implements Transcriber {
         return word.split(ziSeparator).forEach(char => {
           let matches = bisectLookUp(this_.dict, "x", char)
           if (matches.length === 0) return append(char)
-          if (matches.length === 1) {
-            const h = matches[0].h
-            return append({ x: char, h, v: h })
-          }
+          if (matches.length === 1)
+            return append(makeTranscribedSegment(matches[0], "h"))
 
           append(
             sortAlternations(
               matches.map(match => ({
-                content: [{ x: char, h: match.h, v: match.h }],
+                content: [makeTranscribedSegment(match, "h")],
                 note: match.n || "",
                 exceptional: match.xh === "-",
                 legacy: match.hh === "-" && match.xh === "-",

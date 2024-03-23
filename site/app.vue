@@ -29,6 +29,12 @@
     <aside>
       <h2 class="h4">更新记录</h2>
       <dl class="changelog mb-0">
+        <dt>2024-03-23</dt>
+        <dd>
+          <ul>
+            <li>现在，可视化结果中使用旧拼写的字词会被标红。</li>
+          </ul>
+        </dd>
         <dt>2024-03-19</dt>
         <dd>
           <ul>

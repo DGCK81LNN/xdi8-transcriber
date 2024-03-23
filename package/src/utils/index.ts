@@ -1,3 +1,5 @@
+import type { DictEntry, TranscribedSegment } from "../types"
+
 export * from "./prop_trie"
 export * from "./word_split_possibilities"
 
@@ -126,4 +128,13 @@ export function escapeRegExp(source: string) {
 // TODO: add unit test for this ?
 export function* lazyMap<T, U>(iterable: Iterable<T>, fn: (value: T) => U) {
   for (const value of iterable) yield fn(value)
+}
+
+export function makeTranscribedSegment(seg: DictEntry, vType: "h" | "x") {
+  return {
+    h: seg.h,
+    x: seg.x,
+    v: seg[vType],
+    ...(seg.hh === "-" && seg.xh === "-" ? { legacy: true } : null),
+  } as TranscribedSegment
 }

@@ -7,7 +7,7 @@ export interface Props {
 const props = defineProps<Props>()
 
 const isLegacyOnly = computed(() => {
-  return props.value.slice(1).every(alt => alt.legacy)
+  return !props.value[0].legacy && props.value.slice(1).every(alt => alt.legacy)
 })
 
 const el = ref<HTMLElement | null>(null)
@@ -81,12 +81,6 @@ function select(i: number) {
   padding: 0px;
   max-height: 80vh;
   overflow-y: auto;
-}
-.selectable-option-legacy {
-  opacity: 0.6;
-}
-:hover > .selectable-option-legacy {
-  opacity: 0.7;
 }
 .selectable-option > ruby {
   font-size: 2rem;

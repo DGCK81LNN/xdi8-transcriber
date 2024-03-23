@@ -54,6 +54,8 @@ export interface TranscribedSegment {
   x: string
   /** Plain-text output of this segment. */
   v: string
+  /** True if this segment involves a legacy spelling. */
+  legacy?: boolean
 }
 export type TranscribeResultSegment =
   | string

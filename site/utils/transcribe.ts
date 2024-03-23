@@ -84,7 +84,7 @@ function toResult(med: Intermediate): VisualResult {
         ),
         { selectedIndex: 0 }
       )
-    return { h: seg.h, x: chatToXdPUA(seg.x), v: seg.v }
+    return { ...seg, x: chatToXdPUA(seg.x) }
   })
 }
 

@@ -81,7 +81,7 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000", legacy: true })] }),
           ],
         ])
         expect(t.transcribe("ＡＡ")).toEqual([
@@ -89,13 +89,13 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000", legacy: true })] }),
           ],
           [
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000", legacy: true })] }),
           ],
         ])
         expect(t.transcribe("ＢＡ")).toEqual([
@@ -104,7 +104,7 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000", legacy: true })] }),
           ],
         ])
         expect(t.transcribe("ＣＡ")).toEqual([
@@ -113,7 +113,7 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000", legacy: true })] }),
           ],
         ])
         expect(t.transcribe("ＡＤ")).toEqual([
@@ -121,7 +121,7 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000", legacy: true })] }),
           ],
           OW({ h: "Ｄ", x: "666" }),
         ])
@@ -130,7 +130,7 @@ describe("base_transcribers", function () {
             OW({ content: [OW({ h: "Ａ", x: "222" })] }),
             OW({ content: [OW({ h: "Ａ", x: "333" })] }),
             OW({ content: [OW({ h: "Ａ", x: "111" })] }),
-            OW({ content: [OW({ h: "Ａ", x: "000" })] }),
+            OW({ content: [OW({ h: "Ａ", x: "000", legacy: true })] }),
           ],
           OW({ h: "Ｅ", x: "777" }),
         ])
@@ -377,6 +377,46 @@ describe("base_transcribers", function () {
         ])
         // mustn't split words
         expect(t.transcribe("utAFi6", { ziSeparator: " " })).toEqual(["utAFi6"])
+      })
+
+      it("marks legacy spellings", function () {
+        const t = new AlphaToHanziTranscriber({
+          dict: [
+            { h: "小", x: "xLH", hh: "-", xh: "-", n: "旧拼写" },
+            { h: "剌", x: "la" },
+            { h: "佳", x: "la", hh: "-", xh: "-", n: "旧拼写" },
+          ],
+        })
+        expect(t.transcribe("xLHla")).toEqual([
+          [
+            OW({
+              content: [
+                OW({ h: "小", x: "xLH", legacy: true }),
+                OW({ h: "剌", x: "la" }),
+              ],
+              legacy: true,
+            }),
+            OW({
+              content: [
+                OW({ h: "小", x: "xLH", legacy: true }),
+                OW({ h: "佳", x: "la", legacy: true }),
+              ],
+              legacy: true,
+            }),
+          ],
+        ])
+        expect(t.transcribe("xLH la", { ziSeparator: " " })).toEqual([
+          OW({ h: "小", x: "xLH", legacy: true }),
+          [
+            OW({
+              content: [OW({ h: "剌", x: "la" })],
+            }),
+            OW({
+              content: [OW({ h: "佳", x: "la", legacy: true })],
+              legacy: true,
+            }),
+          ],
+        ])
       })
     })
   })

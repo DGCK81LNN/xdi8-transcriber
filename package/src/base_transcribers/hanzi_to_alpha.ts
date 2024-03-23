@@ -3,6 +3,7 @@ import {
   bisectLookUp,
   getPropComparer,
   hhMatches,
+  makeTranscribedSegment,
   multiSubst,
   sortByFunc,
 } from "../utils"
@@ -63,10 +64,8 @@ export class HanziToAlphaTranscriber implements Transcriber {
       else if (needSpace) append(" ")
       prevSegmentIsWord = true
 
-      if (matches.length === 1) {
-        const x = matches[0].x
-        return append({ h: char, x, v: x })
-      }
+      if (matches.length === 1)
+        return append(makeTranscribedSegment(matches[0], "x"))
 
       sortByFunc(matches, ({ hh, xh }) => {
         if (hh === "-") return xh === "-" ? 3 : 2
@@ -76,7 +75,7 @@ export class HanziToAlphaTranscriber implements Transcriber {
 
       append(
         matches.map(match => ({
-          content: [{ h: char, x: match.x, v: match.x }],
+          content: [makeTranscribedSegment(match, "x")],
           note: match.n || "",
           exceptional: match.hh === "-",
           legacy: match.hh === "-" && match.xh === "-",
