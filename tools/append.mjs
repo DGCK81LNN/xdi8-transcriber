@@ -49,6 +49,11 @@ for (const [h, xs] of entries) {
       e.xh = "-"
       if (!e.n?.includes("旧拼写"))
         e.n = (e.n || "") + (e.n ? "，" : "") + "旧拼写"
+    } else if (table[h][latest]?.includes(x) && e.hh === "-" && e.xh === "-") {
+      console.warn(`Entry ${h} — ${x} is no longer deprecated, removing hints`)
+      e.hh = ""
+      e.xh = ""
+      e.n = e.n.replace(/，?旧拼写/, "")
     }
   }
   dictTable[h].sort(

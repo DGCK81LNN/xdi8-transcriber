@@ -13,7 +13,7 @@ const startTime = Date.now()
 const outStream = fs.createWriteStream(pr("../src/data.json"))
 
 const convertPromise = new Promise(resolve => {
-  const inStream = fs.createReadStream(pr("../data/dict.tsv"))
+  const inStream = fs.createReadStream(pr("../../data/dict.tsv"))
   const rl = readline.createInterface({
     input: inStream,
     terminal: false,
@@ -51,7 +51,7 @@ const convertPromise = new Promise(resolve => {
   })
 })
 
-const miscPromise = fs.promises.readFile(pr("../data/misc.json")).then(b => {
+const miscPromise = fs.promises.readFile(pr("../../data/misc.json")).then(b => {
   return JSON.stringify(JSON.parse(b.toString()))
 })
 

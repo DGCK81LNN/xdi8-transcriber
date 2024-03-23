@@ -469,3 +469,23 @@ interface Transcriber {
 ~~~
 
 具有 `transcribe` 方法，其接受字符串作为第一个参数、返回 `TranscribeResult` 的类型。本模块中的各转写器类都实现该接口。
+
+## 维护
+
+新字表发布时：
+
+ 1. 将字表以 TSV 格式（无标题行，第一列为汉字，第二列为希顶聊天字母）保存到 <code>data/<var>6位日期</var>.tsv</code>。
+
+ 2. 执行 <code>ruby tools/sort.rb data/<var>xxxxxx</var>.tsv</code>，统一字表数据的排序（希顶拼写按希顶字母表顺序简单排序）。
+
+ 3. 在 `data` 目录中，执行 `node ../tools/append.mjs dict.tsv`：此过程可能会移除部分条目的汉希提示，程序会输出相应的提示，在下一步中可能需要将其补回到适当位置。
+
+ 4. 检查 `data/dict.tsv` 的 `git diff`，补充缺少的注释、提示（如新增多音字时，填写各读音的释义或对应普通话读音等）。
+
+      * 使用 `tools/dictgitdiff.sh data/dict.tsv` 可省略 diff 中多余的上下文。当标准输出为控制台时，该脚本会自动使用环境中的 <code>python -m [pygments](https://pygments.org/)</code> 或 [`rougify`](https://rouge.jneen.net/) 为 diff 添加颜色。
+
+ 5. 如果在注释中使用了数字表示拼音声调的写法（如 `pin1 yin1`），执行 `ruby tools/pinyin.rb data/dict.tsv data/dict.tsv`，将其转换为声调标号。
+
+ 6. 更新 README 和 `site/app.vue` 中注明的字表版本以及更新记录。
+
+ 7. 修改 `package/package.json` 中的包版本号，执行 `npm run build:package` 或其他合适的构建指令，为新的版本号创建 Git 标签，发布包更新。
