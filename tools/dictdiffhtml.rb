@@ -1,0 +1,1 @@
+print "<meta charset=utf-8><table style='font-family:consolas,monospace,sans-serif'><tr><th><th>汉字<th>希顶<th>备注<th>汉希提示<th>希汉提示#{STDIN.read.gsub(/^ /, '<tr><td><td>').gsub(/^\+/, '<tr style="color:green"><td>+<td>').gsub(/^-/, '<tr style="color:red"><td>-<td>').gsub("\t", '<td>')}"
