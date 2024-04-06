@@ -100,7 +100,7 @@ console.log(h2x.transcribe("曾侯乙编钟"));
       legacy: false
     },
     {
-      content: [ { h: '侯', x: 'Vhi6', v: 'Vhi6' } ],
+      content: [ { h: '侯', x: 'Vhi6', v: 'Vhi6', legacy: true } ],
       note: '旧拼写',
       exceptional: true,
       legacy: true
@@ -110,19 +110,19 @@ console.log(h2x.transcribe("曾侯乙编钟"));
   { h: '编', x: 'abi2', v: 'abi2' },
   [
     {
-      content: [ { h: '钟', x: 'Nzu3', v: 'Nzu3' } ],
+      content: [ { h: '钟', x: '7iTN', v: '7iTN' } ],
       note: '“鐘”的简化字 打击乐器；计时的器具；指时间或时刻',
       exceptional: false,
       legacy: false
     },
     {
-      content: [ { h: '钟', x: '7iTN', v: '7iTN' } ],
+      content: [ { h: '钟', x: 'Nzu3', v: 'Nzu3' } ],
       note: '“鍾”的简化字 盛酒的器皿；（情感）集中、专注；姓氏',
       exceptional: false,
       legacy: false
     },
     {
-      content: [ { h: '钟', x: 'Nz3', v: 'Nz3' } ],
+      content: [ { h: '钟', x: 'Nz3', v: 'Nz3', legacy: true } ],
       note: '旧拼写',
       exceptional: true,
       legacy: true
@@ -139,31 +139,31 @@ console.log(h2x.transcribe("曾侯乙编钟"));
 console.log(x2h.transcribe("wo de Huajbia", { alphaFilter: null }));
 // 输出：
 [
-  { x: 'wo', h: '我', v: '我' },
+  { h: '我', x: 'wo', v: '我' },
   ' ',
-  { x: 'de', h: '的', v: '的' },
+  { h: '的', x: 'de', v: '的' },
   ' ',
   [
     {
-      content: [ { x: 'Huaj', h: '挚', v: '挚' }, { x: 'bia', h: '友', v: '友' } ],
+      content: [ { h: '挚', x: 'Huaj', v: '挚' }, { h: '友', x: 'bia', v: '友' } ],
       note: '',
       exceptional: false,
       legacy: false
     },
     {
-      content: [ { x: 'Hua', h: '支', v: '支' }, { x: 'jbia', h: '发', v: '发' } ],
+      content: [ { h: '支', x: 'Hua', v: '支' }, { h: '发', x: 'jbia', v: '发' } ],
       note: 'jbia — “髪”的简化字 fà',
       exceptional: false,
       legacy: false
     },
     {
-      content: [ { x: 'Hua', h: '支', v: '支' }, { x: 'jbia', h: '髪', v: '髪' } ],
+      content: [ { h: '支', x: 'Hua', v: '支' }, { h: '髪', x: 'jbia', v: '髪' } ],
       note: '',
       exceptional: true,
       legacy: false
     },
     {
-      content: [ { x: 'Hua', h: '支', v: '支' }, { x: 'jbia', h: '髮', v: '髮' } ],
+      content: [ { h: '支', x: 'Hua', v: '支' }, { h: '髮', x: 'jbia', v: '髮' } ],
       note: '',
       exceptional: true,
       legacy: false
