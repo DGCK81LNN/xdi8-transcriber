@@ -10,6 +10,6 @@
     "@bootstrap-vue-next/nuxt": "=0.17.6",
     "bootstrap": "=5.3.3",
     "bootstrap-vue-next": "=0.17.6",
-    "nuxt": "^3.11.1"
+    "nuxt": "^3.11.2"
   }
 }
