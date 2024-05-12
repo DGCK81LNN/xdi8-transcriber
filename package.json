@@ -1,4 +1,5 @@
 {
+  "name": "xdi8-transcriber-root",
   "private": true,
   "workspaces": [
     "package",

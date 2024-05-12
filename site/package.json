@@ -1,4 +1,5 @@
 {
+  "name": "xdi8-transcriber-site",
   "private": true,
   "scripts": {
     "build": "nuxi generate",
@@ -6,9 +7,9 @@
     "postinstall": "nuxi prepare"
   },
   "devDependencies": {
-    "@bootstrap-vue-next/nuxt": "^0.16.6",
-    "bootstrap": "^5.3.3",
-    "bootstrap-vue-next": "^0.16.6",
+    "@bootstrap-vue-next/nuxt": "=0.17.6",
+    "bootstrap": "=5.3.3",
+    "bootstrap-vue-next": "=0.17.6",
     "nuxt": "^3.11.1"
   }
 }
