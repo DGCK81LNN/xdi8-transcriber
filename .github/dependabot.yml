@@ -1,31 +1,14 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: '/package/'
-  schedule:
-    interval: weekly
-    day: saturday
-    time: 04:00
-    timezone: Asia/Shanghai
-  reviewers:
-    - DGCK81LNN
-  assignees:
-    - DGCK81LNN
-  commit-message:
-    prefix: fix(package)
-    prefix-development: chore(package)
-    include: scope
-- package-ecosystem: npm
-  directory: '/site/'
-  schedule:
-    interval: monthly
-    time: 04:00
-    timezone: Asia/Shanghai
-  reviewers:
-    - DGCK81LNN
-  assignees:
-    - DGCK81LNN
-  commit-message:
-    prefix: fix(site)
-    prefix-development: chore(site)
-    include: scope
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: monthly
+      time: 04:00
+      timezone: Asia/Shanghai
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+      time: 04:00
+      timezone: Asia/Shanghai
