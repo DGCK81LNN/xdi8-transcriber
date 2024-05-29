@@ -79,8 +79,6 @@ function select(i: number) {
 .selectable-popover .popover-body {
   border-radius: calc(var(--bs-border-radius) + 0.5px);
   padding: 0px;
-  max-height: 80vh;
-  overflow-y: auto;
 }
 .selectable-option > ruby {
   font-size: 2rem;
