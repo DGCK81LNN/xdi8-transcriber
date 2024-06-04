@@ -29,6 +29,12 @@
     <aside>
       <h2 class="h4">更新记录</h2>
       <dl class="changelog mb-0">
+        <dt>2024-06-05</dt>
+        <dd>
+          <ul>
+            <li>字表更新至 240604 版。</li>
+          </ul>
+        </dd>
         <dt>2024-04-05</dt>
         <dd>
           <ul>
@@ -134,7 +140,7 @@
     <hr class="d-md-none" />
     <footer class="text-md-end">
       <p>DGCK81LNN 制作</p>
-      <p>〇改希顶语字表更新至 240405 版</p>
+      <p>〇改希顶语字表更新至 240604 版</p>
       <p>
         <span id="busuanzi_container_page_pv" style="display: none">
           本页面已被访问 <span id="busuanzi_value_page_pv"></span> 次
