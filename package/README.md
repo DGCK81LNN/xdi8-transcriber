@@ -486,6 +486,8 @@ interface Transcriber {
 
  5. 如果在注释中使用了数字表示拼音声调的写法（如 `pin1 yin1`），执行 `ruby tools/pinyin.rb data/dict.tsv data/dict.tsv`，将其转换为声调标号。
 
- 6. 更新 README 和 `site/app.vue` 中注明的字表版本以及更新记录。
+ 6. 执行 `node tools/xhhint.js`，自动补充一些希汉提示（进行此操作前建议先 `git add` `data/dict.tsv` 以便检查）。
 
- 7. 修改 `package/package.json` 中的包版本号，执行 `npm run build:package` 或其他合适的构建指令，为新的版本号创建 Git 标签，发布包更新。
+ 7. 更新 README 和 `site/app.vue` 中注明的字表版本以及更新记录。
+
+ 8. 修改 `package/package.json` 中的包版本号，执行 `npm run build:package` 或其他合适的构建指令，为新的版本号创建 Git 标签，发布包更新。
