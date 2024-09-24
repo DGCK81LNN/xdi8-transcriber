@@ -146,7 +146,7 @@
     <hr class="d-md-none" />
     <footer class="text-md-end">
       <p>DGCK81LNN 制作</p>
-      <p>〇改希顶语字表更新至 240604 版</p>
+      <p>〇改希顶语字表更新至 240924 版</p>
       <p>
         <span id="busuanzi_container_page_pv" style="display: none">
           本页面已被访问 <span id="busuanzi_value_page_pv"></span> 次
