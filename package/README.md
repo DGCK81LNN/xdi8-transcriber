@@ -474,9 +474,9 @@ interface Transcriber {
 
 新字表发布时：
 
- 1. 将字表以 TSV 格式（无标题行，第一列为汉字，第二列为希顶聊天字母）保存到 <code>data/<var>6位日期</var>.tsv</code>。
+ 1. 将字表保存到 <code>data/希顶字表<var>xxxxx</var>.xlsx</code>，执行 <code>py tools/totsv.py data/希顶字表<var>xxxxx</var>.xlsx</code> 将其转换为 TSV。
 
- 2. 执行 <code>ruby tools/sort.rb data/<var>xxxxxx</var>.tsv</code>，统一字表数据的排序（希顶拼写按希顶字母表顺序简单排序）。
+ 2. 执行 <code>ruby tools/sort.rb data/<var>xxxxxx</var>.tsv</code>，统一字表数据的排序（希顶拼写按希顶字母表顺序简单排序，相同的按汉字 Unicode 码位排序）。
 
  3. 在 `data` 目录中，执行 `node ../tools/append.mjs dict.tsv`：此过程可能会移除部分条目的汉希提示，程序会输出相应的提示，在下一步中可能需要将其补回到适当位置。
 
