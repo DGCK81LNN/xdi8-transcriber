@@ -29,6 +29,12 @@
     <aside>
       <h2 class="h4">更新记录</h2>
       <dl class="changelog mb-0">
+        <dt>2024-09-24</dt>
+        <dd>
+          <ul>
+            <li>字表更新至 240924 版。</li>
+          </ul>
+        </dd>
         <dt>2024-06-05</dt>
         <dd>
           <ul>
