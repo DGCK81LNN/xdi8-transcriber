@@ -1,6 +1,5 @@
 const fsPromises = require("fs/promises")
 const { build } = require("esbuild")
-const { umdWrapper } = require("esbuild-plugin-umd-wrapper")
 const path = require("path")
 
 process.cwd(path.resolve(path.dirname(process.argv[1]), ".."))
@@ -12,12 +11,7 @@ async function main() {
     bundle: true,
     outfile: "lib/index.js",
     logLevel: "info",
-    globalName: "xdi8Transcriber",
-    plugins: [
-      umdWrapper({
-        libraryName: "xdi8Transcriber",
-      }),
-    ],
+    external: ["*.json"],
   })
 
   await build({
@@ -26,6 +20,18 @@ async function main() {
     bundle: true,
     outfile: "lib/index.mjs",
     logLevel: "info",
+    external: ["*.json"],
+  })
+
+  await build({
+    entryPoints: ["src/index.ts"],
+    format: "iife",
+    bundle: true,
+    minify: true,
+    charset: 'utf8',
+    outfile: "dist/index.min.js",
+    logLevel: "info",
+    globalName: "xdi8Transcriber",
   })
 
   // copy data to lib
