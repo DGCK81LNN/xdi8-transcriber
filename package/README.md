@@ -176,7 +176,7 @@ console.log(x2h.transcribe("wo de Huajbia", { alphaFilter: null }));
 
 ### 通过 CDN 获取最新的字表
 
-〇改希顶语字表可能经常需要更新，但某些情况下，可能并不适合直接更新 `xdi8-transcriber` 包。您可使用以下方法获取与当前包版本相兼容的最新字表数据：
+~~〇改希顶语字表可能经常需要更新~~<sup>_2025年以来，〇改希顶语字表已停止更新_</sup>~~，但某些情况下，可能并不适合直接更新 `xdi8-transcriber` 包。~~&ZeroWidthSpace;您可使用以下方法获取与当前包版本相兼容的最新字表数据：
 
  1. <code>GET https://<span></span>data.jsdelivr.com/v1/packages/npm/xdi8-transcriber/resolved?specifier=^<mark>当前包版本号（不包含前缀 v）</mark></code>
 
@@ -186,7 +186,7 @@ console.log(x2h.transcribe("wo de Huajbia", { alphaFilter: null }));
 
     即为字表数据 JSON，解析成对象后传递给转写器类的构造函数即可。
 
-`xdi8-transcriber` 目前的主版本号为 0。因此，当 `xdi8-transcriber` 的***次***版本号提升（例如从 `0.2.3` 提升至 `0.3.0`）时，新版本会被认为与旧版本不兼容，此时则必须要将 `xdi8-transcriber` 包本身更新到新版本，才能更新到新的字表。
+<!--`xdi8-transcriber` 目前的主版本号为 0。因此，当 `xdi8-transcriber` 的***次***版本号提升（例如从 `0.2.3` 提升至 `0.3.0`）时，新版本会被认为与旧版本不兼容，此时则必须要将 `xdi8-transcriber` 包本身更新到新版本，才能更新到新的字表。-->
 
 ## API 参考
 
