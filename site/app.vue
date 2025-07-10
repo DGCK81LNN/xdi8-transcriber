@@ -203,8 +203,7 @@ useHead({
 </script>
 
 <style>
-body,
-[lang] {
+[lang][lang] {
   --bs-font-sans-serif: "XEGOEPUAall", "Segoe UI", "思源黑体 CN",
     "Source Han CN", -apple-system, "Roboto", "微软雅黑", "Microsoft YaHei",
     system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
