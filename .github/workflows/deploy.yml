@@ -1,4 +1,4 @@
-name: Build and deploy to Github Pages
+name: Build and deploy
 on:
   push:
     branches: [ main ]
@@ -53,13 +53,40 @@ jobs:
       with:
         path: site/dist
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  deploy-pages:
     runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+  deploy-ftp:
+    runs-on: ubuntu-latest
+    needs: build
+    strategy:
+      matrix:
+        environment:
+          - vudrux.site
+    steps:
+      - name: Download built site
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+      - name: Extract tar
+        run: |
+          mkdir _site && tar -xvf artifact.tar -C _site
+      - name: Deploy to FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          local-dir: ./_site/
+          server: ${{ vars.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ vars.SERVER_DIR }}
+    environment:
+      name: ${{ matrix.environment }}
+      url: ${{ vars.DEPLOYMENT_URL }}
