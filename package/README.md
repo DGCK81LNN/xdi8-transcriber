@@ -18,8 +18,8 @@
 [site]: https://dgck81lnn.github.io/xdi8-transcriber/
 [npm]: https://npmjs.org/package/xdi8-transcriber
 [npm-badge]: https://img.shields.io/npm/v/xdi8-transcriber?logo=npm
-[actions]: https://github.com/DGCK81LNN/xdi8-transcriber/actions/workflows/pages.yml
-[actions-badge]: https://img.shields.io/github/actions/workflow/status/DGCK81LNN/xdi8-transcriber/pages.yml?branch=main&logo=github-actions&logoColor=white
+[actions]: https://github.com/DGCK81LNN/xdi8-transcriber/actions/workflows/deploy.yml
+[actions-badge]: https://img.shields.io/github/actions/workflow/status/DGCK81LNN/xdi8-transcriber/deploy.yml?branch=main&logo=github-actions&logoColor=white
 [xdi8]: https://wiki.xdi8.top/wiki/%E5%B8%8C%E9%A1%B6%E8%AF%AD
 
 ## 调用方法
