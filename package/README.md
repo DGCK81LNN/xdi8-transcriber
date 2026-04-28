@@ -4,7 +4,7 @@
 
 **〇改[希顶语][xdi8]↔汉字**转写工具
 
-- [X] 字表已更新至 240924 版
+- [X] 字表已更新至 260427 版
 - [X] 兼容旧版字表
 - [X] 自带多音字提示
 - [X] 部分常见多音字读音自动推测
@@ -108,26 +108,7 @@ console.log(h2x.transcribe("曾侯乙编钟"));
   ],
   { h: '乙', x: '5E', v: '5E' },
   { h: '编', x: 'abi2', v: 'abi2' },
-  [
-    {
-      content: [ { h: '钟', x: '7iTN', v: '7iTN' } ],
-      note: '“鐘”的简化字 打击乐器；计时的器具；指时间或时刻',
-      exceptional: false,
-      legacy: false
-    },
-    {
-      content: [ { h: '钟', x: 'Nzu3', v: 'Nzu3' } ],
-      note: '“鍾”的简化字 盛酒的器皿；（情感）集中、专注；姓氏',
-      exceptional: false,
-      legacy: false
-    },
-    {
-      content: [ { h: '钟', x: 'Nz3', v: 'Nz3', legacy: true } ],
-      note: '旧拼写',
-      exceptional: true,
-      legacy: true
-    }
-  ]
+  { h: '钟', x: 'Nz3', v: 'Nz3', legacy: true }
 ]
 ~~~
 
@@ -136,34 +117,41 @@ console.log(h2x.transcribe("曾侯乙编钟"));
 <details><summary>示例（<code>Xdi8ToHanziTranscriber</code>）</summary>
 
 ~~~js
-console.log(x2h.transcribe("wo de Huajbia", { alphaFilter: null }));
+console.log(x2h.transcribe("wo de 4YFYq8", { alphaFilter: null }));
 // 输出：
 [
   { h: '我', x: 'wo', v: '我' },
   ' ',
-  { h: '的', x: 'de', v: '的' },
-  ' ',
   [
     {
-      content: [ { h: '挚', x: 'Huaj', v: '挚' }, { h: '友', x: 'bia', v: '友' } ],
+      content: [ { h: '的', x: 'de', v: '的' } ],
       note: '',
       exceptional: false,
       legacy: false
     },
     {
-      content: [ { h: '支', x: 'Hua', v: '支' }, { h: '发', x: 'jbia', v: '发' } ],
-      note: 'jbia — “髪”的简化字 fà',
-      exceptional: false,
-      legacy: false
-    },
-    {
-      content: [ { h: '支', x: 'Hua', v: '支' }, { h: '髪', x: 'jbia', v: '髪' } ],
+      content: [ { h: '旳', x: 'de', v: '旳' } ],
       note: '',
       exceptional: true,
       legacy: false
+    }
+  ],
+  ' ',
+  [
+    {
+      content: [ { h: '爱', x: '4YF', v: '爱' }, { h: '情', x: 'Yq8', v: '情' } ],
+      note: '',
+      exceptional: false,
+      legacy: false
     },
     {
-      content: [ { h: '支', x: 'Hua', v: '支' }, { h: '髮', x: 'jbia', v: '髮' } ],
+      content: [ { h: '艾', x: '4Y', v: '艾' }, { h: '玉', x: 'FY', v: '玉' }, { h: '青', x: 'q8', v: '青' } ],
+      note: '4Y — ài',
+      exceptional: false,
+      legacy: false
+    },
+    {
+      content: [ { h: '愛', x: '4YF', v: '愛' }, { h: '情', x: 'Yq8', v: '情' } ],
       note: '',
       exceptional: true,
       legacy: false
@@ -176,7 +164,7 @@ console.log(x2h.transcribe("wo de Huajbia", { alphaFilter: null }));
 
 ### 通过 CDN 获取最新的字表
 
-~~〇改希顶语字表可能经常需要更新~~<sup>_2025年以来，〇改希顶语字表已停止更新_</sup>~~，但某些情况下，可能并不适合直接更新 `xdi8-transcriber` 包。~~&ZeroWidthSpace;您可使用以下方法获取与当前包版本相兼容的最新字表数据：
+〇改希顶语字表可能经常需要更新，但某些情况下，可能并不适合直接更新 `xdi8-transcriber` 包。您可使用以下方法获取与当前包版本相兼容的最新字表数据：
 
  1. <code>GET https://<span></span>data.jsdelivr.com/v1/packages/npm/xdi8-transcriber/resolved?specifier=^<mark>当前包版本号（不包含前缀 v）</mark></code>
 
@@ -186,7 +174,7 @@ console.log(x2h.transcribe("wo de Huajbia", { alphaFilter: null }));
 
     即为字表数据 JSON，解析成对象后传递给转写器类的构造函数即可。
 
-<!--`xdi8-transcriber` 目前的主版本号为 0。因此，当 `xdi8-transcriber` 的***次***版本号提升（例如从 `0.2.3` 提升至 `0.3.0`）时，新版本会被认为与旧版本不兼容，此时则必须要将 `xdi8-transcriber` 包本身更新到新版本，才能更新到新的字表。-->
+`xdi8-transcriber` 目前的主版本号为 0。因此，当 `xdi8-transcriber` 的***次***版本号提升（例如从 `0.2.3` 提升至 `0.3.0`）时，新版本会被认为与旧版本不兼容，此时则必须要将 `xdi8-transcriber` 包本身更新到新版本，才能更新到新的字表。
 
 ## API 参考
 
@@ -246,12 +234,12 @@ console.log(x2hTranscriber.transcribe("FY"));
 ~~~
 
 ~~~js
-console.log(h2xTranscriber.transcribe("爱情", { ziSeparator: "-" }));
+console.log(h2xTranscriber.transcribe("你好", { ziSeparator: "-" }));
 // 输出：
 [
-  { h: '爱', x: '4YF', v: '4YF' },
+  { h: '你', x: 'Vnu8', v: 'Vnu8' },
   { h: '', x: '', v: '-' },
-  { h: '情', x: 'Yq8', v: 'Yq8' }
+  { h: '好', x: 'AHL', v: 'AHL' }
 ]
 ~~~
 
@@ -433,7 +421,7 @@ interface DictEntry {
 
 指定一系列字符串替换规则。汉字转希顶时，会根据这些规则对文本进行预处理。
 
-在默认数据中指定的是将拆开表示的“纟火”、“糹火”替换为相对应的希顶字母 PUA 编码码位。这样做是因为 [`HanziToAlphaTranscriber`](#类-hanzitoxdi8transcriber-hanzitoalphatranscriber) 的设计要求单个汉字只能用单个 Unicode 代码点表示。
+在默认数据中指定的是将拆开表示的“纟火”、“糹火”等生造字替换为对应的单个码点。这样做是因为 [`HanziToAlphaTranscriber`](#类-hanzitoxdi8transcriber-hanzitoalphatranscriber) 的设计要求单个汉字只能用单个 Unicode 代码点表示。例如：
 
 ~~~json
 {

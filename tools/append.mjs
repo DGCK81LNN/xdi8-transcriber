@@ -42,7 +42,7 @@ for (const [h, xs] of entries) {
   }
   for (const e of dictTable[h]) {
     const { x } = e
-    if (table[h][latest] && !table[h][latest].includes(x)) {
+    if (!table[h][latest]?.includes(x)) {
       if (e.hh && e.hh !== "-")
         console.warn(`Removing hanzi hint for entry ${h} — ${x}, was: ${e.hh}`)
       e.hh = "-"
