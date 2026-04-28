@@ -37,7 +37,7 @@
         v-model="ziSep"
         :options="[
           { text: '空格', value: ' ' },
-          { text: '无', value: '' },
+          { text: targetFmt === 'hanzi' ? '无（自动分词）' : '无', value: '' },
           '-',
           '_',
         ]"
