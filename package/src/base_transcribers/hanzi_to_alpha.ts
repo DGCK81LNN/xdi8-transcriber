@@ -26,7 +26,7 @@ export class HanziToAlphaTranscriber implements Transcriber {
       ziSeparator = "",
     }: {
       ziSeparator?: string
-    } = {}
+    } = {},
   ) {
     input = multiSubst(input, this.subst)
 
@@ -59,9 +59,11 @@ export class HanziToAlphaTranscriber implements Transcriber {
         return append(char)
       }
 
-      if (prevSegmentIsWord)
-        ziSeparator && append({ h: "", x: "", v: ziSeparator })
-      else if (needSpace) append(" ")
+      if (prevSegmentIsWord) {
+        if (ziSeparator) append({ h: "", x: "", v: ziSeparator })
+      } else if (needSpace) {
+        append(" ")
+      }
       prevSegmentIsWord = true
 
       if (matches.length === 1)
@@ -79,7 +81,7 @@ export class HanziToAlphaTranscriber implements Transcriber {
           note: match.n || "",
           exceptional: match.hh === "-",
           legacy: match.hh === "-" && match.xh === "-",
-        }))
+        })),
       )
     }
   }

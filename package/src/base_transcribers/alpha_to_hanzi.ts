@@ -15,7 +15,7 @@ import { bisectLookUp, getPropComparer, escapeRegExp } from "../utils"
 
 function getMatchSum(
   matchStack: readonly DictEntry[],
-  _alphaFilter?: ((x: string) => string) | null | undefined
+  _alphaFilter?: ((x: string) => string) | null
 ): Alternation {
   const alphaFilter = _alphaFilter ?? (x => x)
   return {
@@ -103,9 +103,9 @@ export class AlphaToHanziTranscriber implements Transcriber {
 
     let prevI = 0
     for (const { [0]: match, index: i } of input.matchAll(re)) {
-      if (i! > prevI) append(input.slice(prevI, i))
+      if (i > prevI) append(input.slice(prevI, i))
       handleWord(match, this)
-      prevI = i! + match.length
+      prevI = i + match.length
     }
     if (prevI < input.length) append(input.slice(prevI))
 
