@@ -120,7 +120,12 @@ const sourceFmt = ref<Format>("hanzi")
 const targetFmt = ref<Format>("chat")
 const ziSep = ref(" ")
 const result = ref<VisualResult>()
-const plainResult = computed(() => result.value && toPlainResult(result.value))
+const plainResult = computed(() => {
+  if (!result.value) return ""
+  let text = toPlainResult(result.value)
+  if (sourceFmt.value === "hanzi") text = fullWidthToHalfWidth(text)
+  return text
+})
 
 function exchangeSourceAndTarget() {
   ;[sourceFmt.value, targetFmt.value] = [targetFmt.value, sourceFmt.value]

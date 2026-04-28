@@ -17,7 +17,7 @@ export interface TranscribeOptions {
 
 export type Alternations = Alternation[] & { selectedIndex: number }
 type Intermediate = TranscribeResult | string
-export { TranscribedSegment, Alternation }
+export type { TranscribedSegment, Alternation }
 export type VisualResultSegment = string | TranscribedSegment | Alternations
 export type VisualResult = VisualResultSegment[] | string
 
@@ -41,7 +41,7 @@ const from: Record<
 }
 
 function alphaTransformer(
-  filter: (text: string) => string
+  filter: (text: string) => string,
 ): (med: Intermediate) => Intermediate {
   return (med: Intermediate) => {
     if (typeof med === "string") return filter(med)
@@ -51,7 +51,7 @@ function alphaTransformer(
         return seg.map(alt =>
           Object.assign({}, alt, {
             content: into.xdpua(alt.content),
-          })
+          }),
         )
       return Object.assign({}, seg, { v: filter(seg.v) })
     })
@@ -80,9 +80,9 @@ function toResult(med: Intermediate): VisualResult {
         seg.map(alt =>
           Object.assign({}, alt, {
             content: toResult(alt.content),
-          })
+          }),
         ),
-        { selectedIndex: 0 }
+        { selectedIndex: 0 },
       )
     return { ...seg, x: chatToXdPUA(seg.x) }
   })
@@ -92,7 +92,7 @@ export function transcribe(
   input: string,
   ft: Format,
   tt: Format,
-  opt?: TranscribeOptions
+  opt?: TranscribeOptions,
 ) {
   return toResult(into[tt](from[ft](input, opt), opt))
 }
@@ -107,4 +107,14 @@ export function toPlainResult(res: VisualResult): string {
       return seg.v
     })
     .join("")
+}
+
+export function fullWidthToHalfWidth(text: string): string {
+  return text
+    .replace(/[！，．：；？](?!$)/gm, "$& ")
+    .replace(/[！-～]/g, s => String.fromCharCode(s.charCodeAt(0) - 0xfee0))
+    .replace(/。$/gm, ".")
+    .replace(/、$/gm, ",")
+    .replace(/。/g, ". ")
+    .replace(/、/g, ", ")
 }
