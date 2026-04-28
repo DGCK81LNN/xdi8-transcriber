@@ -37,7 +37,7 @@ async function main() {
   // copy data to lib
   await Promise.all([
     fsPromises.copyFile("src/data.json", "lib/data.json"),
-    fsPromises.copyFile("src/data.json.d.ts", "lib/data.json.d.ts"),
+    //fsPromises.copyFile("src/data.json.d.ts", "lib/data.json.d.ts"),
   ])
 }
 

@@ -1,4 +1,5 @@
 import data from "./data.json" with { type: "json" }
+import { DictEntry } from "./types"
 import {
   HanziToAlphaTranscriber,
   AlphaToHanziTranscriber,
@@ -16,13 +17,18 @@ export {
 export * from "./types"
 
 export class HanziToXdi8Transcriber extends HanziToAlphaTranscriber {
-  constructor(dictData = data) {
+  constructor(
+    dictData: {
+      dict: readonly DictEntry[]
+      subst: Record<string, string>
+    } = data,
+  ) {
     super(dictData)
   }
 }
 
 export class Xdi8ToHanziTranscriber extends AlphaToHanziTranscriber {
-  constructor(dictData = data) {
+  constructor(dictData: { dict: readonly DictEntry[] } = data) {
     super(dictData)
   }
 
@@ -34,7 +40,7 @@ export class Xdi8ToHanziTranscriber extends AlphaToHanziTranscriber {
     }: {
       ziSeparator?: string
       alphaFilter?: (x: string) => string
-    } = {}
+    } = {},
   ) {
     return super.transcribe(input, { ziSeparator, alphaFilter })
   }
