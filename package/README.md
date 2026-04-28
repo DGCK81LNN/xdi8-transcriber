@@ -476,7 +476,7 @@ interface Transcriber {
 
  1. 将字表保存到 <code>data/希顶字表<var>xxxxx</var>.xlsx</code>，执行 <code>py tools/totsv.py data/希顶字表<var>xxxxx</var>.xlsx</code> 将其转换为 TSV。
 
- 2. 执行 <code>ruby tools/sort.rb data/<var>xxxxxx</var>.tsv</code>，统一字表数据的排序（希顶拼写按希顶字母表顺序简单排序，相同的按汉字 Unicode 码位排序）。
+ 2. 执行 <code>py tools/sort.py data/<var>xxxxxx</var>.tsv</code>，统一字表数据的排序（希顶拼写按希顶字母表顺序简单排序，相同的按汉字 Unicode 码位排序）。
 
  3. 在 `data` 目录中，执行 `node ../tools/append.mjs dict.tsv`：此过程可能会移除部分条目的汉希提示，程序会输出相应的提示，在下一步中可能需要将其补回到适当位置。
 
@@ -484,7 +484,7 @@ interface Transcriber {
 
       * 使用 `tools/dictgitdiff.sh data/dict.tsv` 可省略 diff 中多余的上下文。当标准输出为控制台时，该脚本会自动使用环境中的 <code>python -m [pygments](https://pygments.org/)</code> 或 [`rougify`](https://rouge.jneen.net/) 为 diff 添加颜色。
 
- 5. 如果在注释中使用了数字表示拼音声调的写法（如 `pin1 yin1`），执行 `ruby tools/pinyin.rb data/dict.tsv data/dict.tsv`，将其转换为声调标号。
+ 5. 如果在注释中使用了数字表示拼音声调的写法（如 `pin1 yin1`），执行 `py tools/pinyin.py data/dict.tsv data/dict.tsv`，将其转换为声调标号。
 
  6. 执行 `node tools/xhhint.js`，自动补充一些希汉提示（进行此操作前建议先 `git add` `data/dict.tsv` 以便检查）。
 
