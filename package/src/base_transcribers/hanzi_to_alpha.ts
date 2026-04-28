@@ -52,8 +52,8 @@ export class HanziToAlphaTranscriber implements Transcriber {
     function handleChar(char: string, this_: HanziToAlphaTranscriber) {
       let matches = bisectLookUp(this_.dict, "h", char)
       if (matches.length === 0) {
-        needSpace = /\w/.test(char)
-        if (prevSegmentIsWord && needSpace) append(" ")
+        needSpace = /[0-9A-Z]/i.test(char)
+        if (prevSegmentIsWord && needSpace) append({ h: "", x: "", v: " " })
         prevSegmentIsWord = false
 
         return append(char)
@@ -62,7 +62,7 @@ export class HanziToAlphaTranscriber implements Transcriber {
       if (prevSegmentIsWord) {
         if (ziSeparator) append({ h: "", x: "", v: ziSeparator })
       } else if (needSpace) {
-        append(" ")
+        append({ h: "", x: "", v: " " })
       }
       prevSegmentIsWord = true
 
