@@ -1,18 +1,17 @@
 {
-  "include": ["src/**/*.ts"],
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "strict": true,
     "lib": ["es2021"],
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "types": ["mocha"],
     "target": "es6",
+    "rootDir": "src",
     "outDir": "lib",
     "module": "esnext",
     "moduleResolution": "bundler",
-    "declaration": true,
     "emitDeclarationOnly": true,
     "diagnostics": true,
     "listEmittedFiles": true
-  }
+  },
+  "include": ["src/**/*.ts"],
 }
