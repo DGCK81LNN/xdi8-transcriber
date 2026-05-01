@@ -283,11 +283,11 @@
 簙	biop2
 薄	bioy
 蒪	bioyH
+欂	bioyc
 礡	bios
 礴	bios
 镈	bioN
 榑	bioc
-欂	bioc
 膊	bioe
 愽	bioY
 簿	bio2
@@ -1496,6 +1496,8 @@
 建	juY
 賤	juYx
 贱	juYx
+溅	juYxE
+濺	juYxE
 践	juYD
 踐	juYD
 戋	juYH
@@ -1508,8 +1510,6 @@
 线	juYa
 浅	juYE
 淺	juYE
-溅	juYE
-濺	juYE
 餞	juYL
 饯	juYL
 笺	juY2
@@ -2513,10 +2513,10 @@
 羿	x8n
 趼	x8D
 研	x8s
-硎	x8s
 鈃	x8N
 钘	x8N
 刑	x8l
+硎	x8ls
 铏	x8lN
 型	x8d
 枅	x8c
@@ -2690,7 +2690,6 @@
 苒	yr2
 蓉	yr3
 芮	yrV
-艾	yH5Y
 芰	yHua
 芷	yHu6
 薝	yHu2
@@ -2786,7 +2785,6 @@
 萼	y4o
 苊	y4e
 薁	y4L
-僰	y46
 茯	y46
 蒽	y48
 芙	y4ia
@@ -4691,7 +4689,6 @@
 捨	rue8
 倽	rueV
 野	ruY
-荛	ruYy
 适	ruYz
 適	ruYz
 擿	ruYz8
@@ -4705,6 +4702,7 @@
 烧	ruLx
 焼	ruLx
 燒	ruLx
+荛	ruLy
 蕘	ruLy
 鐃	ruLN
 铙	ruLN
@@ -4813,7 +4811,7 @@
 擩	rA8
 瓀	rA3
 儒	rAV
-孺	rAV
+孺	rAVH
 齒	rY
 齿	rY
 碊	rYs
@@ -4960,9 +4958,9 @@
 冰	Hhu3
 虍	HhiL
 集	H4ua
+乂	H4Y
 淮	H4V
 𠬝	H4iV
-乂	H5Y
 临	Hv2
 臨	Hv2
 斣	H7kiA
@@ -5842,7 +5840,7 @@
 匙	lsE
 弭	lre
 刵	lreH
-刈	lH5Y
+刈	lH4Y
 劕	lHE
 筋	lNe
 弌	lNV
@@ -7662,13 +7660,13 @@
 步	kia
 歩	kia
 菩	kiay
-蔀	kiay
 部	kiaH
 勏	kial
 廍	kia5
 瓿	kia7
 婄	kiaA
 篰	kia2
+蔀	kia1y
 斑	kio
 闊	kiom
 阔	kiom
@@ -8509,12 +8507,12 @@
 贅	4iLxH
 赘	4iLxH
 遨	4iLz
-廒	4iLH
 敖	4iLH
 鏊	4iLN
 驁	4iLg
 骜	4iLg
 螯	4iLk
+廒	4iL5
 厫	4iL5H
 獒	4iLv
 鰲	4iLB
@@ -8554,7 +8552,7 @@
 畐	4iTH
 鍢	4iTN
 副	4iTl
-匐	4iTl
+匐	4iTlH
 蝠	4iTk
 鲾	4iTB
 富	4iTf
@@ -9208,6 +9206,7 @@
 悆	F7io
 恚	FBV
 悹	FBi2
+懋	FcmiY
 感	Ff6
 忿	Ff8
 叙	Fa
@@ -9895,13 +9894,13 @@
 除	Bio
 躇	BioD
 楮	Bioc
-槠	Bioc
-櫧	Bioc
 褚	Biou
 緒	Bioa
 绪	Bioa
 储	BioV
 儲	BioV
+槠	Bioic
+櫧	Bioic
 孱	Bie
 幨	Biep
 贍	Biex
@@ -10082,8 +10081,8 @@
 桖	cnV
 枛	czua
 床	czuT
-桩	czuT
 牀	czuT
+桩	czuTH
 樽	czu8
 椊	czuV
 柞	cza
@@ -10234,6 +10233,7 @@
 檜	chiV
 極	c4uE
 栫	c4u8
+僰	c46
 桴	c4iT
 棴	c4iV
 栖	c5a
@@ -10279,7 +10279,6 @@
 柜	cBiV
 樻	cBiV
 櫃	cBiV
-懋	ccmiY
 楙	ccmiY
 棼	ccf8
 桍	cca
@@ -13143,6 +13142,8 @@
 伒	Vj3
 伣	VjV
 俔	VjV
+覎	VjV
+觃	VjV
 儙	Vque
 侨	VquL
 僑	VquL
@@ -13244,8 +13245,6 @@
 佇	VHA
 侄	VHY
 仔	VHL
-覎	VHL
-觃	VHL
 值	VH6
 佌	VHV
 伋	VNa

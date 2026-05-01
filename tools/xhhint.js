@@ -22,7 +22,11 @@ async function main() {
   })
 
   for (const [x, entries] of Object.entries(record)) {
-    if (entries.length < 2) continue
+    if (entries.length === 1 && entries[0].xh === "-") {
+      dict[entries[0].line][4] = ""
+      console.log(x + "\t" + entries[0].h)
+      continue
+    }
     let noXhN = 0
     for (const e of entries) if (!e.xh) noXhN += 1
     if (noXhN === 1) continue
