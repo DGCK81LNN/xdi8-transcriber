@@ -457,7 +457,6 @@
 辟	pa
 皅	pab
 帊	pap
-爬	paj
 舥	paq
 𤆵	pax
 葩	pay
@@ -469,6 +468,7 @@
 潖	paE
 妑	paA
 筢	pa2
+爬	pa8
 琶	pa3
 叵	po
 岶	pow
@@ -1403,7 +1403,6 @@
 氆	jpA
 衇	jpiY
 髦	jmL
-耄	jmLH
 毪	jm6
 鬘	jm2
 齷	jwio
@@ -1447,7 +1446,6 @@
 𬌗	jhie
 鬚	j4uT
 毢	j5a
-骰	j5T
 皲	j58
 皸	j58
 髃	j7ia
@@ -2159,8 +2157,6 @@
 貰	xno
 贳	xno
 燶	xn3
-衅	xnV
-釁	xnV
 韆	xzq2
 炿	xzu6
 烐	xzu6
@@ -2181,6 +2177,7 @@
 财	xDY
 賒	xse
 赊	xse
+灿	xs2
 燧	xsV
 賙	xru6
 赒	xru6
@@ -2420,11 +2417,11 @@
 性	xu3Y
 旋	xuV
 皆	xuVH
-階	xuVH
 堦	xuVd
 喈	xuVo
 湝	xuVE
 偕	xuVV
+階	xuV1
 諧	xuVi
 谐	xuVi
 下	xa
@@ -2513,10 +2510,10 @@
 羿	x8n
 趼	x8D
 研	x8s
+硎	x8s
 鈃	x8N
 钘	x8N
 刑	x8l
-硎	x8ls
 铏	x8lN
 型	x8d
 枅	x8c
@@ -3005,6 +3002,7 @@
 爺	yeV
 倻	yeVH
 衣	yE
+萍	yEpi8
 荑	yEy
 夷	yEH
 痍	yEt
@@ -3346,10 +3344,10 @@
 螢	nu3k
 䓨	nu37
 罃	nu37
-潆	nu3uE
-瀠	nu3uE
 縈	nu3a
 萦	nu3a
+潆	nu3aE
+瀠	nu3aE
 營	nu3oo
 营	nu3oo
 滎	nu3E
@@ -3491,6 +3489,7 @@
 鎳	nVN
 镍	nVN
 臲	nV4
+彼	zbio
 避	zbi6
 徧	zbi2
 遍	zbi2
@@ -3530,6 +3529,8 @@
 迂	zyA
 迩	znu8
 邇	znu8
+廼	znY
+迺	znY
 遵	zzu8
 衝	zzu3
 迮	zza
@@ -3573,7 +3574,6 @@
 逅	zh6
 後	zh6H
 行	zhT
-迺	z5a
 遲	z56
 徲	z56H
 逦	zviY
@@ -4188,7 +4188,6 @@
 惆	D6Y
 参	D2
 參	D2
-叅	D2
 冁	D2p
 囅	D2p
 闡	D2m
@@ -4279,8 +4278,6 @@
 磚	szu2
 碎	szuV
 砟	sza
-碛	sze
-磧	sze
 硃	szA
 砧	sz2
 碴	sDua
@@ -4733,7 +4730,7 @@
 顽	ru2r
 朊	ru2e
 玩	ru23
-阮	ru2V
+阮	ru21
 軟	ruT
 软	ruT
 贓	ruTx
@@ -5126,7 +5123,6 @@
 氏	H6H
 坁	H6d
 祇	H6u
-祗	H6u
 衹	H6u
 紙	H6a
 纸	H6a
@@ -5577,9 +5573,15 @@
 跡	NEz
 蹟	NEz
 迹	NEz
+碛	NEs
+磧	NEs
+勣	NEl
+𪟝	NEl
 积	NEh
 積	NEh
 廭	NE5
+襀	NEu
+𫌀	NEu
 績	NEa
 绩	NEa
 句	NA
@@ -5823,8 +5825,6 @@
 勚	lno
 勩	lno
 戕	lzuT
-勣	lze
-𪟝	lze
 戠	lzE
 弨	lzL
 战	lz2
@@ -6430,6 +6430,8 @@
 嬻	dAA
 讀	dAi
 读	dAi
+讟	dAii
+𮙋	dAii
 代	dY
 迨	dYz
 殆	dYt
@@ -6554,6 +6556,7 @@
 喋	dieo
 渫	dieE
 惵	dieY
+䈎	die2
 揲	die8
 諜	diei
 谍	diei
@@ -6655,6 +6658,7 @@
 丑	tpiV
 醜	tpiV
 瘼	tmo
+耄	tmL
 痿	twV
 痦	twi6
 痂	tja
@@ -6666,6 +6670,7 @@
 痊	tqu2
 㾜	tqa
 殏	tq6
+歼	tq2
 廯	txuo
 癣	txuo
 癬	txuo
@@ -6702,6 +6707,7 @@
 喪	tsT
 䰠	ts8
 癥	trz8
+聻	tre
 㾒	trA
 癌	tHyuY
 瘿	tHu3
@@ -6820,9 +6826,9 @@
 臺	tY
 冭	tYH
 泰	tYH
-㥭	tYV
+溙	tYE
+㥭	tYY
 傣	tYV
-溙	tYV
 舀	tL
 萄	tLy
 匋	tLH
@@ -6835,9 +6841,11 @@
 掏	tL8
 陶	tL1
 头	t6
+骰	t6j
 夃	t6H
 羖	t6g
 股	t6e
+投	t68
 难	t2
 難	t2
 毯	t2j
@@ -7193,7 +7201,6 @@
 仡	geV
 关	gE
 關	gE
-灿	gEx
 燦	gEx
 薒	gEy
 羡	gEyY
@@ -7392,10 +7399,11 @@
 尻	giVp
 匦	giVm
 匭	giVm
-軌	giVh
-轨	giVh
+軌	giVq
+轨	giVq
 簋	giV4
 宄	giVf
+氿	giVE
 蚆	kba
 螌	kb2
 蝙	kbi2
@@ -7613,7 +7621,6 @@
 轩	k2q
 衎	k2z
 刊	k2l
-歼	k2t
 䗴	k2ti8
 奸	k2A
 訐	k2i
@@ -8043,13 +8050,13 @@
 邟	hT1
 亨	h8
 鞎	h8x
-佷	h8z
+很	h8z
 痕	h8t
 狠	h8v
 哏	h8o
 恨	h8Y
 拫	h88
-很	h8V
+佷	h8V
 詪	h8i
 𬣳	h8i
 厷	h3
@@ -8764,6 +8771,8 @@
 爂	5i3x
 兴	5i3H
 興	5i3H
+衅	5i34
+釁	5i34
 亹	5i3f
 璺	5i33
 具	5iV
@@ -9163,6 +9172,7 @@
 懲	Fz8
 忠	Fz3
 惷	FDu8
+叅	FD2
 怂	FD3
 慫	FD3
 愬	Fsuo
@@ -9253,9 +9263,9 @@
 滴	FEE
 嫡	FEA
 玉	FY
+待	FYz
 特	FYg
 等	FY2
-待	FYV
 岛	FL
 島	FL
 嶋	FL
@@ -9620,6 +9630,7 @@
 凎	7i8EH
 动	7i3
 動	7i3
+宋	7i3H
 俕	7i3V
 彥	7iV
 彦	7iV
@@ -10390,6 +10401,7 @@
 輸	c3q
 输	c3q
 俞	c3H
+燊	c3ho
 腧	c3e
 鄃	c31
 隃	c31H
@@ -10521,7 +10533,6 @@
 寞	fmo
 冞	fmE
 旄	fmL
-宋	fmiA
 窌	fmiT
 寤	fwi6
 窟	fjuo
@@ -10872,8 +10883,6 @@
 袅	unuL
 裊	unuL
 祽	uzuV
-襀	uze
-𫌀	uze
 衷	uz3
 襊	uzV
 褿	uDL
@@ -10904,6 +10913,7 @@
 初	udL
 裆	udT
 襠	udT
+祗	udiT
 袛	udiTH
 社	utA
 禒	utV
@@ -11065,6 +11075,7 @@
 缘	atV
 綏	atio
 绥	atio
+𲸰	atiY
 縧	atiL
 绦	atiL
 綎	ati8
@@ -11133,6 +11144,7 @@
 缮	aci2
 纊	aciT
 纩	aciT
+𦅠	afa
 轡	afe
 辔	afe
 絬	afL
@@ -11710,7 +11722,6 @@
 汹	Ex3
 洶	Ex3
 薸	EypiL
-萍	Eypi8
 淓	EyfT
 藩	Eyfi2
 沅	Eyuo
@@ -11795,7 +11806,6 @@
 润	EruV
 潤	EruV
 洱	Ere
-聻	Ere
 汨	ErE
 洳	ErA
 渘	Er6
@@ -12119,6 +12129,7 @@
 嫃	AHu8
 孆	AHu3
 姪	AHY
+䒵	AHL
 好	AHL
 姞	ANo
 娭	ANY
@@ -12445,6 +12456,7 @@
 氜	6rE
 氨	6Ni2
 氯	6lA
+〇	6li8
 零	6li8
 氘	6dL
 氭	6d3
@@ -12883,7 +12895,6 @@
 抛	84iT
 拊	84i3
 擤	85e
-投	85T
 拒	85V
 弈	85iL
 挦	85i8
@@ -13062,7 +13073,6 @@
 珵	3B8
 珪	3BV
 琯	3Bi2
-燊	3cho
 璯	3cY
 琡	3cL
 璛	3c6
@@ -13084,7 +13094,6 @@
 佖	Vb6
 体	Vb8
 佈	Vb3
-彼	Vbio
 佰	VbiY
 俵	VbiL
 伴	VbiT
@@ -13142,8 +13151,8 @@
 伒	Vj3
 伣	VjV
 俔	VjV
-覎	VjV
-觃	VjV
+覎	VjVH
+觃	VjVH
 儙	Vque
 侨	VquL
 僑	VquL
