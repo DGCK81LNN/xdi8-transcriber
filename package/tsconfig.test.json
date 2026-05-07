@@ -1,15 +1,13 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "target": "esnext",
     "module": "commonjs",
     "moduleResolution": "bundler",
-    "esModuleInterop": true,
+    "rootDir": ".",
     "types": ["mocha"],
     "noEmit": true,
-    "rootDir": ".",
     "isolatedModules": true,
-    "allowImportingTsExtensions": true
+    "target": "esnext",
   },
-  "include": ["src/**/*.ts", "test/**/*.ts"],
+  "include": ["src/**/*.ts", "test/**/*.ts"]
 }

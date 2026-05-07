@@ -196,9 +196,13 @@ describe("base_transcribers", function () {
         })
         expect(t.transcribe("灯1灯A灯,灯")).toEqual([
           OW({ h: "灯", x: "xdi8" }),
-          " 1 ",
+          { h: "", x: "", v: " " },
+          "1",
+          { h: "", x: "", v: " " },
           OW({ h: "灯", x: "xdi8" }),
-          " A ",
+          { h: "", x: "", v: " " },
+          "A",
+          { h: "", x: "", v: " " },
           OW({ h: "灯", x: "xdi8" }),
           ",",
           OW({ h: "灯", x: "xdi8" }),
