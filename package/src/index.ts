@@ -1,20 +1,12 @@
-import data from "./data.json" with { type: "json" }
-import { DictEntry } from "./types"
 import {
-  HanziToAlphaTranscriber,
   AlphaToHanziTranscriber,
+  HanziToAlphaTranscriber,
 } from "./base_transcribers"
-import { chatToXdPUA, xdPUAToChat } from "./encoding"
+import { chatToXdPUA } from "./encoding"
+import type { Data, DictEntry } from "./types"
 
-export {
-  data,
-  HanziToAlphaTranscriber,
-  AlphaToHanziTranscriber,
-  chatToXdPUA,
-  xdPUAToChat,
-}
-
-export * from "./types"
+import _data from "./data.json" with { type: "json" }
+export const data: Data = _data
 
 export class HanziToXdi8Transcriber extends HanziToAlphaTranscriber {
   constructor(
@@ -45,3 +37,7 @@ export class Xdi8ToHanziTranscriber extends AlphaToHanziTranscriber {
     return super.transcribe(input, { ziSeparator, alphaFilter })
   }
 }
+
+export * from "./encoding"
+export * from "./base_transcribers"
+export type * from "./types"

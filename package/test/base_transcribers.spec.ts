@@ -208,6 +208,22 @@ describe("base_transcribers", function () {
           OW({ h: "灯", x: "xdi8" }),
         ])
       })
+
+      it("preserves the xm field in dict entries", function () {
+        const t = new HanziToAlphaTranscriber({
+          dict: [
+            { h: "嚣", x: "fL4o", xm: [0, 2] },
+            { h: "溅", x: "juYxE", xm: [0, 3] },
+            { h: "挖", x: "zaf8", xm: [0, 2] },
+          ],
+          subst: {},
+        })
+        expect(t.transcribe("嚣挖溅")).toEqual([
+          OW({ h: "嚣", x: "fL4o", xm: [0, 2] }),
+          OW({ h: "挖", x: "zaf8", xm: [0, 2] }),
+          OW({ h: "溅", x: "juYxE", xm: [0, 3] }),
+        ])
+      })
     })
   })
 

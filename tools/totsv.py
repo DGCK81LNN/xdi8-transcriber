@@ -20,11 +20,18 @@ out_path = f"{path.dirname(xls_path) or path.curdir}{path.sep}{date}.tsv"
 headers = [cell.value for cell in sheet[1]]
 h_col = headers.index("汉字")
 x_col = headers.index("希顶") if "希顶" in headers else headers.index("希顶语")
+xmfix_col = headers.index("修正主音节") if "修正主音节" in headers else None
 
 with open(out_path, 'wb') as f:
   for row in sheet.iter_rows(min_row=2, values_only=True):
     h, x = row[h_col], row[x_col]
-    if h and x:
-      f.write(f"{h}\t{x}\n".encode("utf-8"))
+    if not h or not x: continue
+    if xmfix_col is not None and row[xmfix_col]:
+      x_inferred = x
+      match = re.search(r".*([dtl]1s|[457BDFHNbcdfghj-np-tv-z][iu]?[12368AELTVYaeo])", x)
+      if match: x_inferred = x[:match.end()] + "'" + x[match.end():]
+      x_explicit = x.replace(row[xmfix_col], row[xmfix_col] + "'")
+      if x_inferred != x_explicit: x = x_explicit
+    f.write(f"{h}\t{x}\n".encode("utf-8"))
 
 print(f"{out_path} written")

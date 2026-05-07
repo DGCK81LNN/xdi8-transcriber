@@ -41,7 +41,21 @@ const convertPromise = new Promise(resolve => {
     n = n || undefined
     hh = hh || undefined
     xh = xh || undefined
-    print((first ? "" : ",") + JSON.stringify({ h, x, n, hh, xh }))
+
+    let xm
+    if (x.includes("'")) {
+      // 查找主音节位置（捕获组1为前加字，整个正则匹配前加字和主音节）
+      //prettier-ignore
+      const m = x.match(/^([1-8ABDEFHLNTVYa-z]*)([dtl]1s|[457BDFHNbcdfghj-np-tv-z][iu]?[12368AELTVYaeo])/)
+      if (m) {
+        xm = [m.index + m[1].length, m.index + m[0].length]
+      } else {
+        console.warn(`main syllable not found: ${x}`)
+      }
+      x = x.replace(/'/g, "")
+    }
+
+    print((first ? "" : ",") + JSON.stringify({ h, x, n, hh, xh, xm }))
     first = false
   })
 

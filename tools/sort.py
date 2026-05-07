@@ -2,12 +2,10 @@
 
 import sys
 
-_TABLE = "!bpmwjqxynzDsrHNldtgkh45vF7BcfuaoeEAYL62T83V1i"
+ALPHABET = "!bpmwjqxynzDsrHNldtgkh45vF7BcfuaoeEAYL62T83V1i"
 
-
-def _key(ch: str) -> int:
-  return _TABLE.index(ch)
-
+def xdi8_key(word: str) -> int:
+  return [n for n in (ALPHABET.find(c) for c in word) if n != -1]
 
 def main():
   if len(sys.argv) < 2:
@@ -26,7 +24,7 @@ def main():
     else:
       x = parts[0] if parts else ''
       h = ''
-    return ([_key(c) for c in x], h)
+    return (xdi8_key(x), x, h)
 
   lines.sort(key=sort_key)
 

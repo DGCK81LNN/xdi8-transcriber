@@ -25,6 +25,13 @@ export interface DictEntry {
    * An entry whose `hh` and `xh` are both `"-"` is a "legacy" spelling.
    */
   xh?: "-"
+  /**
+   * Shidinn main syllable position override. The main syllable position can
+   * usually be inferred from spelling, but for some words it may be ambiguous.
+   * This field, when present, specifies the start (inclusive) and end
+   * (exclusive) indices of the main syllable in the `x` field.
+   */
+  xm?: [start: number, end: number]
 }
 export interface Data {
   dict: DictEntry[]
@@ -56,6 +63,13 @@ export interface TranscribedSegment {
   v: string
   /** True if this segment involves a legacy spelling. */
   legacy?: boolean
+  /**
+   * Shidinn main syllable position override. The main syllable position can
+   * usually be inferred from spelling, but for some words it may be ambiguous.
+   * This field, when present, specifies the start (inclusive) and end
+   * (exclusive) indices of the main syllable in the `x` field.
+   */
+  xm?: [start: number, end: number] | null
 }
 export type TranscribeResultSegment =
   | string

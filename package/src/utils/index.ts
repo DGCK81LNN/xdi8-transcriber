@@ -136,5 +136,6 @@ export function makeTranscribedSegment(seg: DictEntry, vType: "h" | "x") {
     x: seg.x,
     v: seg[vType],
     ...(seg.hh === "-" && seg.xh === "-" ? { legacy: true } : null),
+    ...(seg.xm ? { xm: seg.xm } : null),
   } as TranscribedSegment
 }
