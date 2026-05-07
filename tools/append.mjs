@@ -1,19 +1,17 @@
 import * as fs from "node:fs"
 
-const versions = []
-for (const name of fs.readdirSync(".")) {
-  if (name.match(/^\d{6}\.tsv$/)) versions.push(name.slice(0, 6))
+const versions = process.argv.slice(3)
+if (!versions.length) {
+  console.error("Usage: node append.mjs <dict.tsv> <version.tsv> ...")
+  process.exit(1)
 }
-versions.sort()
-/** @type {string} */
 const latest = versions.at(-1)
 
 /** @type {Record<string, Record<string, string[]>>} */
 const table = []
 for (const version of versions) {
   const tsv = fs
-    .readFileSync(`${version}.tsv`)
-    .toString()
+    .readFileSync(version, "utf-8")
     .replace(/\r/g, "")
     .replace(/\n$/, "")
   for (const line of tsv.split("\n")) {
@@ -26,7 +24,7 @@ for (const version of versions) {
 
 /** @type {Record<string, { x: string, n: string, hh: string, xh: string }[]>} */
 const dictTable = {}
-const dictTsv = fs.readFileSync(process.argv[2]).toString()
+const dictTsv = fs.readFileSync(process.argv[2], "utf-8")
 for (const line of dictTsv.replace(/\r/g, "").replace(/\n$/, "").split("\n")) {
   if (line[0] === ";") continue
   const [h, x, n, hh, xh] = line.split("\t")
@@ -42,7 +40,7 @@ for (const [h, xs] of entries) {
   }
   for (const e of dictTable[h]) {
     const { x } = e
-    if (!table[h][latest]?.includes(x)) {
+    if (table[h][latest] && !table[h][latest].includes(x)) {
       if (e.hh && e.hh !== "-")
         console.warn(`Removing hanzi hint for entry ${h} — ${x}, was: ${e.hh}`)
       e.hh = "-"
@@ -54,10 +52,12 @@ for (const [h, xs] of entries) {
       e.hh = ""
       e.xh = ""
       e.n = e.n.replace(/，?旧拼写/, "")
+    } else if (!table[h][latest]) {
+      console.warn(`Hanzi ${h} is not present in the latest version`)
     }
   }
   dictTable[h].sort(
-    (a, b) => (a.n?.includes("旧拼写") || 0) - (b.n?.includes("旧拼写") || 0)
+    (a, b) => (a.n?.includes("旧拼写") || 0) - (b.n?.includes("旧拼写") || 0),
   )
 }
 

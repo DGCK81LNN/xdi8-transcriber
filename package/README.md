@@ -466,7 +466,7 @@ interface Transcriber {
 
  2. 执行 <code>py tools/sort.py data/<var>xxxxxx</var>.tsv</code>，统一字表数据的排序（希顶拼写按希顶字母表顺序简单排序，相同的按汉字 Unicode 码位排序）。
 
- 3. 在 `data` 目录中，执行 `node ../tools/append.mjs dict.tsv`：此过程可能会移除部分条目的汉希提示，程序会输出相应的提示，在下一步中可能需要将其补回到适当位置。
+ 3. 执行 <code>node tools/append.mjs data/dict.tsv data/<var>xxxxxx</var>.tsv</code>：此过程可能会移除部分条目的汉希提示，程序会输出相应的提示，在下一步中可能需要将其补回到适当位置。
 
  4. 检查 `data/dict.tsv` 的 `git diff`，补充缺少的注释、提示（如新增多音字时，填写各读音的释义或对应普通话读音等）。
 
@@ -475,6 +475,8 @@ interface Transcriber {
  5. 如果在注释中使用了数字表示拼音声调的写法（如 `pin1 yin1`），执行 `py tools/pinyin.py data/dict.tsv data/dict.tsv`，将其转换为声调标号。
 
  6. 执行 `node tools/xhhint.js`，自动补充一些希汉提示（进行此操作前建议先 `git add` `data/dict.tsv` 以便检查）。
+
+      * 此步骤需要使用 Unihan 数据库中的 `Unihan_Variants.txt`，可从 [Unicode 字符数据库](https://www.unicode.org/Public/UCD/latest/ucd/)下载。需将文本文件放置在 `data/Unihan/` 目录下。
 
  7. 更新 README 和 `site/app.vue` 中注明的字表版本以及更新记录。
 
