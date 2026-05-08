@@ -3,6 +3,7 @@ import type { VisualResultSegment } from "~/utils/transcribe"
 
 export interface Props {
   value: VisualResultSegment[]
+  rainbow?: boolean
 }
 const props = defineProps<Props>()
 </script>
@@ -10,9 +11,17 @@ const props = defineProps<Props>()
 <template>
   <div class="visual-result">
     <template v-for="segment in props.value">
-      <VisualizedAlternations v-if="Array.isArray(segment)" :value="segment" />
+      <VisualizedAlternations
+        v-if="Array.isArray(segment)"
+        :value="segment"
+        :rainbow="props.rainbow"
+      />
       <template v-else-if="typeof segment === 'string'">{{ segment }}</template>
-      <VisualizedSegments v-else-if="segment.h" :value="[segment]" />
+      <VisualizedSegments
+        v-else-if="segment.h"
+        :value="[segment]"
+        :rainbow="props.rainbow"
+      />
     </template>
   </div>
 </template>

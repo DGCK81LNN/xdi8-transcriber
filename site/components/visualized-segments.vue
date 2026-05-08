@@ -4,6 +4,7 @@ import type { TranscribedSegment } from "~/utils/transcribe"
 export interface Props {
   id?: string
   value: TranscribedSegment[]
+  rainbow?: boolean
 }
 const props = defineProps<Props>()
 
@@ -20,7 +21,7 @@ const segments = computed(() =>
   <ruby
     :id="props.id"
     v-for="seg in segments"
-    :class="[seg.legacy && 'legacy']"
+    :class="[seg.legacy && 'legacy', props.rainbow && 'rainbow']"
     :title="seg.legacy ? '旧拼写' : undefined"
     :data-debug="JSON.stringify(seg)"
     >{{ seg.h }}<rp>(</rp
@@ -41,7 +42,34 @@ rt {
   vertical-align: 0.3em;
   color: #678;
 }
-.mainsyllable {
+.mainsyllable,
+.rainbow rt {
   color: black;
+}
+.rainbow .mainsyllable {
+  animation: 炫彩 2s linear infinite;
+}
+@keyframes 炫彩 {
+  0% {
+    color: red;
+  }
+  16.67% {
+    color: yellow;
+  }
+  33.33% {
+    color: lime;
+  }
+  50% {
+    color: cyan;
+  }
+  66.67% {
+    color: blue;
+  }
+  83.33% {
+    color: magenta;
+  }
+  100% {
+    color: red;
+  }
 }
 </style>

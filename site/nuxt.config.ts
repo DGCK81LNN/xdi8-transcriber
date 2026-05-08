@@ -14,5 +14,8 @@ export default defineNuxtConfig({
       ],
     },
   },
+  nitro: {
+    compatibilityDate: "2026-05-08",
+  },
   ssr: true,
 })

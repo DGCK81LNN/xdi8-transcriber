@@ -65,7 +65,11 @@
     />
   </div>
   <div class="visual">
-    <VisualizedResult v-if="Array.isArray(result)" :value="result" />
+    <VisualizedResult
+      v-if="Array.isArray(result)"
+      :value="result"
+      :rainbow="props.rainbow"
+    />
   </div>
 </template>
 
@@ -84,6 +88,11 @@
 
 <script setup lang="ts">
 import type { Format, VisualResult } from "~/utils/transcribe"
+
+export interface Props {
+  rainbow?: boolean
+}
+const props = defineProps<Props>()
 
 const options: { text: string; value: Format }[] = [
   { text: "汉字", value: "hanzi" },

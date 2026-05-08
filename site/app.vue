@@ -15,7 +15,7 @@
       〇改希顶转写器
       <span class="text-muted h6">by DGCK81LNN</span>
     </h1>
-    <Transcriber />
+    <Transcriber :rainbow />
   </main>
   <div
     class="text-bg-light border-top mt-5 p-4 pb-5 d-md-flex gap-5 justify-content-between align-items-end"
@@ -171,6 +171,15 @@
     <hr class="d-md-none" />
     <footer class="text-md-end">
       <p>DGCK81LNN 制作</p>
+      <p class="form-switch d-flex gap-1 justify-content-md-end">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          v-model="rainbow"
+          id="rainbow-switch"
+        />
+        <label for="rainbow-switch">炫彩转写器</label>
+      </p>
       <p>〇改希顶语字表更新至 260507 版</p>
       <p>
         <span id="busuanzi_container_page_pv" style="display: none">
@@ -231,14 +240,16 @@ useHead({
     },
   ],
 })
+
+const rainbow = ref(false)
 </script>
 
 <style>
 [lang][lang] {
-  --bs-font-sans-serif: "XEGOEPUAall", "Segoe UI", "思源黑体 CN",
-    "Source Han CN", -apple-system, "Roboto", "微软雅黑", "Microsoft YaHei",
-    system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif:
+    "XEGOEPUAall", "Segoe UI", "思源黑体 CN", "Source Han CN", -apple-system,
+    "Roboto", "微软雅黑", "Microsoft YaHei", system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-family: var(--bs-font-sans-serif);
 }
 

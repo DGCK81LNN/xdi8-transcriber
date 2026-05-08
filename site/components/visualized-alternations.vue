@@ -3,6 +3,7 @@ import type { Alternations } from "~/utils/transcribe"
 
 export interface Props {
   value: Alternations
+  rainbow?: boolean
 }
 const props = defineProps<Props>()
 
@@ -27,6 +28,7 @@ function select(i: number) {
   >
     <VisualizedSegments
       :value="props.value[props.value.selectedIndex].content"
+      :rainbow="props.rainbow"
     />
   </span>
   <BPopover
@@ -46,7 +48,7 @@ function select(i: number) {
             'align-items-center',
           ]"
         >
-          <VisualizedSegments :value="alt.content" />
+          <VisualizedSegments :value="alt.content" :rainbow="props.rainbow" />
           <span
             v-if="alt.note"
             class="ms-2 text-body-secondary selectable-note"
