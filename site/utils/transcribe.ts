@@ -10,6 +10,8 @@ import type {
   Alternation,
 } from "../../package/src"
 
+export { chatToXdPUA, inferMainSyllablePosition } from "../../package/src"
+
 export type Format = "hanzi" | "chat" | "xdpua"
 export interface TranscribeOptions {
   ziSeparator?: string
@@ -84,7 +86,7 @@ function toResult(med: Intermediate): VisualResult {
         ),
         { selectedIndex: 0 },
       )
-    return { ...seg, x: chatToXdPUA(seg.x) }
+    return { ...seg }
   })
 }
 
