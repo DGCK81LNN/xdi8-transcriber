@@ -27,6 +27,7 @@
         <dd>
           <ul>
             <li>可视化结果现在会高亮希顶词的主音节。</li>
+            <li>字表更新至 260508 版。</li>
           </ul>
         </dd>
         <dt>2026-05-07</dt>
@@ -180,7 +181,7 @@
         />
         <label for="rainbow-switch">炫彩转写器</label>
       </p>
-      <p>〇改希顶语字表更新至 260507 版</p>
+      <p>〇改希顶语字表更新至 260508 版</p>
       <p>
         <span id="busuanzi_container_page_pv" style="display: none">
           本页面已被访问 <span id="busuanzi_value_page_pv"></span> 次
