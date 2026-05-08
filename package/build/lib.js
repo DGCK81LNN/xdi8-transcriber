@@ -21,6 +21,26 @@ async function main() {
     outfile: "lib/index.mjs",
     logLevel: "info",
     external: ["*.json"],
+    plugins: [
+      // add import attributes to json imports for ESM build
+      // adding this in the TypeScript source broke the site build, so we add it here instead
+      {
+        name: "json-import-attributes",
+        setup(build) {
+          build.onLoad({ filter: /\.ts$/ }, async args => {
+            const source = await fsPromises.readFile(args.path, "utf8")
+            const contents = source.replace(
+              /^import \w+ from (['"])[^'"]+\.json\1(?=;?$)/gm,
+              s => s + ' with { type: "json" }',
+            )
+            return {
+              contents,
+              loader: "ts",
+            }
+          })
+        },
+      },
+    ],
   })
 
   await build({
@@ -28,7 +48,7 @@ async function main() {
     format: "iife",
     bundle: true,
     minify: true,
-    charset: 'utf8',
+    charset: "utf8",
     outfile: "dist/index.min.js",
     logLevel: "info",
     globalName: "xdi8Transcriber",

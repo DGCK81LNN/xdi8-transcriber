@@ -5,7 +5,7 @@ import {
 import { chatToXdPUA } from "./encoding"
 import type { Data, DictEntry } from "./types"
 
-import _data from "./data.json" with { type: "json" }
+import _data from "./data.json"
 export const data: Data = _data
 
 export class HanziToXdi8Transcriber extends HanziToAlphaTranscriber {

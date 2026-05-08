@@ -46,9 +46,6 @@ jobs:
           ${{ runner.os }}-nuxt-
     - name: Install dependencies
       run: npm install --workspace=site
-    - name: Workaround import attribute issue
-      run: |
-        sed -i 's/with { type: "json" }//' package/src/index.ts
     - name: Build
       run: npm run build:site
     - name: Upload artifact
