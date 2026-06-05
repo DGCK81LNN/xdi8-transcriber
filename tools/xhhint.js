@@ -42,7 +42,7 @@ async function main() {
   const dictPath = pr(__dirname, "../data/dict.tsv")
 
   const tsv = await readFile(dictPath, "utf-8")
-  const dict = tsv.trimEnd().split("\n").map(l => l.split("\t"))
+  const dict = tsv.split("\n").filter(Boolean).map(l => l.split("\t"))
 
   /** @type {Record<string, { h: string, n: string, hh: string, xh: string, line: number, preferred: boolean }[]>} */
   const record = {}
