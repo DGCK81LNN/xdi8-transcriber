@@ -85,7 +85,7 @@ jobs:
         with:
           local-dir: ./_site/
           server: ${{ vars.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          username: ${{ vars.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ vars.SERVER_DIR }}
     environment:
