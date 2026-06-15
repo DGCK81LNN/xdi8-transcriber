@@ -1,0 +1,3 @@
+[submodule "site/components/soulsite"]
+	path = site/components/soulsite
+	url = git@github.com:DGCK81LNN/soulsite-templates.git
