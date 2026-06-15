@@ -36,7 +36,7 @@ function select(i: number) {
     :target="el"
     placement="top"
     triggers="focus"
-    customClass="selectable-popover"
+    class="selectable-popover"
   >
     <BListGroup flush>
       <BListGroupItem v-for="(alt, i) in props.value" button @click="select(i)">
@@ -78,9 +78,15 @@ function select(i: number) {
 .selectable-popover {
   --bs-popover-max-width: calc(216px + 20vw);
 }
+.selectable-popover > .overflow-auto {
+  border-radius: var(--bs-popover-inner-border-radius);
+  scrollbar-width: thin;
+}
 .selectable-popover .popover-body {
-  border-radius: calc(var(--bs-border-radius) + 0.5px);
   padding: 0px;
+}
+.selectable-popover .list-group {
+  width: max-content;
 }
 .selectable-option > ruby {
   font-size: 2rem;

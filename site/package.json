@@ -2,14 +2,18 @@
   "name": "xdi8-transcriber-site",
   "private": true,
   "scripts": {
-    "build": "nuxi generate",
+    "build": "npm run build-soulsite-templates && nuxi generate",
+    "build-soulsite-templates": "npx liquidjs --root components --template @components/soulsite-header.vue.liquid --output components/soulsite-header.vue && npx liquidjs --root components --template @components/soulsite-footer.vue.liquid --output components/soulsite-footer.vue",
     "dev": "nuxi dev",
     "postinstall": "nuxi prepare"
   },
   "devDependencies": {
-    "@bootstrap-vue-next/nuxt": "=0.17.6",
-    "bootstrap": "=5.3.3",
-    "bootstrap-vue-next": "=0.17.6",
+    "@bootstrap-vue-next/nuxt": "0.45.5",
+    "bootstrap": "5.3.8",
+    "bootstrap-vue-next": "0.45.5",
     "nuxt": "^3.11.2"
+  },
+  "dependencies": {
+    "liquidjs": "^10.27.0"
   }
 }

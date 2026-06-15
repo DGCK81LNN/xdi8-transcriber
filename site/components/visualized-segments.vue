@@ -46,6 +46,15 @@ rt {
 .rainbow rt {
   color: black;
 }
+@media (prefers-color-scheme: dark) {
+  rt {
+    color: #9ab;
+  }
+  .mainsyllable,
+  .rainbow rt {
+    color: #dee2e6;
+  }
+}
 .rainbow .mainsyllable {
   animation: 炫彩 2s linear infinite;
 }

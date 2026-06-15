@@ -31,8 +31,8 @@
     <BInputGroup
       class="me-1"
       v-show="sourceFmt === 'hanzi' || targetFmt === 'hanzi'"
+      prepend="字间分隔符"
     >
-      <BInputGroupPrepend isText>字间分隔符</BInputGroupPrepend>
       <BFormSelect
         v-model="ziSep"
         :options="[
