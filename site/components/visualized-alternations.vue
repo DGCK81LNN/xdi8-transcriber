@@ -63,14 +63,19 @@ function select(i: number) {
 <style>
 .selectable {
   display: inline-block;
-  background-color: #fec;
+  background-color: rgba(255, 170, 0, 0.2);
   font-family: inherit;
 }
 .selectable-legacyonly {
-  background-color: #f2f2f2;
+  background-color: rgba(188, 188, 188, 0.2);
 }
 .selectable:hover {
   box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.05);
+}
+@media (prefers-color-scheme: dark) {
+  .selectable:hover {
+    box-shadow: inset 0 0 0 9999px rgba(204, 204, 204, 0.05);
+  }
 }
 .selectable > ruby {
   cursor: pointer;
