@@ -1,6 +1,17 @@
 <template>
   <Link rel="stylesheet" href="/bootstrap-lnn/dist/bootstrap-lnn.min.css" />
-  <Link rel="stylesheet" href="/bootstrap-lnn/dist/bootstrap-vue-3-lnn.min.css" />
+  <Link
+    rel="stylesheet"
+    href="/bootstrap-lnn/dist/bootstrap-vue-3-lnn.min.css"
+  />
+  <Link
+    rel="stylesheet"
+    href="https://fonts.font.im/css?family=Noto+Sans+SC:400"
+  />
+  <Link
+    rel="stylesheet"
+    href="https://fontsapi.zeoseven.com/150/main/result.css"
+  />
   <Link rel="canonical" href="https://dgck81lnn.github.io/xdi8-transcriber/" />
   <SoulsiteHeader />
   <main class="container-lg">
@@ -23,6 +34,12 @@
       <aside class="col-12 col-md-6 col-xl-7">
         <h2 class="h4">更新记录</h2>
         <dl class="changelog mb-0">
+          <dt>2026-10-09</dt>
+          <dd>
+            <ul>
+              <li>嵌入思源黑体及遍黑体以显示生僻汉字。</li>
+            </ul>
+          </dd>
           <dt>2026-06-25</dt>
           <dd>
             <ul>
@@ -276,13 +293,13 @@ useHead({
       defer: true,
     },
     {
-      textContent: /* js */`
+      textContent: /* js */ `
         const darkMq = matchMedia("(prefers-color-scheme: dark)")
         ;(darkMq.onchange = function () {
           document.documentElement.setAttribute("data-bs-theme", darkMq.matches ? "dark" : "light")
         })()
       `,
-    }
+    },
   ],
 })
 
@@ -292,13 +309,13 @@ const rainbow = ref(false)
 <style>
 main {
   --bs-font-sans-serif:
-    "XEGOEPUAall", "Segoe UI",
-    "Source Han Sans SC", "Source Han Sans CN", "PingFang SC",
+    "XEGOEPUAall", "Segoe UI", "Noto Sans CJK SC", "Noto Sans SC",
+    "Source Han Sans SC", "Source Han Sans CN", "Plangothic", "PingFang SC",
     "Microsoft YaHei UI", "Microsoft YaHei", "微软雅黑", "DengXian", "等线",
-    "Noto Sans SC", "Noto Sans CJK SC", "Droid Sans Fallback", -apple-system,
-    "BlinkMacSystemFont", "Segoe UI", system-ui, "Roboto", "Helvetica Neue",
-    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    "Droid Sans Fallback", -apple-system, "BlinkMacSystemFont", "Segoe UI",
+    system-ui, "Roboto", "Helvetica Neue", Arial, "Noto Sans",
+    "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
   font-family: var(--bs-font-sans-serif);
 }
 
