@@ -34,6 +34,13 @@
       <aside class="col-12 col-md-6 col-xl-7">
         <h2 class="h4">更新记录</h2>
         <dl class="changelog mb-0">
+          <dt>2026-10-10</dt>
+          <dd>
+            <ul>
+              <li>字表更新至 261010 版；</li>
+              <li>为 260427 版以来新增的部分多音字补充了注释。</li>
+            </ul>
+          </dd>
           <dt>2026-10-09</dt>
           <dd>
             <ul>
@@ -233,7 +240,7 @@
           />
           <label for="rainbow-switch">炫彩转写器</label>
         </p>
-        <p>〇改希顶语字表更新至 260625 版</p>
+        <p>〇改希顶语字表更新至 261010 版</p>
         <p>
           <span id="busuanzi_container_page_pv" style="display: none">
             本页面已被访问 <span id="busuanzi_value_page_pv"></span> 次
