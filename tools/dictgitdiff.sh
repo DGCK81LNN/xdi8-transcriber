@@ -9,6 +9,6 @@ function highlight {
   exec cat
 }
 
-git diff "$@" > "$0.tmp"
+git diff -U999999 "$@" > "$0.tmp"
 grep -P "^[ +-]($(grep -Po '(?<=^[+-])[^+-](?=\t)' "$0.tmp" | sort -u | paste -sd'|'))" "$0.tmp" | highlight
 rm "$0.tmp"
