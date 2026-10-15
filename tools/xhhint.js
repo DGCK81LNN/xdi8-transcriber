@@ -48,7 +48,7 @@ async function main() {
   const record = {}
   dict.forEach(([h, x, n, hh, xh], line) => {
     if (h.startsWith(";") || (hh === "-" && xh === "-")) return
-    if (xh && xh !== "-")
+    if (xh && xh !== "-" && xh !== "-!")
       throw new Error(`Invalid xh ${JSON.stringify(xh)} on line ${line}`)
     if (!record[x]) {
       record[x] = []

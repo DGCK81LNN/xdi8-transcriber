@@ -42,6 +42,13 @@ const convertPromise = new Promise(resolve => {
     hh = hh || undefined
     xh = xh || undefined
 
+    if (hh && hh !== "-" && !hh.split(" ").every(x => x.length > 1 && x.includes("~")))
+      throw new Error(`Invalid hx hint: ${hh}`)
+    if (xh) {
+      if (!xh.match(/^-!?$/)) throw new Error(`Invalid xh hint: ${hh}`)
+      xh = "-"
+    }
+
     let xm
     if (x.includes("'")) {
       // 查找主音节位置（捕获组1为前加字，整个正则匹配前加字和主音节）
