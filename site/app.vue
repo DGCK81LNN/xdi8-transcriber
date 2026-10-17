@@ -1,4 +1,5 @@
 <template>
+  <Meta name="color-scheme" content="light dark" />
   <Link rel="stylesheet" href="/bootstrap-lnn/dist/bootstrap-lnn.min.css" />
   <Link
     rel="stylesheet"
