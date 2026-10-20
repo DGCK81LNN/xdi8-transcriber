@@ -1,12 +1,12 @@
 {
   "name": "xdi8-transcriber",
-  "version": "0.3.17",
+  "version": "0.3.18",
   "keywords": [
     "shidinn",
     "xdi8",
     "希顶"
   ],
-  "description": "Transcribe Hanzi characters into Shidinn, a constructed language, and vice versa. 〇改希顶语字表转写模块",
+  "description": "Transcribe Hanzi characters to and from Shidinn. 〇改希顶语字表转写模块",
   "author": "DGCK81LNN <triluolnn@163.com>",
   "license": "MIT",
   "files": [
